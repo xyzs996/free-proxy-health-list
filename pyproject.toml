@@ -1,0 +1,24 @@
+[project]
+name = "proxyhealthlist"
+version = "0.1.0"
+description = "Verified free proxy list publisher for HTTP, HTTPS, SOCKS4 and SOCKS5 proxies."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "ProxyHealthList" }]
+keywords = [
+  "free-proxy",
+  "proxy-list",
+  "proxy-api",
+  "http-proxy",
+  "https-proxy",
+  "socks5",
+  "scraping"
+]
+
+[project.scripts]
+proxyhealthlist = "proxyhealthlist.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

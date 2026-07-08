@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Proxy List - Verified HTTP, HTTPS, SOCKS4 and SOCKS5 Proxies</title>
+  <meta name="description" content="Fresh verified free proxy list for HTTP, HTTPS, SOCKS4 and SOCKS5. Updated automatically. Download JSON, TXT and CSV with no signup.">
+  <meta name="keywords" content="free proxy list, free proxies, socks5 proxy list, http proxy list, https proxy list, proxy api, proxy checker">
+  <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/">
+  <meta property="og:title" content="Free Proxy List - Verified Proxies">
+  <meta property="og:description" content="Download fresh HTTP, HTTPS, SOCKS4 and SOCKS5 proxies in TXT, JSON and CSV.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xyzs996.github.io/free-proxy-health-list/">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --ink: #17202a;
+      --muted: #5d6b7c;
+      --line: #d8dee8;
+      --brand: #0f766e;
+      --brand-strong: #0b5d56;
+      --accent: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+    }
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 64px;
+      gap: 20px;
+    }
+    .brand {
+      font-weight: 800;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 18px;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .hero {
+      padding: 42px 0 28px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      max-width: 780px;
+      margin: 0;
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 720px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 16px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--ink);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .button.primary {
+      background: var(--brand);
+      border-color: var(--brand);
+      color: #ffffff;
+    }
+    main {
+      padding: 28px 0 56px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .metric, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .metric {
+      padding: 16px;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 6px;
+      font-size: 26px;
+      line-height: 1;
+    }
+    .section {
+      margin-top: 24px;
+    }
+    .panel {
+      padding: 18px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      padding: 11px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: middle;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 700;
+    }
+    td a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    pre {
+      overflow: auto;
+      margin: 0;
+      padding: 14px;
+      background: #111827;
+      color: #e5e7eb;
+      border-radius: 6px;
+      font-size: 13px;
+    }
+    .two {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+    }
+    .muted {
+      color: var(--muted);
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 24px 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 780px) {
+      .topbar { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .two { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="./">ProxyHealthList</a>
+      <nav aria-label="Primary">
+        <a href="#download">Download</a>
+        <a href="./checker.html">Checker</a>
+        <a href="https://github.com/xyzs996/free-proxy-health-list">GitHub</a>
+        <a href="#api">Pro API</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Verified free proxy list for developers.</h1>
+      <p class="lead">Fresh HTTP, HTTPS, SOCKS4 and SOCKS5 proxies. Download TXT, JSON or CSV from GitHub and CDN with no signup.</p>
+      <div class="actions">
+        <a class="button primary" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.txt">Download TXT</a>
+        <a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.json">Download JSON</a>
+        <a class="button" href="./checker.html">Open Checker</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="grid" aria-label="Live stats">
+      <div class="metric"><span>Total proxies</span><strong id="total">-</strong></div>
+      <div class="metric"><span>Fast proxies</span><strong id="fast">-</strong></div>
+      <div class="metric"><span>Countries</span><strong id="countries">-</strong></div>
+      <div class="metric"><span>Updated</span><strong id="updated">-</strong></div>
+    </section>
+
+    <section id="download" class="section panel">
+      <h2>Download Files</h2>
+      <table>
+        <thead>
+          <tr><th>Type</th><th>TXT</th><th>JSON</th><th>CSV</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>All proxies</td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.txt">TXT</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.json">JSON</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.csv">CSV</a></td></tr>
+          <tr><td>HTTP</td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt">TXT</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.json">JSON</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.csv">CSV</a></td></tr>
+          <tr><td>HTTPS</td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/https/data.txt">TXT</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/https/data.json">JSON</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/https/data.csv">CSV</a></td></tr>
+          <tr><td>SOCKS4</td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks4/data.txt">TXT</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks4/data.json">JSON</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks4/data.csv">CSV</a></td></tr>
+          <tr><td>SOCKS5</td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks5/data.txt">TXT</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks5/data.json">JSON</a></td><td><a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks5/data.csv">CSV</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section two">
+      <div class="panel">
+        <h2>Use with curl</h2>
+        <pre>curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.txt -o proxies.txt</pre>
+      </div>
+      <div id="api" class="panel">
+        <h2>Pro API</h2>
+        <p class="muted">The public repository is a free snapshot. The Pro API is planned for real-time checks, filtering, rotation endpoints and usage monitoring.</p>
+        <a class="button primary" href="https://github.com/xyzs996/free-proxy-health-list/issues/new">Request access</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Use responsibly and follow service policies. The free list has no SLA.</div>
+  </footer>
+
+  <script>
+    const statsUrl = "https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/stats/latest.json";
+    const fmt = new Intl.NumberFormat("en");
+    fetch(statsUrl)
+      .then((response) => response.ok ? response.json() : Promise.reject())
+      .then((data) => {
+        document.getElementById("total").textContent = fmt.format(data.total || 0);
+        document.getElementById("fast").textContent = fmt.format(data.fast || 0);
+        document.getElementById("countries").textContent = fmt.format(Object.keys(data.countries || {}).length);
+        document.getElementById("updated").textContent = data.updatedAt ? data.updatedAt.slice(11, 16) + " UTC" : "-";
+      })
+      .catch(() => {
+        document.getElementById("total").textContent = "pending";
+        document.getElementById("fast").textContent = "pending";
+        document.getElementById("countries").textContent = "pending";
+        document.getElementById("updated").textContent = "pending";
+      });
+  </script>
+</body>
+</html>
