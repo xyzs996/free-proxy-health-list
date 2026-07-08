@@ -1,5 +1,0 @@
-# Public proxy sources. Keep this list conservative and remove any source that
-# requests exclusion, blocks automated access, or has unclear redistribution terms.
-https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
-https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt
-https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt

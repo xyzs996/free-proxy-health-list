@@ -16,7 +16,8 @@ Use GitHub Security Advisories or contact the maintainers privately. Include:
 Do not use this project to attack services, spam, bypass access controls, mass
 register accounts, scrape against website policies, or perform illegal activity.
 
-## Source Removal
+## Data Concerns
 
-If you operate a proxy source and want it removed, open an issue or contact the
-maintainers. We will remove it from the default source list.
+If a published data file creates a compliance or security concern, open a public
+issue with the impacted file path, or contact the maintainers privately if the
+report includes sensitive details.

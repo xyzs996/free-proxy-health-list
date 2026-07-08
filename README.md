@@ -67,17 +67,14 @@ added without changing the simple TXT format.
 }
 ```
 
-## Run Locally
+## Published Files
 
-```shell
-python -m proxyhealthlist update \
-  --sources sources/default_sources.txt \
-  --limit 2000 \
-  --workers 100 \
-  --timeout 5
-```
+This public repository is the distribution layer. It contains generated proxy
+snapshots, stats, examples and user-facing documentation.
 
-Generated files are written to `proxies/` and `stats/`.
+The maintenance pipeline is not part of this public repository. This keeps
+source management, update logic and operational notes separate from the public
+data surface.
 
 ## Examples
 
@@ -115,4 +112,5 @@ register accounts, scrape against website policies, or perform illegal activity.
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+Contributions are welcome for docs, examples and public data usability. See
+[CONTRIBUTING.md](./CONTRIBUTING.md).

@@ -38,17 +38,11 @@ curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies
 - 按协议、速度、质量切片。
 - 免费仓库做 SEO 和开发者入口，Pro API 做稳定性和商业转化。
 
-## 本地运行
+## 公开仓库边界
 
-```shell
-python -m proxyhealthlist update \
-  --sources sources/default_sources.txt \
-  --limit 2000 \
-  --workers 100 \
-  --timeout 5
-```
+这个公开仓库只作为对外分发层，保留生成后的代理快照、统计数据、示例代码和用户文档。
 
-生成文件会写入 `proxies/` 和 `stats/`。
+采集源管理、更新逻辑、运营计划和商业化策略不放在公开仓库，避免把核心维护信息暴露出去。
 
 ## 商业化边界
 
