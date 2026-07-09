@@ -1,15 +1,17 @@
 {
   "countries": {
-    "ZZ": 972
+    "ZZ": 10000
   },
   "elite": 0,
-  "fast": 688,
+  "fast": 10000,
   "protocols": {
-    "http": 334,
-    "socks4": 302,
-    "socks5": 336
+    "http": 9994,
+    "https": 6
+  },
+  "sourceCategories": {
+    "github_raw": 10000
   },
   "topLimit": 1000,
-  "total": 972,
-  "updatedAt": "2026-07-08T10:33:02Z"
+  "total": 10000,
+  "updatedAt": "2026-07-09T10:52:07Z"
 }

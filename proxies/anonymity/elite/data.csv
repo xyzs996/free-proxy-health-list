@@ -1,1 +1,1 @@
-proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,source
+proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount
