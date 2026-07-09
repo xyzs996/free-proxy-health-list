@@ -1,25 +1,43 @@
-# Free Proxy List
+# Free Proxy Health List
 
-Fresh verified **HTTP**, **HTTPS**, **SOCKS4** and **SOCKS5** proxies for developers.
-Updated automatically, available as **JSON**, **TXT** and **CSV**, and usable without signup.
+Verified free proxy snapshots for developers. Download **HTTP**, **SOCKS4** and
+**SOCKS5** proxies as **TXT**, **JSON** or **CSV** with no signup.
 
+[![Proxies](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxyzs996%2Ffree-proxy-health-list%40main%2Fproxies%2Fbadges%2Ftotal.json&style=for-the-badge)](./stats/latest.json)
+[![HTTP](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxyzs996%2Ffree-proxy-health-list%40main%2Fproxies%2Fbadges%2Fhttp.json&style=for-the-badge)](./proxies/protocols/http/data.txt)
+[![SOCKS4](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxyzs996%2Ffree-proxy-health-list%40main%2Fproxies%2Fbadges%2Fsocks4.json&style=for-the-badge)](./proxies/protocols/socks4/data.txt)
+[![SOCKS5](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxyzs996%2Ffree-proxy-health-list%40main%2Fproxies%2Fbadges%2Fsocks5.json&style=for-the-badge)](./proxies/protocols/socks5/data.txt)
+[![Updated](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxyzs996%2Ffree-proxy-health-list%40main%2Fproxies%2Fbadges%2Fupdated.json&style=for-the-badge)](./stats/latest.json)
 [![Stars](https://img.shields.io/github/stars/xyzs996/free-proxy-health-list?style=for-the-badge&logo=github)](https://github.com/xyzs996/free-proxy-health-list/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/xyzs996/free-proxy-health-list?style=for-the-badge)](https://github.com/xyzs996/free-proxy-health-list/commits/main)
-[![License](https://img.shields.io/github/license/xyzs996/free-proxy-health-list?style=for-the-badge)](./LICENSE)
-[![Proxy API](https://img.shields.io/badge/Proxy_API-early_access-0ea5e9?style=for-the-badge)](#need-higher-reliability)
 
-> Latest snapshot: see [`stats/latest.json`](./stats/latest.json).
-> The public list is free forever. Stars are optional support and never required.
+> Public snapshot, no signup, no credit card. Stars are optional and never required.
 
-[English](./README.md) | [中文](./README_CN.md)
+[Open Website](https://xyzs996.github.io/free-proxy-health-list/) |
+[Pro API Early Access](https://xyzs996.github.io/free-proxy-health-list/api.html) |
+[中文](./README_CN.md)
 
-## Download
+## Quick Start
 
-Use jsDelivr after publishing the repository:
+Download all proxies:
 
 ```shell
 curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.txt -o proxies.txt
 ```
+
+Download SOCKS5 only:
+
+```shell
+curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks5/data.txt -o socks5.txt
+```
+
+Use the first HTTP proxy with curl:
+
+```shell
+proxy="$(curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt | head -n 1)"
+curl -x "http://$proxy" -I "http://example.com/" --max-time 10
+```
+
+## Download Files
 
 | Type | TXT | JSON | CSV |
 | --- | --- | --- | --- |
@@ -31,20 +49,16 @@ curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies
 | Fast proxies | [TXT](https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/latency/fast/data.txt) | [JSON](https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/latency/fast/data.json) | [CSV](https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/latency/fast/data.csv) |
 | Top 1000 | [TXT](https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/quality/top-1000/data.txt) | [JSON](https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/quality/top-1000/data.json) | [CSV](https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/quality/top-1000/data.csv) |
 
-## Why This Project
+## Why Developers Use It
 
-Most free proxy lists only answer one question: "is this proxy alive right now?"
-ProxyHealthList is designed to answer the questions developers actually care about:
+- Direct CDN links for scripts, crawlers and automation tools.
+- Stable TXT, JSON and CSV paths.
+- Public health metadata: protocol, latency, quality score, check type and update time.
+- No account requirement for the public snapshot.
+- Separate production path for users who need fresher checks, filtering and rotation.
 
-- How fresh is the proxy list?
-- Which protocol does each proxy support?
-- How fast was the last check?
-- Was it verified through HTTP or only a TCP reachability check?
-- Can I consume the data from GitHub, CDN, scripts or an API?
-
-The first public version focuses on safe, developer-friendly metadata: protocol,
-latency, check type, quality score and update time. More quality signals can be
-added without changing the simple TXT format.
+If this saves you time, a star helps other developers find the list. The data is
+free and does not require starring.
 
 ## Data Shape
 
@@ -55,7 +69,7 @@ added without changing the simple TXT format.
   "proxy": "1.2.3.4:8080",
   "host": "1.2.3.4",
   "port": 8080,
-  "protocol": "https",
+  "protocol": "http",
   "latencyMs": 842,
   "qualityScore": 91,
   "checkType": "http",
@@ -67,15 +81,6 @@ added without changing the simple TXT format.
 }
 ```
 
-## Published Files
-
-This public repository is the distribution layer. It contains generated proxy
-snapshots, stats, examples and user-facing documentation.
-
-The maintenance pipeline is not part of this public repository. This keeps
-source management, update logic and operational notes separate from the public
-data surface.
-
 ## Examples
 
 - [curl](./examples/curl/examples.sh)
@@ -84,21 +89,13 @@ data surface.
 - [Playwright](./examples/playwright/playwright-example.py)
 - [Scrapy](./examples/scrapy/settings.py)
 
-## Need Higher Reliability?
+## Pro API Early Access
 
 The GitHub list is a free public snapshot with no SLA. For production use, the
-Pro API should provide fresher checks, filtering, rotation endpoints, higher
+planned Pro API focuses on fresh checks, filtering, rotation endpoints, higher
 limits and usage monitoring.
 
-Planned API shape:
-
-```shell
-curl "https://api.freeproxy.ai/v1/proxy?protocol=socks5&max_latency=1000&limit=10" \
-  -H "Authorization: Bearer $FREEPROXYAI_API_KEY"
-```
-
-The free repository stays useful on its own. The paid layer is for real-time
-quality, filtering, reliability and support.
+[Join Pro API early access](https://xyzs996.github.io/free-proxy-health-list/api.html)
 
 ## Responsible Use
 

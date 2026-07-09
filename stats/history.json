@@ -1,0 +1,13 @@
+[
+  {
+    "countriesCount": 1,
+    "fast": 688,
+    "protocols": {
+      "http": 334,
+      "socks4": 302,
+      "socks5": 336
+    },
+    "total": 972,
+    "updatedAt": "2026-07-08T10:33:02Z"
+  }
+]

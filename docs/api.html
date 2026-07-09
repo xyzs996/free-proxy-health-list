@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Proxy API Early Access - ProxyHealthList</title>
+  <meta name="description" content="Join ProxyHealthList Pro API early access for fresher proxy checks, filtering, rotation endpoints and usage monitoring.">
+  <meta name="keywords" content="free proxy api, proxy api, rotating proxy api, socks5 proxy api, proxy health api">
+  <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/api.html">
+  <style>
+    :root { --bg:#f5f7f9; --panel:#fff; --ink:#17202a; --muted:#5d6b7c; --line:#d8dee8; --brand:#0f766e; --accent:#1d4ed8; --code:#111827; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:var(--ink); line-height:1.5; }
+    .wrap { width:min(980px,calc(100% - 32px)); margin:0 auto; }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    nav { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    nav a, a { color:var(--accent); font-weight:800; text-decoration:none; }
+    .hero { background:#fff; border-bottom:1px solid var(--line); padding:44px 0 30px; }
+    h1 { max-width:760px; margin:0; font-size:clamp(34px,5vw,56px); line-height:1.05; letter-spacing:0; }
+    .lead { max-width:740px; margin:16px 0 0; color:var(--muted); font-size:18px; }
+    main { padding:28px 0 56px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+    .panel { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; }
+    h2 { margin:0 0 12px; font-size:22px; letter-spacing:0; }
+    h3 { margin:0 0 8px; font-size:16px; }
+    p { margin:0 0 12px; color:var(--muted); }
+    ul { margin:10px 0 0; padding-left:18px; color:var(--muted); }
+    li { margin:7px 0; }
+    .button { min-height:42px; display:inline-flex; align-items:center; justify-content:center; padding:0 16px; border-radius:6px; border:1px solid var(--brand); background:var(--brand); color:#fff; text-decoration:none; font-weight:800; }
+    pre { overflow:auto; margin:0; padding:14px; border-radius:6px; background:var(--code); color:#e5e7eb; font-size:13px; }
+    .section { margin-top:18px; }
+    @media (max-width:760px) { nav{align-items:flex-start;flex-direction:column;padding:14px 0}.grid{grid-template-columns:1fr}.button{width:100%} }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <strong>ProxyHealthList</strong>
+      <a href="./">Back to free list</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Proxy API early access for production workflows.</h1>
+      <p class="lead">The public GitHub list is a free snapshot. The Pro API is planned for fresher checks, filtering, rotation endpoints, higher limits and monitoring.</p>
+      <p style="margin-top:22px"><a class="button" href="mailto:hannabeatadle953@gmail.com?subject=ProxyHealthList%20Pro%20API%20Early%20Access&body=Hi%2C%20I%20want%20early%20access%20to%20ProxyHealthList%20Pro%20API.%0A%0AUse%20case%3A%0AExpected%20monthly%20requests%3A%0ARequired%20protocols%3A%0A">Request early access</a></p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="grid">
+      <div class="panel">
+        <h3>Fresh filtering</h3>
+        <p>Request proxies by protocol, quality score and latency instead of downloading static files.</p>
+      </div>
+      <div class="panel">
+        <h3>Rotation endpoint</h3>
+        <p>Use a simple API endpoint for rotating proxy selection in scripts and crawlers.</p>
+      </div>
+      <div class="panel">
+        <h3>Monitoring</h3>
+        <p>Track usage, failures and limits from a production-oriented API layer.</p>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Planned API Shape</h2>
+      <pre>curl "https://api.proxyhealthlist.com/v1/proxies?protocol=socks5&max_latency=1000&limit=10" \
+  -H "Authorization: Bearer $PROXYHEALTHLIST_API_KEY"</pre>
+    </section>
+
+    <section class="section panel">
+      <h2>Free vs Pro</h2>
+      <ul>
+        <li>Free: public GitHub snapshots, CDN links, TXT/JSON/CSV, no signup, no SLA.</li>
+        <li>Pro: fresher checks, filtering, rotation, usage monitoring, higher limits and support.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
