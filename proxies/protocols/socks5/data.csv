@@ -1,3 +1,2 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount
-172.105.192.212:9080,172.105.192.212,9080,socks5,5,100,socks5,2026-07-10T10:09:34Z,ZZ,unknown,False,github_raw,9
-34.84.162.206:38081,34.84.162.206,38081,socks5,9,100,socks5,2026-07-10T09:55:22Z,ZZ,unknown,False,github_raw,12
+8.216.32.38:1080,8.216.32.38,1080,socks5,9,100,socks5,2026-07-10T11:00:48Z,ZZ,unknown,False,github_raw,9
