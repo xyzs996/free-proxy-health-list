@@ -3,15 +3,15 @@
     "anonymity": "unknown",
     "checkType": "socks4",
     "country": "ZZ",
-    "host": "45.76.223.103",
-    "lastChecked": "2026-07-10T12:06:09Z",
-    "latencyMs": 3,
-    "port": 1080,
+    "host": "140.238.43.53",
+    "lastChecked": "2026-07-10T13:10:45Z",
+    "latencyMs": 2,
+    "port": 54322,
     "protocol": "socks4",
-    "proxy": "45.76.223.103:1080",
+    "proxy": "140.238.43.53:54322",
     "qualityScore": 100,
     "sourceCategory": "github_raw",
-    "sourceCount": 9,
+    "sourceCount": 8,
     "supportsHttps": false
   }
 ]

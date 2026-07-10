@@ -4,14 +4,29 @@
     "checkType": "socks5",
     "country": "ZZ",
     "host": "45.76.223.103",
-    "lastChecked": "2026-07-10T12:07:18Z",
-    "latencyMs": 5,
+    "lastChecked": "2026-07-10T13:11:07Z",
+    "latencyMs": 4,
     "port": 1080,
     "protocol": "socks5",
     "proxy": "45.76.223.103:1080",
     "qualityScore": 100,
     "sourceCategory": "api",
     "sourceCount": 9,
+    "supportsHttps": false
+  },
+  {
+    "anonymity": "unknown",
+    "checkType": "socks5",
+    "country": "ZZ",
+    "host": "34.84.162.206",
+    "lastChecked": "2026-07-10T13:10:50Z",
+    "latencyMs": 6,
+    "port": 38081,
+    "protocol": "socks5",
+    "proxy": "34.84.162.206:38081",
+    "qualityScore": 100,
+    "sourceCategory": "github_raw",
+    "sourceCount": 12,
     "supportsHttps": false
   }
 ]
