@@ -1,17 +1,1 @@
-[
-  {
-    "anonymity": "unknown",
-    "checkType": "https_connect",
-    "country": "ZZ",
-    "host": "140.238.32.108",
-    "lastChecked": "2026-07-10T08:51:18Z",
-    "latencyMs": 3,
-    "port": 3128,
-    "protocol": "https",
-    "proxy": "140.238.32.108:3128",
-    "qualityScore": 100,
-    "sourceCategory": "github_raw",
-    "sourceCount": 3,
-    "supportsHttps": true
-  }
-]
+[]
