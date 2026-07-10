@@ -3,15 +3,15 @@
     "anonymity": "unknown",
     "checkType": "https_connect",
     "country": "ZZ",
-    "host": "45.76.223.103",
-    "lastChecked": "2026-07-10T17:29:49Z",
-    "latencyMs": 4,
-    "port": 1080,
+    "host": "45.32.53.102",
+    "lastChecked": "2026-07-10T18:35:31Z",
+    "latencyMs": 6,
+    "port": 443,
     "protocol": "https",
-    "proxy": "45.76.223.103:1080",
+    "proxy": "45.32.53.102:443",
     "qualityScore": 100,
     "sourceCategory": "github_raw",
-    "sourceCount": 2,
+    "sourceCount": 3,
     "supportsHttps": true
   }
 ]
