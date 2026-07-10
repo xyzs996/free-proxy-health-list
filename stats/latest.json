@@ -1,23 +1,22 @@
 {
   "countries": {
-    "ZZ": 8068
+    "ZZ": 6680
   },
   "elite": 0,
-  "fast": 5764,
+  "fast": 4898,
   "protocols": {
-    "http": 6182,
-    "https": 194,
-    "socks4": 690,
-    "socks5": 1002
+    "http": 5241,
+    "https": 132,
+    "socks4": 322,
+    "socks5": 985
   },
   "sourceCategories": {
-    "api": 486,
-    "github_raw": 7542,
-    "html_or_api": 1,
-    "html_table": 16,
-    "text_site": 23
+    "api": 300,
+    "github_raw": 6370,
+    "html_table": 8,
+    "text_site": 2
   },
   "topLimit": 1000,
-  "total": 8068,
-  "updatedAt": "2026-07-10T07:14:03Z"
+  "total": 6680,
+  "updatedAt": "2026-07-10T07:45:37Z"
 }
