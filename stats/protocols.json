@@ -1,5 +1,6 @@
 {
-  "http": 9995,
-  "https": 2,
-  "socks5": 3
+  "http": 9996,
+  "https": 1,
+  "socks4": 1,
+  "socks5": 2
 }

@@ -5,15 +5,16 @@
   "elite": 0,
   "fast": 10000,
   "protocols": {
-    "http": 9995,
-    "https": 2,
-    "socks5": 3
+    "http": 9996,
+    "https": 1,
+    "socks4": 1,
+    "socks5": 2
   },
   "sourceCategories": {
-    "api": 6,
-    "github_raw": 9994
+    "api": 10,
+    "github_raw": 9990
   },
   "topLimit": 1000,
   "total": 10000,
-  "updatedAt": "2026-07-10T05:09:50Z"
+  "updatedAt": "2026-07-10T05:40:33Z"
 }

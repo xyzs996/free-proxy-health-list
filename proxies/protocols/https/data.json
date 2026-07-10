@@ -4,7 +4,7 @@
     "checkType": "https_connect",
     "country": "ZZ",
     "host": "140.238.32.108",
-    "lastChecked": "2026-07-10T04:17:16Z",
+    "lastChecked": "2026-07-10T05:22:31Z",
     "latencyMs": 2,
     "port": 3128,
     "protocol": "https",
@@ -12,21 +12,6 @@
     "qualityScore": 100,
     "sourceCategory": "github_raw",
     "sourceCount": 3,
-    "supportsHttps": true
-  },
-  {
-    "anonymity": "unknown",
-    "checkType": "https_connect",
-    "country": "ZZ",
-    "host": "45.76.223.103",
-    "lastChecked": "2026-07-10T04:17:19Z",
-    "latencyMs": 3,
-    "port": 1080,
-    "protocol": "https",
-    "proxy": "45.76.223.103:1080",
-    "qualityScore": 100,
-    "sourceCategory": "github_raw",
-    "sourceCount": 2,
     "supportsHttps": true
   }
 ]
