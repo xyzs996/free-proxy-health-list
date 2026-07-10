@@ -1,2 +1,1 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount
-45.76.223.103:1080,45.76.223.103,1080,socks5,4,100,socks5,2026-07-10T01:38:02Z,ZZ,unknown,False,api,9
