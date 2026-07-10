@@ -13,20 +13,5 @@
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": true
-  },
-  {
-    "anonymity": "unknown",
-    "checkType": "https_connect",
-    "country": "ZZ",
-    "host": "8.216.35.12",
-    "lastChecked": "2026-07-10T21:32:35Z",
-    "latencyMs": 9,
-    "port": 8888,
-    "protocol": "https",
-    "proxy": "8.216.35.12:8888",
-    "qualityScore": 100,
-    "sourceCategory": "github_raw",
-    "sourceCount": 3,
-    "supportsHttps": true
   }
 ]
