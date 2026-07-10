@@ -1,17 +1,1 @@
-[
-  {
-    "anonymity": "unknown",
-    "checkType": "socks4",
-    "country": "ZZ",
-    "host": "45.76.223.103",
-    "lastChecked": "2026-07-10T18:37:03Z",
-    "latencyMs": 3,
-    "port": 1080,
-    "protocol": "socks4",
-    "proxy": "45.76.223.103:1080",
-    "qualityScore": 100,
-    "sourceCategory": "github_raw",
-    "sourceCount": 9,
-    "supportsHttps": false
-  }
-]
+[]
