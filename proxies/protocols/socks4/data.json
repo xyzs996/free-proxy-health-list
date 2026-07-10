@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "anonymity": "unknown",
+    "checkType": "socks4",
+    "country": "ZZ",
+    "host": "140.238.43.53",
+    "lastChecked": "2026-07-10T01:37:38Z",
+    "latencyMs": 1,
+    "port": 54322,
+    "protocol": "socks4",
+    "proxy": "140.238.43.53:54322",
+    "qualityScore": 100,
+    "sourceCategory": "github_raw",
+    "sourceCount": 8,
+    "supportsHttps": false
+  },
+  {
+    "anonymity": "unknown",
+    "checkType": "socks4",
+    "country": "ZZ",
+    "host": "45.76.223.103",
+    "lastChecked": "2026-07-10T01:37:22Z",
+    "latencyMs": 3,
+    "port": 1080,
+    "protocol": "socks4",
+    "proxy": "45.76.223.103:1080",
+    "qualityScore": 100,
+    "sourceCategory": "github_raw",
+    "sourceCount": 9,
+    "supportsHttps": false
+  },
+  {
+    "anonymity": "unknown",
+    "checkType": "socks4",
+    "country": "ZZ",
+    "host": "46.51.253.213",
+    "lastChecked": "2026-07-10T01:37:33Z",
+    "latencyMs": 8,
+    "port": 443,
+    "protocol": "socks4",
+    "proxy": "46.51.253.213:443",
+    "qualityScore": 100,
+    "sourceCategory": "api",
+    "sourceCount": 5,
+    "supportsHttps": false
+  }
+]
