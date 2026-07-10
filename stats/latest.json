@@ -3,20 +3,19 @@
     "ZZ": 10000
   },
   "elite": 0,
-  "fast": 8266,
+  "fast": 10000,
   "protocols": {
-    "http": 8521,
-    "https": 349,
-    "socks4": 151,
-    "socks5": 979
+    "http": 9875,
+    "https": 50,
+    "socks4": 1,
+    "socks5": 74
   },
   "sourceCategories": {
-    "api": 244,
-    "github_raw": 9746,
-    "html_table": 5,
-    "text_site": 5
+    "api": 5,
+    "github_raw": 9994,
+    "text_site": 1
   },
   "topLimit": 1000,
   "total": 10000,
-  "updatedAt": "2026-07-10T20:51:25Z"
+  "updatedAt": "2026-07-10T21:23:41Z"
 }
