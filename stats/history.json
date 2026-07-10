@@ -63,5 +63,14 @@
     },
     "total": 10000,
     "updatedAt": "2026-07-10T03:33:47Z"
+  },
+  {
+    "countriesCount": 1,
+    "fast": 5202,
+    "protocols": {
+      "http": 5287
+    },
+    "total": 5287,
+    "updatedAt": "2026-07-10T04:05:40Z"
   }
 ]
