@@ -1,4 +1,3 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount
 45.32.8.165:6688,45.32.8.165,6688,https,3,100,https_connect,2026-07-10T19:38:43Z,ZZ,unknown,True,github_raw,3
 45.76.223.103:1080,45.76.223.103,1080,https,3,100,https_connect,2026-07-10T19:38:44Z,ZZ,unknown,True,github_raw,2
-8.216.35.12:8888,8.216.35.12,8888,https,9,100,https_connect,2026-07-10T19:38:42Z,ZZ,unknown,True,github_raw,3
