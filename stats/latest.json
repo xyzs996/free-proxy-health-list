@@ -1,16 +1,22 @@
 {
   "countries": {
-    "ZZ": 5287
+    "ZZ": 5727
   },
   "elite": 0,
-  "fast": 5202,
+  "fast": 3269,
   "protocols": {
-    "http": 5287
+    "http": 3324,
+    "https": 246,
+    "socks4": 484,
+    "socks5": 1673
   },
   "sourceCategories": {
-    "github_raw": 5287
+    "api": 768,
+    "github_raw": 4925,
+    "html_table": 14,
+    "text_site": 20
   },
   "topLimit": 1000,
-  "total": 5287,
-  "updatedAt": "2026-07-10T04:05:40Z"
+  "total": 5727,
+  "updatedAt": "2026-07-10T04:37:20Z"
 }
