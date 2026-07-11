@@ -1,6 +1,6 @@
 {
-  "http": 8660,
-  "https": 82,
-  "socks4": 177,
-  "socks5": 159
+  "http": 8266,
+  "https": 134,
+  "socks4": 434,
+  "socks5": 228
 }
