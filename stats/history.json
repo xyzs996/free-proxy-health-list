@@ -961,5 +961,17 @@
     },
     "total": 1971,
     "updatedAt": "2026-07-11T22:14:15Z"
+  },
+  {
+    "countriesCount": 33,
+    "fast": 218,
+    "protocols": {
+      "http": 272,
+      "https": 36,
+      "socks4": 30,
+      "socks5": 1063
+    },
+    "total": 1401,
+    "updatedAt": "2026-07-11T22:45:13Z"
   }
 ]

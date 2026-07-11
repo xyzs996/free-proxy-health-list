@@ -166,6 +166,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.202:5903,206.123.156.202,5903,socks5,6394,45,socks5,2026-07-11T21:55:28Z,DE,elite,False,api,2,1,dbip,unknown,0,unknown,,unknown
 206.123.156.233:10857,206.123.156.233,10857,socks5,6897,45,socks5,2026-07-11T21:55:29Z,US,elite,False,api,2,1,dbip,unknown,0,unknown,,unknown
 206.123.156.202:7173,206.123.156.202,7173,socks5,6433,44,socks5,2026-07-11T21:55:31Z,US,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+206.123.156.235:13640,206.123.156.235,13640,socks5,6699,44,socks5,2026-07-11T21:55:31Z,VN,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 206.123.156.202:4859,206.123.156.202,4859,socks5,6729,44,socks5,2026-07-11T21:55:31Z,CL,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 206.123.156.217:6192,206.123.156.217,6192,socks5,6828,44,socks5,2026-07-11T21:55:30Z,HK,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 206.123.156.229:9050,206.123.156.229,9050,socks5,7204,44,socks5,2026-07-11T21:55:30Z,HK,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
