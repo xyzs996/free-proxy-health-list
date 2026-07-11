@@ -2,6 +2,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks4",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -12,6 +13,10 @@
     "protocol": "socks4",
     "proxy": "38.246.114.120:32047",
     "qualityScore": 74,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "api",
     "sourceCount": 5,
     "supportsHttps": false
@@ -19,6 +24,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -29,6 +35,10 @@
     "protocol": "https",
     "proxy": "38.246.114.120:32047",
     "qualityScore": 73,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": true
@@ -36,6 +46,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -46,6 +57,10 @@
     "protocol": "https",
     "proxy": "108.174.194.34:10801",
     "qualityScore": 71,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": true
@@ -53,6 +68,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -63,6 +79,10 @@
     "protocol": "socks5",
     "proxy": "38.246.114.120:32047",
     "qualityScore": 71,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -70,6 +90,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks4",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "DE",
     "countrySource": "dbip",
@@ -80,6 +101,10 @@
     "protocol": "socks4",
     "proxy": "45.95.235.32:80",
     "qualityScore": 68,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "api",
     "sourceCount": 5,
     "supportsHttps": false
@@ -87,6 +112,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "MA",
     "countrySource": "dbip",
@@ -97,6 +123,10 @@
     "protocol": "https",
     "proxy": "196.74.225.2:1088",
     "qualityScore": 67,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": true
@@ -104,6 +134,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "DE",
     "countrySource": "dbip",
@@ -114,6 +145,10 @@
     "protocol": "socks5",
     "proxy": "45.95.235.32:80",
     "qualityScore": 67,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 9,
     "supportsHttps": false
@@ -121,6 +156,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "UA",
     "countrySource": "dbip",
@@ -131,6 +167,10 @@
     "protocol": "https",
     "proxy": "93.170.118.112:8989",
     "qualityScore": 66,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": true
@@ -138,6 +178,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "YE",
     "countrySource": "dbip",
@@ -148,6 +189,10 @@
     "protocol": "https",
     "proxy": "134.35.9.43:8080",
     "qualityScore": 66,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": true
@@ -155,6 +200,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "JP",
     "countrySource": "dbip",
@@ -165,6 +211,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.236:15475",
     "qualityScore": 65,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -172,6 +222,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -182,6 +233,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:4976",
     "qualityScore": 61,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -189,6 +244,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "VN",
     "countrySource": "dbip",
@@ -199,6 +255,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.229:7060",
     "qualityScore": 60,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": false
@@ -206,6 +266,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -216,6 +277,10 @@
     "protocol": "socks5",
     "proxy": "178.216.152.110:1888",
     "qualityScore": 60,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 8,
     "supportsHttps": false
@@ -223,6 +288,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -233,6 +299,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.230:9788",
     "qualityScore": 60,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -240,6 +310,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "UA",
     "countrySource": "dbip",
@@ -250,6 +321,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.233:11025",
     "qualityScore": 59,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": false
@@ -257,6 +332,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -267,6 +343,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.199:9376",
     "qualityScore": 59,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -274,6 +354,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "IN",
     "countrySource": "dbip",
@@ -284,6 +365,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:22300",
     "qualityScore": 57,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": false
@@ -291,6 +376,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "NL",
     "countrySource": "dbip",
@@ -301,6 +387,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.233:10151",
     "qualityScore": 57,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -308,6 +398,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -318,6 +409,10 @@
     "protocol": "https",
     "proxy": "104.129.192.156:12482",
     "qualityScore": 57,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": true
@@ -325,6 +420,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks4",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "VN",
     "countrySource": "dbip",
@@ -335,6 +431,10 @@
     "protocol": "socks4",
     "proxy": "118.71.44.153:1082",
     "qualityScore": 57,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "api",
     "sourceCount": 5,
     "supportsHttps": false
@@ -342,6 +442,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -352,6 +453,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.236:11346",
     "qualityScore": 57,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -359,6 +464,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "NL",
     "countrySource": "dbip",
@@ -369,6 +475,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:10564",
     "qualityScore": 55,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": false
@@ -376,6 +486,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "VN",
     "countrySource": "dbip",
@@ -386,6 +497,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.245:6843",
     "qualityScore": 55,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -393,6 +508,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "IN",
     "countrySource": "dbip",
@@ -403,6 +519,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:8447",
     "qualityScore": 55,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -410,6 +530,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -420,6 +541,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:7672",
     "qualityScore": 54,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -427,6 +552,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "GB",
     "countrySource": "dbip",
@@ -437,6 +563,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:7124",
     "qualityScore": 54,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -444,6 +574,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -454,6 +585,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.230:31691",
     "qualityScore": 54,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -461,6 +596,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -471,6 +607,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.229:18080",
     "qualityScore": 54,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -478,6 +618,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -488,6 +629,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:7365",
     "qualityScore": 53,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": false
@@ -495,6 +640,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -505,6 +651,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:4136",
     "qualityScore": 53,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 7,
     "supportsHttps": false
@@ -512,6 +662,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -522,6 +673,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:4223",
     "qualityScore": 52,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -529,6 +684,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -539,6 +695,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:4097",
     "qualityScore": 52,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -546,6 +706,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -556,6 +717,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.230:6790",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": false
@@ -563,6 +728,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -573,6 +739,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.233:8818",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -580,6 +750,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -590,6 +761,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:4847",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": false
@@ -597,6 +772,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "ES",
     "countrySource": "dbip",
@@ -607,6 +783,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.215:6743",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -614,6 +794,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "IN",
     "countrySource": "dbip",
@@ -624,6 +805,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:7317",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 7,
     "supportsHttps": false
@@ -631,6 +816,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "NL",
     "countrySource": "dbip",
@@ -641,6 +827,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.199:12238",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -648,6 +838,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "VN",
     "countrySource": "dbip",
@@ -658,6 +849,10 @@
     "protocol": "socks5",
     "proxy": "118.71.44.153:1082",
     "qualityScore": 51,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 7,
     "supportsHttps": false
@@ -665,6 +860,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -675,6 +871,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:6571",
     "qualityScore": 50,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": false
@@ -682,6 +882,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "JP",
     "countrySource": "dbip",
@@ -692,6 +893,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.243:9813",
     "qualityScore": 50,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": false
@@ -699,6 +904,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "IN",
     "countrySource": "dbip",
@@ -709,6 +915,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.236:10278",
     "qualityScore": 50,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -716,6 +926,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BT",
     "countrySource": "dbip",
@@ -726,6 +937,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:4713",
     "qualityScore": 50,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -733,6 +948,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "NL",
     "countrySource": "dbip",
@@ -743,6 +959,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.199:8629",
     "qualityScore": 50,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -750,6 +970,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "ES",
     "countrySource": "dbip",
@@ -760,6 +981,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.230:7345",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": false
@@ -767,6 +992,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -777,6 +1003,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:6789",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -784,6 +1014,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "ES",
     "countrySource": "dbip",
@@ -794,6 +1025,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:8193",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": false
@@ -801,6 +1036,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -811,6 +1047,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:39708",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -818,6 +1058,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -828,6 +1069,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:7517",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 5,
     "supportsHttps": false
@@ -835,6 +1080,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "BR",
     "countrySource": "dbip",
@@ -845,6 +1091,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.215:18703",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -852,6 +1102,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -862,6 +1113,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.233:9891",
     "qualityScore": 49,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -869,6 +1124,7 @@
   {
     "anonymity": "elite",
     "checkType": "https_connect",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "ID",
     "countrySource": "dbip",
@@ -879,6 +1135,10 @@
     "protocol": "https",
     "proxy": "180.211.93.91:8080",
     "qualityScore": 48,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": true
@@ -886,6 +1146,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "CL",
     "countrySource": "dbip",
@@ -896,6 +1157,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.233:8738",
     "qualityScore": 48,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -903,6 +1168,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "NL",
     "countrySource": "dbip",
@@ -913,6 +1179,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:10586",
     "qualityScore": 47,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": false
@@ -920,6 +1190,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "CL",
     "countrySource": "dbip",
@@ -930,6 +1201,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:6452",
     "qualityScore": 47,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": false
@@ -937,6 +1212,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "DE",
     "countrySource": "dbip",
@@ -947,6 +1223,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.215:7536",
     "qualityScore": 47,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 2,
     "supportsHttps": false
@@ -954,6 +1234,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -964,6 +1245,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.209:5904",
     "qualityScore": 47,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -971,6 +1256,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "DE",
     "countrySource": "dbip",
@@ -981,6 +1267,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:6860",
     "qualityScore": 47,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -988,6 +1278,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -998,6 +1289,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:8181",
     "qualityScore": 47,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 6,
     "supportsHttps": false
@@ -1005,6 +1300,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "NL",
     "countrySource": "dbip",
@@ -1015,6 +1311,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.228:10625",
     "qualityScore": 46,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -1022,6 +1322,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "DE",
     "countrySource": "dbip",
@@ -1032,6 +1333,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:6489",
     "qualityScore": 46,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 4,
     "supportsHttps": false
@@ -1039,6 +1344,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -1049,6 +1355,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.219:8130",
     "qualityScore": 45,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -1056,6 +1366,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -1066,6 +1377,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.199:10279",
     "qualityScore": 45,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -1073,6 +1388,29 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
+    "consecutiveSuccesses": 1,
+    "country": "DE",
+    "countrySource": "dbip",
+    "host": "206.123.156.219",
+    "lastChecked": "2026-07-11T14:03:34Z",
+    "latencyMs": 8407,
+    "port": 6560,
+    "protocol": "socks5",
+    "proxy": "206.123.156.219:6560",
+    "qualityScore": 45,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
+    "sourceCategory": "github_raw",
+    "sourceCount": 4,
+    "supportsHttps": false
+  },
+  {
+    "anonymity": "elite",
+    "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "US",
     "countrySource": "dbip",
@@ -1083,6 +1421,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.233:6761",
     "qualityScore": 44,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
@@ -1090,6 +1432,7 @@
   {
     "anonymity": "elite",
     "checkType": "socks5",
+    "classificationScope": "unknown",
     "consecutiveSuccesses": 1,
     "country": "HK",
     "countrySource": "dbip",
@@ -1100,6 +1443,10 @@
     "protocol": "socks5",
     "proxy": "206.123.156.217:35011",
     "qualityScore": 43,
+    "residentialCheckedAt": "",
+    "residentialConfidence": 0,
+    "residentialSource": "unknown",
+    "residentialStatus": "unknown",
     "sourceCategory": "github_raw",
     "sourceCount": 3,
     "supportsHttps": false
