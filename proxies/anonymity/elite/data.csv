@@ -180,7 +180,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 104.129.192.156:11846,104.129.192.156,11846,https,1047,67,https_connect,2026-07-11T09:59:54Z,US,elite,True,api,16,2,dbip
 104.129.192.156:11817,104.129.192.156,11817,https,1056,67,https_connect,2026-07-11T09:59:54Z,US,elite,True,api,16,2,dbip
 104.161.23.122:5072,104.161.23.122,5072,socks5,434,66,socks5,2026-07-11T10:11:15Z,US,elite,False,api,2,1,dbip
-94.72.107.55:5080,94.72.107.55,5080,https,496,66,https_connect,2026-07-11T09:51:50Z,DE,elite,True,github_raw,1,1,dbip
 94.103.13.179:40001,94.103.13.179,40001,https,565,66,https_connect,2026-07-11T11:03:23Z,CA,elite,True,github_raw,2,1,dbip
 78.159.131.131:1081,78.159.131.131,1081,socks5,720,66,socks5,2026-07-11T09:59:51Z,AL,elite,False,api,16,1,dbip
 86.62.2.25:3128,86.62.2.25,3128,https,994,66,https_connect,2026-07-11T09:59:47Z,UZ,elite,True,api,17,1,dbip
@@ -216,13 +215,10 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 123.126.40.44:7070,123.126.40.44,7070,https,2533,61,https_connect,2026-07-11T09:59:55Z,CN,elite,True,github_raw,16,3,dbip
 219.148.171.178:9445,219.148.171.178,9445,https,2668,61,https_connect,2026-07-11T09:59:53Z,CN,elite,True,api,16,4,dbip
 81.90.29.194:10808,81.90.29.194,10808,socks4,4105,61,socks4,2026-07-11T09:59:51Z,NL,elite,False,api,16,32,dbip
-206.123.156.233:14141,206.123.156.233,14141,socks5,933,60,socks5,2026-07-11T09:54:31Z,MY,elite,False,github_raw,2,1,dbip
 206.123.156.217:4110,206.123.156.217,4110,socks5,947,60,socks5,2026-07-11T10:11:15Z,BT,elite,False,api,2,1,dbip
-206.123.156.228:4685,206.123.156.228,4685,socks5,968,60,socks5,2026-07-11T09:54:31Z,AR,elite,False,api,2,1,dbip
 49.146.252.161:8080,49.146.252.161,8080,https,1234,60,https_connect,2026-07-11T10:08:56Z,PH,elite,True,github_raw,2,1,dbip
 122.246.4.6:17981,122.246.4.6,17981,https,2507,60,https_connect,2026-07-11T10:00:00Z,CN,elite,True,github_raw,15,2,dbip
 123.60.155.1:3128,123.60.155.1,3128,https,2511,60,https_connect,2026-07-11T10:00:15Z,CN,elite,True,api,15,2,dbip
-206.123.156.217:5160,206.123.156.217,5160,socks5,1425,59,socks5,2026-07-11T09:54:30Z,NL,elite,False,api,4,1,dbip
 104.129.192.156:10841,104.129.192.156,10841,https,1493,59,https_connect,2026-07-11T11:03:22Z,US,elite,True,github_raw,2,1,dbip
 92.118.112.25:1082,92.118.112.25,1082,https,2338,59,https_connect,2026-07-11T09:59:51Z,US,elite,True,api,16,1,dbip
 120.92.211.211:7890,120.92.211.211,7890,https,2352,59,https_connect,2026-07-11T10:00:00Z,CN,elite,True,api,15,1,dbip
@@ -241,7 +237,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 104.129.192.156:11659,104.129.192.156,11659,https,3660,57,https_connect,2026-07-11T09:59:47Z,US,elite,True,api,17,2,dbip
 104.129.192.156:10721,104.129.192.156,10721,https,3676,57,https_connect,2026-07-11T09:59:47Z,US,elite,True,api,17,2,dbip
 96.236.215.56:8888,96.236.215.56,8888,https,4636,57,https_connect,2026-07-11T09:59:41Z,US,elite,True,api,19,4,dbip
-206.123.156.219:7977,206.123.156.219,7977,socks5,2237,56,socks5,2026-07-11T09:54:30Z,VN,elite,False,api,4,1,dbip
 130.49.218.165:1082,130.49.218.165,1082,https,3490,56,https_connect,2026-07-11T09:59:47Z,FR,elite,True,api,17,1,dbip
 180.191.21.49:8081,180.191.21.49,8081,https,3731,56,https_connect,2026-07-11T10:00:15Z,PH,elite,True,github_raw,15,1,dbip
 118.71.44.153:2080,118.71.44.153,2080,https,3980,56,https_connect,2026-07-11T09:59:47Z,VN,elite,True,api,17,2,dbip
@@ -264,7 +259,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.233:7825,206.123.156.233,7825,socks5,2649,53,socks5,2026-07-11T11:06:08Z,CL,elite,False,github_raw,3,1,dbip
 118.71.44.153:2042,118.71.44.153,2042,https,3194,53,https_connect,2026-07-11T11:03:22Z,VN,elite,True,github_raw,2,1,dbip
 206.123.156.212:5753,206.123.156.212,5753,socks5,3659,51,socks5,2026-07-11T10:11:14Z,SG,elite,False,api,3,1,dbip
-206.123.156.236:4810,206.123.156.236,4810,socks5,3733,51,socks5,2026-07-11T09:54:31Z,CL,elite,False,api,3,1,dbip
 45.198.20.202:8097,45.198.20.202,8097,https,4627,50,https_connect,2026-07-11T10:08:57Z,ID,elite,True,github_raw,2,1,dbip
 206.123.156.217:40256,206.123.156.217,40256,socks5,4590,49,socks5,2026-07-11T10:11:13Z,US,elite,False,github_raw,3,1,dbip
 42.118.99.32:80,42.118.99.32,80,https,5101,49,https_connect,2026-07-11T10:08:57Z,VN,elite,True,github_raw,2,1,dbip
