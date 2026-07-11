@@ -3,15 +3,15 @@
     "anonymity": "unknown",
     "checkType": "socks4",
     "country": "ZZ",
-    "host": "46.51.253.213",
-    "lastChecked": "2026-07-10T23:44:42Z",
-    "latencyMs": 9,
-    "port": 443,
+    "host": "8.216.32.38",
+    "lastChecked": "2026-07-11T00:48:56Z",
+    "latencyMs": 6,
+    "port": 1080,
     "protocol": "socks4",
-    "proxy": "46.51.253.213:443",
+    "proxy": "8.216.32.38:1080",
     "qualityScore": 100,
     "sourceCategory": "api",
-    "sourceCount": 7,
+    "sourceCount": 10,
     "supportsHttps": false
   }
 ]

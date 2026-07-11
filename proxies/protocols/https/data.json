@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "anonymity": "unknown",
+    "checkType": "https_connect",
+    "country": "ZZ",
+    "host": "140.238.32.108",
+    "lastChecked": "2026-07-11T00:47:56Z",
+    "latencyMs": 3,
+    "port": 3128,
+    "protocol": "https",
+    "proxy": "140.238.32.108:3128",
+    "qualityScore": 100,
+    "sourceCategory": "github_raw",
+    "sourceCount": 4,
+    "supportsHttps": true
+  },
+  {
+    "anonymity": "unknown",
+    "checkType": "https_connect",
+    "country": "ZZ",
+    "host": "8.216.35.12",
+    "lastChecked": "2026-07-11T00:47:57Z",
+    "latencyMs": 7,
+    "port": 8888,
+    "protocol": "https",
+    "proxy": "8.216.35.12:8888",
+    "qualityScore": 100,
+    "sourceCategory": "github_raw",
+    "sourceCount": 4,
+    "supportsHttps": true
+  }
+]
