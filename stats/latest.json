@@ -10,11 +10,10 @@
     "socks4": 1
   },
   "sourceCategories": {
-    "api": 4,
-    "github_raw": 9995,
-    "text_site": 1
+    "api": 15,
+    "github_raw": 9985
   },
   "topLimit": 1000,
   "total": 10000,
-  "updatedAt": "2026-07-11T02:38:54Z"
+  "updatedAt": "2026-07-11T03:10:21Z"
 }
