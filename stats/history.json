@@ -490,5 +490,15 @@
     },
     "total": 10000,
     "updatedAt": "2026-07-10T23:29:15Z"
+  },
+  {
+    "countriesCount": 1,
+    "fast": 10000,
+    "protocols": {
+      "http": 9999,
+      "socks4": 1
+    },
+    "total": 10000,
+    "updatedAt": "2026-07-11T00:01:09Z"
   }
 ]
