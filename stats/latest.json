@@ -2,7 +2,7 @@
   "anonymity": {
     "anonymous": 2,
     "elite": 122,
-    "unknown": 960
+    "unknown": 917
   },
   "countries": {
     "AE": 4,
@@ -10,7 +10,7 @@
     "BT": 4,
     "CA": 1,
     "CL": 6,
-    "CN": 85,
+    "CN": 42,
     "CW": 8,
     "DE": 49,
     "ES": 2,
@@ -41,10 +41,10 @@
   },
   "elite": 122,
   "fast": 549,
-  "knownCountries": 1084,
+  "knownCountries": 1041,
   "likelyResidential": 0,
   "protocols": {
-    "http": 580,
+    "http": 537,
     "https": 71,
     "socks4": 261,
     "socks5": 172
@@ -52,10 +52,10 @@
   "residential": 0,
   "sourceCategories": {
     "api": 24,
-    "github_raw": 1060
+    "github_raw": 1017
   },
   "stable": 0,
   "topLimit": 1000,
-  "total": 1084,
-  "updatedAt": "2026-07-11T20:40:39Z"
+  "total": 1041,
+  "updatedAt": "2026-07-11T21:12:29Z"
 }
