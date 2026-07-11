@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Proxies for Scrapy — Middleware Setup with a Verified List | ProxyHealthList</title>
+  <meta name="description" content="Use free proxies in Scrapy: configure the http proxy middleware, rotate a verified list per request, and handle failures. Copy-paste settings and code, no signup.">
+  <meta name="keywords" content="scrapy proxy, free proxy scrapy, scrapy rotate proxy, scrapy proxy middleware, scrapy proxy list, proxies for scrapy">
+  <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/use-cases/proxy-for-scrapy.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Free Proxies for Scrapy — Middleware Setup">
+  <meta property="og:description" content="Configure Scrapy to rotate a free, verified proxy list per request. Settings and code included.">
+  <meta property="og:url" content="https://xyzs996.github.io/free-proxy-health-list/use-cases/proxy-for-scrapy.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free Proxies for Scrapy">
+  <meta name="twitter:description" content="Configure Scrapy to rotate a free, verified proxy list per request.">
+  <style>
+    :root{--bg:#f5f7f9;--panel:#fff;--ink:#17202a;--muted:#5d6b7c;--line:#d8dee8;--brand:#0f766e;--brand-strong:#0b5d56;--accent:#1d4ed8;--code:#111827}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    a{color:var(--accent);text-decoration:none;font-weight:700}
+    code{background:#eef2f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+    .wrap{width:min(880px,calc(100% - 32px));margin:0 auto}
+    header{position:sticky;top:0;z-index:2;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+    .topbar{min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-size:17px;font-weight:800;color:var(--ink)}
+    nav{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+    nav a{color:var(--muted);font-weight:600}
+    .crumb{font-size:13px;color:var(--muted);margin:20px 0 0}
+    h1{font-size:clamp(28px,5vw,42px);letter-spacing:-.5px;margin:10px 0 12px}
+    h2{font-size:22px;margin:32px 0 12px}
+    p{margin:0 0 14px}
+    .lead{font-size:18px;color:var(--muted)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 6px}
+    .button{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:6px;border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:800}
+    .button.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:18px}
+    pre{overflow:auto;margin:12px 0;padding:14px;border-radius:6px;background:var(--code);color:#e5e7eb;font-size:13px;line-height:1.5}
+    details{border-bottom:1px solid var(--line);padding:12px 0}
+    details summary{font-weight:700;cursor:pointer}
+    details p{margin:10px 0 0;color:var(--muted)}
+    .related{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .related a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px;background:#fff}
+    footer{border-top:1px solid var(--line);margin-top:36px;padding:22px 0;color:var(--muted);font-size:14px}
+    @media(max-width:640px){.button{width:100%}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"How do I set a proxy in Scrapy?","acceptedAnswer":{"@type":"Answer","text":"Set request.meta['proxy'] = 'http://host:port' in a downloader middleware, or set the http_proxy environment variable. Scrapy's built-in HttpProxyMiddleware reads both."}},
+      {"@type":"Question","name":"How do I rotate proxies in Scrapy?","acceptedAnswer":{"@type":"Answer","text":"Write a small downloader middleware that picks a random proxy from a verified list for each request in process_request, and retries with a different one on failure via process_exception."}},
+      {"@type":"Question","name":"Where do I get a free proxy list for Scrapy?","acceptedAnswer":{"@type":"Answer","text":"Download the verified list as TXT or JSON from the CDN link and load it when the spider starts. It is re-checked and republished hourly."}}
+    ]}
+  ]}
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="../">ProxyHealthList</a>
+      <nav aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="../protocols/http.html">HTTP</a>
+        <a href="../protocols/socks5.html">SOCKS5</a>
+        <a href="../api.html">Pro API</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="crumb"><a href="../">Home</a> / Use cases / Scrapy</p>
+    <h1>Free Proxies for Scrapy</h1>
+    <p class="lead">Scrapy has built-in proxy support through <code>request.meta['proxy']</code>. Combine it with a free, hourly-verified list and a small rotation middleware to spread requests across many IPs.</p>
+
+    <div class="actions">
+      <a class="button primary" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt">HTTP list (TXT)</a>
+      <a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.json">Full list (JSON)</a>
+    </div>
+
+    <h2>Rotating proxy middleware</h2>
+    <p>Drop this middleware into your project and enable it in <code>settings.py</code>. It loads the verified list once, assigns a random proxy per request, and retries a different one when a proxy errors out.</p>
+    <pre># middlewares.py
+import random, requests
+
+class VerifiedProxyMiddleware:
+    LIST = "https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt"
+
+    def __init__(self):
+        txt = requests.get(self.LIST, timeout=15).text
+        self.proxies = [f"http://{l.strip()}" for l in txt.splitlines() if l.strip()]
+
+    def process_request(self, request, spider):
+        request.meta["proxy"] = random.choice(self.proxies)
+
+    def process_exception(self, request, exception, spider):
+        request.meta["proxy"] = random.choice(self.proxies)
+        return request        # retry with a different proxy</pre>
+
+    <pre># settings.py
+DOWNLOADER_MIDDLEWARES = {
+    "myproject.middlewares.VerifiedProxyMiddleware": 350,
+    "scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware": 400,
+}
+RETRY_ENABLED = True
+RETRY_TIMES = 5
+DOWNLOAD_TIMEOUT = 15
+CONCURRENT_REQUESTS = 16
+DOWNLOAD_DELAY = 1.0        # be polite</pre>
+
+    <h2>Tips</h2>
+    <p>Free proxies are volatile, so keep <code>RETRY_ENABLED</code> on and give a generous <code>RETRY_TIMES</code>. Start from the <a href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/latency/fast/data.txt">fast subset</a> for a better hit rate, and reload the list between long crawls since it refreshes hourly. Always respect the target site's <code>robots.txt</code> and terms.</p>
+
+    <h2>Frequently asked questions</h2>
+    <details><summary>How do I set a single proxy in Scrapy?</summary><p>Set <code>request.meta['proxy'] = 'http://host:port'</code>, or export <code>http_proxy</code>. Scrapy's built-in <code>HttpProxyMiddleware</code> reads both.</p></details>
+    <details><summary>Can I use SOCKS5 with Scrapy?</summary><p>Scrapy's default middleware handles HTTP proxies; for SOCKS you need a third-party downloader handler. HTTP proxies from the <a href="../protocols/http.html">HTTP list</a> are the simplest path.</p></details>
+    <details><summary>Where does the list come from?</summary><p>Download the verified list as TXT or JSON from the CDN. It is re-checked and republished hourly, sorted fastest-first.</p></details>
+
+    <div class="panel">
+      <h3>Related</h3>
+      <div class="related">
+        <a href="./proxy-for-web-scraping.html">Proxies for web scraping</a>
+        <a href="./rotating-proxy.html">Build a rotating proxy pool</a>
+        <a href="./python-requests-proxy.html">Use a proxy in Python requests</a>
+        <a href="../protocols/http.html">Free HTTP proxy list</a>
+        <a href="../">All downloads &amp; API</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">Free public proxy snapshot, refreshed hourly. No signup required. <a href="https://github.com/xyzs996/free-proxy-health-list">Star on GitHub</a>.</div>
+  </footer>
+</body>
+</html>

@@ -11,6 +11,21 @@
   <meta property="og:description" content="Verified free proxy snapshots in TXT, JSON and CSV. No signup.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xyzs996.github.io/free-proxy-health-list/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free Proxy List — Verified HTTP, SOCKS4 and SOCKS5">
+  <meta name="twitter:description" content="Verified free proxy snapshots in TXT, JSON and CSV. No signup, updated hourly.">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"WebSite","name":"ProxyHealthList","url":"https://xyzs996.github.io/free-proxy-health-list/","description":"Verified free proxy snapshots for developers — HTTP, SOCKS4 and SOCKS5 in TXT, JSON and CSV, updated hourly, no signup."},
+    {"@type":"Dataset","name":"Free Proxy Health List","description":"A verified, health-checked list of free HTTP, HTTPS, SOCKS4 and SOCKS5 proxies, refreshed hourly and published as TXT, JSON and CSV with latency, quality score and check metadata.","keywords":["free proxy list","socks5 proxy list","http proxy list","proxy for web scraping","rotating proxy"],"license":"https://opensource.org/licenses/MIT","creator":{"@type":"Organization","name":"ProxyHealthList"},"distribution":[{"@type":"DataDownload","encodingFormat":"text/plain","contentUrl":"https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.txt"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.json"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.csv"}]},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"Are these free proxies safe to use?","acceptedAnswer":{"@type":"Answer","text":"Free public proxies are shared and run by unknown operators, so never send passwords, tokens or personal data through them. They are meant for testing, scraping public pages and automation, not sensitive traffic."}},
+      {"@type":"Question","name":"How often is the proxy list updated?","acceptedAnswer":{"@type":"Answer","text":"Every proxy is re-checked and the list republished on an hourly cadence. Each JSON record carries a lastChecked timestamp and a latency measurement so you can drop stale or slow entries."}},
+      {"@type":"Question","name":"Do I need to sign up or star the repo?","acceptedAnswer":{"@type":"Answer","text":"No. The list is a fully public snapshot on stable CDN links, with no account and no credit card. A star just helps other developers find it."}},
+      {"@type":"Question","name":"Which proxy type should I use?","acceptedAnswer":{"@type":"Answer","text":"HTTP proxies are simplest for web requests and need no extra libraries. SOCKS5 handles any TCP traffic plus UDP and remote DNS. SOCKS4 is a lighter legacy fallback. HTTPS entries are HTTP proxies verified to tunnel TLS."}}
+    ]}
+  ]}
+  </script>
   <style>
     :root {
       color-scheme: light;
@@ -280,6 +295,41 @@ curl -x "http://$proxy" -I "http://example.com/" --max-time 10</pre>
           <a class="button primary" href="./api.html">Join Pro API early access</a>
         </div>
       </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Browse By Protocol</h2>
+      <p class="muted">Each protocol has its own page with download links, code examples and a live count.</p>
+      <div class="inline-actions">
+        <a class="button" href="./protocols/http.html">Free HTTP proxy list</a>
+        <a class="button" href="./protocols/https.html">Free HTTPS proxy list</a>
+        <a class="button" href="./protocols/socks4.html">Free SOCKS4 proxy list</a>
+        <a class="button" href="./protocols/socks5.html">Free SOCKS5 proxy list</a>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Guides By Use Case</h2>
+      <p class="muted">Copy-paste guides for the most common ways developers use a free proxy list.</p>
+      <div class="inline-actions">
+        <a class="button" href="./use-cases/proxy-for-web-scraping.html">Proxies for web scraping</a>
+        <a class="button" href="./use-cases/python-requests-proxy.html">Proxy in Python requests</a>
+        <a class="button" href="./use-cases/rotating-proxy.html">Rotating proxy pool</a>
+        <a class="button" href="./use-cases/proxy-for-scrapy.html">Proxies with Scrapy</a>
+        <a class="button" href="./use-cases/proxy-for-curl.html">Proxy with curl</a>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Frequently Asked Questions</h2>
+      <h3>Are these free proxies safe to use?</h3>
+      <p class="muted">Free public proxies are shared and run by unknown operators, so never send passwords, tokens or personal data through them. They are meant for testing, scraping public pages and automation — not sensitive traffic.</p>
+      <h3>How often is the proxy list updated?</h3>
+      <p class="muted">Every proxy is re-checked and the list republished on an hourly cadence. Each JSON record carries a <code>lastChecked</code> timestamp and a <code>latencyMs</code> value so you can filter out stale or slow entries.</p>
+      <h3>Do I need to sign up or star the repo?</h3>
+      <p class="muted">No. The list is a fully public snapshot on stable CDN links, with no account and no credit card. A star just helps other developers find it.</p>
+      <h3>Which proxy type should I use?</h3>
+      <p class="muted">HTTP proxies are simplest for web requests. <a href="./protocols/socks5.html">SOCKS5</a> handles any TCP traffic plus UDP and remote DNS. <a href="./protocols/socks4.html">SOCKS4</a> is a lighter legacy fallback. <a href="./protocols/https.html">HTTPS</a> entries are HTTP proxies verified to tunnel TLS.</p>
     </section>
 
     <section class="section panel">

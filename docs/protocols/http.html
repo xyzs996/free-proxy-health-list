@@ -3,21 +3,158 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Free HTTP Proxy List - ProxyHealthList</title>
-  <meta name="description" content="Download a fresh free HTTP proxy list in TXT, JSON and CSV. Verified automatically and available without signup.">
+  <title>Free HTTP Proxy List — Verified, Updated Hourly | ProxyHealthList</title>
+  <meta name="description" content="Download a free HTTP proxy list, verified automatically and refreshed hourly. Working HTTP proxies as TXT, JSON or CSV with latency and quality metadata. No signup, no credit card.">
+  <meta name="keywords" content="free http proxy list, http proxy list, free http proxies, working http proxy, http proxy txt, http proxy for python, http proxy for curl, verified http proxies">
   <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/protocols/http.html">
-  <style>body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f6f7f9;color:#17202a}.wrap{width:min(900px,calc(100% - 32px));margin:0 auto}header{background:#fff;border-bottom:1px solid #d8dee8}nav{min-height:64px;display:flex;align-items:center;justify-content:space-between}main{padding:34px 0}h1{font-size:clamp(32px,5vw,52px);letter-spacing:0;margin:0 0 12px}p{color:#5d6b7c;line-height:1.6}.panel{background:#fff;border:1px solid #d8dee8;border-radius:8px;padding:18px;margin-top:20px}.button{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:6px;background:#0f766e;color:#fff;text-decoration:none;font-weight:800}a{color:#1d4ed8;font-weight:700;text-decoration:none}pre{overflow:auto;background:#111827;color:#e5e7eb;border-radius:6px;padding:14px}</style>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Free HTTP Proxy List — Verified, Updated Hourly">
+  <meta property="og:description" content="A free, health-checked HTTP proxy list in TXT, JSON and CSV. Refreshed hourly, no signup.">
+  <meta property="og:url" content="https://xyzs996.github.io/free-proxy-health-list/protocols/http.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free HTTP Proxy List — Verified, Updated Hourly">
+  <meta name="twitter:description" content="A free, health-checked HTTP proxy list in TXT, JSON and CSV. Refreshed hourly, no signup.">
+  <style>
+    :root{--bg:#f5f7f9;--panel:#fff;--ink:#17202a;--muted:#5d6b7c;--line:#d8dee8;--brand:#0f766e;--brand-strong:#0b5d56;--accent:#1d4ed8;--code:#111827}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    a{color:var(--accent);text-decoration:none;font-weight:700}
+    code{background:#eef2f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+    .wrap{width:min(880px,calc(100% - 32px));margin:0 auto}
+    header{position:sticky;top:0;z-index:2;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+    .topbar{min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-size:17px;font-weight:800;color:var(--ink)}
+    nav{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+    nav a{color:var(--muted);font-weight:600}
+    .crumb{font-size:13px;color:var(--muted);margin:20px 0 0}
+    h1{font-size:clamp(30px,5vw,46px);letter-spacing:-.5px;margin:10px 0 12px}
+    h2{font-size:23px;margin:34px 0 12px}
+    h3{font-size:16px;margin:20px 0 8px}
+    p{margin:0 0 14px}
+    .lead{font-size:18px;color:var(--muted)}
+    .count{display:inline-flex;align-items:baseline;gap:8px;margin:6px 0 18px;font-size:15px;color:var(--muted)}
+    .count strong{font-size:22px;color:var(--brand-strong)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 6px}
+    .button{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:6px;border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:800}
+    .button.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:18px}
+    pre{overflow:auto;margin:12px 0;padding:14px;border-radius:6px;background:var(--code);color:#e5e7eb;font-size:13px;line-height:1.5}
+    table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+    th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left}
+    th{color:var(--muted)}
+    ol{padding-left:20px}ol li{margin:8px 0}
+    details{border-bottom:1px solid var(--line);padding:12px 0}
+    details summary{font-weight:700;cursor:pointer}
+    details p{margin:10px 0 0;color:var(--muted)}
+    .related{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .related a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px;background:#fff}
+    footer{border-top:1px solid var(--line);margin-top:36px;padding:22px 0;color:var(--muted);font-size:14px}
+    @media(max-width:640px){.button{width:100%}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"Dataset","name":"Free HTTP Proxy List","description":"A verified, health-checked list of free HTTP proxies, refreshed hourly and published as TXT, JSON and CSV.","license":"https://opensource.org/licenses/MIT","creator":{"@type":"Organization","name":"ProxyHealthList"},"distribution":[{"@type":"DataDownload","encodingFormat":"text/plain","contentUrl":"https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.json"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.csv"}]},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"Can I use an HTTP proxy for HTTPS websites?","acceptedAnswer":{"@type":"Answer","text":"Yes. An HTTP proxy tunnels HTTPS traffic using the CONNECT method, so it can fetch https:// URLs. The supportsHttps flag in the JSON records tells you which entries were verified to tunnel HTTPS successfully."}},
+      {"@type":"Question","name":"How often is the HTTP proxy list updated?","acceptedAnswer":{"@type":"Answer","text":"The list is re-checked and republished on an hourly cadence. Each proxy carries a lastChecked timestamp and a latency measurement so you can filter out slow or stale entries."}},
+      {"@type":"Question","name":"How do I set an HTTP proxy in curl?","acceptedAnswer":{"@type":"Answer","text":"Use curl -x http://host:port URL, or export the http_proxy and https_proxy environment variables. Add --max-time to avoid hanging on dead proxies."}},
+      {"@type":"Question","name":"Are free HTTP proxies anonymous?","acceptedAnswer":{"@type":"Answer","text":"Most free HTTP proxies are transparent or anonymous, not elite, so the target site may still see proxy headers. Treat them as tools for testing and scraping public data, not for privacy or sensitive traffic."}}
+    ]}
+  ]}
+  </script>
 </head>
 <body>
-  <header><nav class="wrap"><strong>ProxyHealthList</strong><a href="../">All downloads</a></nav></header>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="../">ProxyHealthList</a>
+      <nav aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="./socks5.html">SOCKS5</a>
+        <a href="./socks4.html">SOCKS4</a>
+        <a href="../checker.html">Test command</a>
+        <a href="../api.html">Pro API</a>
+      </nav>
+    </div>
+  </header>
+
   <main class="wrap">
+    <p class="crumb"><a href="../">Home</a> / Protocols / HTTP</p>
     <h1>Free HTTP Proxy List</h1>
-    <p>Download verified HTTP proxies as plain text, JSON or CSV. Use the TXT file for simple scripts and JSON when you need latency, quality score and check metadata.</p>
-    <p><a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt">Download HTTP TXT</a></p>
-    <section class="panel">
-      <h2>curl</h2>
-      <pre>curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt -o http-proxies.txt</pre>
-    </section>
+    <p class="lead">A verified, health-checked list of free HTTP proxies — the most widely supported proxy type for web requests, scraping and automation. Download as TXT, JSON or CSV, refreshed hourly, no signup.</p>
+    <p class="count">Working HTTP proxies right now: <strong id="live">—</strong></p>
+
+    <div class="actions">
+      <a class="button primary" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt">Download HTTP TXT</a>
+      <a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.json">JSON</a>
+      <a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.csv">CSV</a>
+    </div>
+    <p class="count">Each TXT line is a plain <code>host:port</code>. The JSON file adds latency, quality score, a <code>supportsHttps</code> flag and the last-checked timestamp.</p>
+
+    <h2>How to use an HTTP proxy</h2>
+    <p>HTTP proxies are understood by almost every HTTP client, library and browser out of the box — no extra dependencies needed. They handle both <code>http://</code> and, via CONNECT tunneling, <code>https://</code> requests.</p>
+
+    <h3>curl</h3>
+    <pre>curl -sL https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt -o http.txt
+proxy="$(head -n 1 http.txt)"
+curl -x "http://$proxy" -I "https://example.com/" --max-time 10</pre>
+
+    <h3>Python (requests)</h3>
+    <pre>import requests
+
+proxy = "http://1.2.3.4:8080"   # replace with a line from the list
+r = requests.get(
+    "https://httpbin.org/ip",
+    proxies={"http": proxy, "https": proxy},
+    timeout=10,
+)
+print(r.json())</pre>
+    <p>No extra packages are required — <code>requests</code> speaks HTTP proxies natively, which is why HTTP is the easiest proxy type to start with.</p>
+
+    <h3>Environment variables</h3>
+    <pre>export http_proxy="http://1.2.3.4:8080"
+export https_proxy="http://1.2.3.4:8080"
+curl -I "https://example.com/"</pre>
+
+    <h3>Step by step</h3>
+    <ol>
+      <li>Download the HTTP TXT file above (or with <code>curl</code>).</li>
+      <li>Take one <code>host:port</code> line — the list is sorted fastest-first.</li>
+      <li>Pass it as <code>http://host:port</code> to your client or set the proxy environment variables.</li>
+      <li>On timeout or error, move to the next line — free proxies die constantly, so always loop with a fallback.</li>
+    </ol>
+
+    <h2>HTTP vs HTTPS vs SOCKS proxies</h2>
+    <p>An HTTP proxy is the default choice for web scraping and API requests. If you specifically need proxies verified to tunnel TLS, see the <a href="./https.html">HTTPS proxy list</a>. For non-HTTP TCP traffic or UDP, use a <a href="./socks5.html">SOCKS5 proxy</a>; <a href="./socks4.html">SOCKS4</a> is a lighter legacy fallback.</p>
+
+    <h2>Frequently asked questions</h2>
+    <details><summary>Can I use an HTTP proxy for HTTPS websites?</summary><p>Yes — an HTTP proxy tunnels HTTPS with the CONNECT method. The <code>supportsHttps</code> flag in the JSON tells you which entries were verified to tunnel TLS successfully.</p></details>
+    <details><summary>How often is the list updated?</summary><p>Re-checked and republished hourly. Every JSON record carries <code>lastChecked</code> and <code>latencyMs</code> so you can drop stale or slow proxies.</p></details>
+    <details><summary>Are free HTTP proxies anonymous?</summary><p>Most are transparent or anonymous rather than elite, so the target may still see proxy headers. Use them for testing and scraping public data, not for privacy or sensitive traffic.</p></details>
+    <details><summary>Why do proxies fail so often?</summary><p>Free proxies are inherently volatile. That is exactly why the list is health-checked hourly and sorted fastest-first — build a retry loop over multiple entries.</p></details>
+    <details><summary>Need fresher checks, filtering and rotation?</summary><p>The public list has no SLA. The planned <a href="../api.html">Pro API</a> adds fresher checks, filtering and a rotation endpoint for production workloads.</p></details>
+
+    <div class="panel">
+      <h3>Explore more free proxy lists</h3>
+      <div class="related">
+        <a href="./https.html">Free HTTPS proxy list</a>
+        <a href="./socks5.html">Free SOCKS5 proxy list</a>
+        <a href="./socks4.html">Free SOCKS4 proxy list</a>
+        <a href="../use-cases/proxy-for-web-scraping.html">Proxies for web scraping</a>
+        <a href="../use-cases/proxy-for-curl.html">Proxies with curl</a>
+        <a href="../">All downloads &amp; API</a>
+      </div>
+    </div>
   </main>
+
+  <footer>
+    <div class="wrap">Free public HTTP proxy snapshot, refreshed hourly. No signup required. <a href="https://github.com/xyzs996/free-proxy-health-list">Star on GitHub</a>.</div>
+  </footer>
+
+  <script>
+    fetch("https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/stats/latest.json")
+      .then(r=>r.ok?r.json():Promise.reject())
+      .then(d=>{document.getElementById("live").textContent=new Intl.NumberFormat("en").format((d.protocols&&d.protocols.http)||0);})
+      .catch(()=>{document.getElementById("live").textContent="see list";});
+  </script>
 </body>
 </html>

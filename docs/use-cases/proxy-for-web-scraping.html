@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Proxies for Web Scraping — Rotate a Verified List | ProxyHealthList</title>
+  <meta name="description" content="Use a free, hourly-verified proxy list for web scraping. Rotate HTTP and SOCKS5 proxies in Python to avoid rate limits and IP blocks. Copy-paste examples, no signup.">
+  <meta name="keywords" content="free proxy for web scraping, web scraping proxy, proxies for scraping, rotate proxies python, scraping proxy list, avoid ip ban scraping, free scraping proxies">
+  <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/use-cases/proxy-for-web-scraping.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Free Proxies for Web Scraping — Rotate a Verified List">
+  <meta property="og:description" content="Rotate a free, hourly-verified proxy list in Python to scrape without hitting rate limits. Copy-paste examples, no signup.">
+  <meta property="og:url" content="https://xyzs996.github.io/free-proxy-health-list/use-cases/proxy-for-web-scraping.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free Proxies for Web Scraping">
+  <meta name="twitter:description" content="Rotate a free, hourly-verified proxy list in Python to scrape without hitting rate limits.">
+  <style>
+    :root{--bg:#f5f7f9;--panel:#fff;--ink:#17202a;--muted:#5d6b7c;--line:#d8dee8;--brand:#0f766e;--brand-strong:#0b5d56;--accent:#1d4ed8;--code:#111827}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    a{color:var(--accent);text-decoration:none;font-weight:700}
+    code{background:#eef2f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+    .wrap{width:min(880px,calc(100% - 32px));margin:0 auto}
+    header{position:sticky;top:0;z-index:2;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+    .topbar{min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-size:17px;font-weight:800;color:var(--ink)}
+    nav{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+    nav a{color:var(--muted);font-weight:600}
+    .crumb{font-size:13px;color:var(--muted);margin:20px 0 0}
+    h1{font-size:clamp(28px,5vw,42px);letter-spacing:-.5px;margin:10px 0 12px}
+    h2{font-size:22px;margin:32px 0 12px}
+    h3{font-size:16px;margin:20px 0 8px}
+    p{margin:0 0 14px}
+    .lead{font-size:18px;color:var(--muted)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 6px}
+    .button{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:6px;border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:800}
+    .button.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:18px}
+    pre{overflow:auto;margin:12px 0;padding:14px;border-radius:6px;background:var(--code);color:#e5e7eb;font-size:13px;line-height:1.5}
+    ol{padding-left:20px}ol li{margin:8px 0}
+    details{border-bottom:1px solid var(--line);padding:12px 0}
+    details summary{font-weight:700;cursor:pointer}
+    details p{margin:10px 0 0;color:var(--muted)}
+    .related{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .related a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px;background:#fff}
+    .note{padding:12px 14px;border:1px solid #c7d2fe;background:#eef2ff;color:#24305f;border-radius:8px;font-size:14px}
+    footer{border-top:1px solid var(--line);margin-top:36px;padding:22px 0;color:var(--muted);font-size:14px}
+    @media(max-width:640px){.button{width:100%}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"HowTo","name":"Rotate free proxies for web scraping in Python","description":"Download a verified free proxy list and rotate through it to scrape without hitting rate limits or IP blocks.","step":[
+      {"@type":"HowToStep","name":"Download the list","text":"Fetch the verified proxy list as JSON from the CDN link."},
+      {"@type":"HowToStep","name":"Load and sort","text":"Parse the JSON and keep the fastest, highest-quality proxies."},
+      {"@type":"HowToStep","name":"Rotate per request","text":"Pick a different proxy for each request and retry the next one on failure."}
+    ]},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"Are free proxies good enough for web scraping?","acceptedAnswer":{"@type":"Answer","text":"Free proxies are volatile and best for small-to-medium scraping of public pages, testing and prototyping. Because individual proxies die quickly, you must rotate and retry across many entries. For large or business-critical scraping, a paid or rotating endpoint is more reliable."}},
+      {"@type":"Question","name":"How do I avoid getting IP banned while scraping?","acceptedAnswer":{"@type":"Answer","text":"Rotate proxies per request, add delays and jitter, set a realistic User-Agent, respect robots.txt and the site's terms, and back off on 429 responses. Rotating through a fresh, verified proxy list spreads requests across many IPs."}},
+      {"@type":"Question","name":"How often is the proxy list refreshed?","acceptedAnswer":{"@type":"Answer","text":"The list is health-checked and republished hourly, sorted fastest-first, so you always rotate over recently-verified proxies."}}
+    ]}
+  ]}
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="../">ProxyHealthList</a>
+      <nav aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="../protocols/http.html">HTTP</a>
+        <a href="../protocols/socks5.html">SOCKS5</a>
+        <a href="../api.html">Pro API</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="crumb"><a href="../">Home</a> / Use cases / Web scraping</p>
+    <h1>Free Proxies for Web Scraping</h1>
+    <p class="lead">Scraping a site from a single IP gets you rate-limited or blocked fast. Rotating through a fresh, verified proxy list spreads your requests across many IPs — here is how to do it with a free, hourly-checked list and no signup.</p>
+
+    <div class="actions">
+      <a class="button primary" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.json">Download list (JSON)</a>
+      <a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/latency/fast/data.txt">Fast proxies (TXT)</a>
+    </div>
+
+    <h2>Why rotate proxies</h2>
+    <p>Most sites throttle or ban an IP that sends too many requests. A proxy pool lets each request (or each batch) go out from a different address, so no single IP trips the rate limit. The catch with free proxies is that any individual one can die within minutes — so the reliable pattern is <strong>rotate + retry over many verified proxies</strong>, not depend on one.</p>
+
+    <h2>Rotate a verified list in Python</h2>
+    <p>This example loads the JSON list (already sorted fastest-first), then rotates through it, retrying the next proxy whenever one fails.</p>
+    <pre>import requests
+
+LIST = "https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/all/data.json"
+
+# 1. Load the verified list (fastest, highest quality first)
+pool = requests.get(LIST, timeout=15).json()
+
+def scheme(p):
+    proto = p["protocol"]
+    host = p["proxy"]
+    return f"socks5h://{host}" if proto.startswith("socks5") else \
+           f"socks4://{host}" if proto.startswith("socks4") else f"http://{host}"
+
+def fetch(url):
+    for p in pool:                       # 2. rotate through the pool
+        px = scheme(p)
+        try:
+            r = requests.get(url, proxies={"http": px, "https": px}, timeout=8)
+            if r.ok:
+                return r.text
+        except requests.RequestException:
+            continue                     # 3. dead proxy? try the next one
+    raise RuntimeError("all proxies failed — refresh the list")
+
+print(fetch("https://httpbin.org/ip")[:200])</pre>
+
+    <h2>Do it politely</h2>
+    <ol>
+      <li>Add a delay with jitter between requests (e.g. 1–5s) so you don't hammer the target.</li>
+      <li>Set a realistic <code>User-Agent</code> header.</li>
+      <li>Honor <code>robots.txt</code> and the site's terms of service.</li>
+      <li>Back off (sleep longer) when you see <code>429 Too Many Requests</code>.</li>
+      <li>Refresh the proxy list periodically — it is re-verified hourly.</li>
+    </ol>
+    <p class="note">Only scrape data you are allowed to. Do not use proxies to bypass access controls, log in on someone's behalf, or violate a site's terms. See the <a href="../">responsible-use note</a>.</p>
+
+    <h2>Frequently asked questions</h2>
+    <details><summary>Are free proxies good enough for web scraping?</summary><p>They are great for small-to-medium scraping of public pages, testing and prototyping. Individual proxies die quickly, so rotate and retry across many. For large or business-critical jobs, a rotating endpoint is more reliable.</p></details>
+    <details><summary>How do I avoid getting IP banned?</summary><p>Rotate per request, add delays and jitter, use a realistic User-Agent, respect robots.txt, and back off on 429s. Rotating a fresh verified list spreads load across many IPs.</p></details>
+    <details><summary>HTTP or SOCKS5 for scraping?</summary><p>Either works. <a href="../protocols/http.html">HTTP</a> is simplest and needs no extra packages; <a href="../protocols/socks5.html">SOCKS5</a> (with <code>socks5h://</code>) resolves DNS through the proxy, which some scrapers prefer.</p></details>
+    <details><summary>Need a rotation endpoint instead of files?</summary><p>The planned <a href="../api.html">Pro API</a> exposes a rotation endpoint plus filtering by latency and quality, so you don't manage the pool yourself.</p></details>
+
+    <div class="panel">
+      <h3>Related</h3>
+      <div class="related">
+        <a href="./python-requests-proxy.html">Use a proxy in Python requests</a>
+        <a href="./rotating-proxy.html">Build a rotating proxy pool</a>
+        <a href="./proxy-for-scrapy.html">Proxies with Scrapy</a>
+        <a href="../protocols/socks5.html">Free SOCKS5 proxy list</a>
+        <a href="../">All downloads &amp; API</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">Free public proxy snapshot, refreshed hourly. No signup required. <a href="https://github.com/xyzs996/free-proxy-health-list">Star on GitHub</a>.</div>
+  </footer>
+</body>
+</html>

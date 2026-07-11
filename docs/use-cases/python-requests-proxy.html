@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Use a Proxy in Python requests — Free Verified List | ProxyHealthList</title>
+  <meta name="description" content="Use a free proxy in Python requests: HTTP, HTTPS and SOCKS5 examples, environment variables, sessions and rotation. Pull from a verified, hourly-updated proxy list. No signup.">
+  <meta name="keywords" content="python requests proxy, requests proxies, python proxy example, socks5 proxy python, free proxy python, requests socks, http proxy python">
+  <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/use-cases/python-requests-proxy.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How to Use a Proxy in Python requests">
+  <meta property="og:description" content="HTTP, HTTPS and SOCKS5 proxy examples for Python requests, backed by a free verified list.">
+  <meta property="og:url" content="https://xyzs996.github.io/free-proxy-health-list/use-cases/python-requests-proxy.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to Use a Proxy in Python requests">
+  <meta name="twitter:description" content="HTTP, HTTPS and SOCKS5 proxy examples for Python requests, backed by a free verified list.">
+  <style>
+    :root{--bg:#f5f7f9;--panel:#fff;--ink:#17202a;--muted:#5d6b7c;--line:#d8dee8;--brand:#0f766e;--brand-strong:#0b5d56;--accent:#1d4ed8;--code:#111827}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    a{color:var(--accent);text-decoration:none;font-weight:700}
+    code{background:#eef2f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+    .wrap{width:min(880px,calc(100% - 32px));margin:0 auto}
+    header{position:sticky;top:0;z-index:2;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+    .topbar{min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-size:17px;font-weight:800;color:var(--ink)}
+    nav{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+    nav a{color:var(--muted);font-weight:600}
+    .crumb{font-size:13px;color:var(--muted);margin:20px 0 0}
+    h1{font-size:clamp(28px,5vw,42px);letter-spacing:-.5px;margin:10px 0 12px}
+    h2{font-size:22px;margin:32px 0 12px}
+    h3{font-size:16px;margin:20px 0 8px}
+    p{margin:0 0 14px}
+    .lead{font-size:18px;color:var(--muted)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 6px}
+    .button{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:6px;border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:800}
+    .button.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:18px}
+    pre{overflow:auto;margin:12px 0;padding:14px;border-radius:6px;background:var(--code);color:#e5e7eb;font-size:13px;line-height:1.5}
+    details{border-bottom:1px solid var(--line);padding:12px 0}
+    details summary{font-weight:700;cursor:pointer}
+    details p{margin:10px 0 0;color:var(--muted)}
+    .related{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .related a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px;background:#fff}
+    footer{border-top:1px solid var(--line);margin-top:36px;padding:22px 0;color:var(--muted);font-size:14px}
+    @media(max-width:640px){.button{width:100%}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"How do I set a proxy in Python requests?","acceptedAnswer":{"@type":"Answer","text":"Pass a proxies dict to the request: requests.get(url, proxies={'http':'http://host:port','https':'http://host:port'}). The same proxy handles both http and https targets."}},
+      {"@type":"Question","name":"How do I use a SOCKS5 proxy in requests?","acceptedAnswer":{"@type":"Answer","text":"Install SOCKS support with pip install requests[socks], then use the socks5h:// scheme, e.g. proxies={'http':'socks5h://host:port','https':'socks5h://host:port'}. The trailing h resolves DNS through the proxy."}},
+      {"@type":"Question","name":"How do I set a proxy for a whole requests session?","acceptedAnswer":{"@type":"Answer","text":"Create a session and set session.proxies = {'http': proxy, 'https': proxy}. Every request made with that session then uses the proxy."}}
+    ]}
+  ]}
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="../">ProxyHealthList</a>
+      <nav aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="../protocols/http.html">HTTP</a>
+        <a href="../protocols/socks5.html">SOCKS5</a>
+        <a href="../api.html">Pro API</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="crumb"><a href="../">Home</a> / Use cases / Python requests</p>
+    <h1>How to Use a Proxy in Python requests</h1>
+    <p class="lead">Every way to route <code>requests</code> through a proxy — HTTP, HTTPS, SOCKS5, environment variables, sessions and rotation — with proxies pulled from a free, hourly-verified list.</p>
+
+    <div class="actions">
+      <a class="button primary" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt">HTTP list (TXT)</a>
+      <a class="button" href="https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/socks5/data.txt">SOCKS5 list (TXT)</a>
+    </div>
+
+    <h2>Basic HTTP / HTTPS proxy</h2>
+    <p>The simplest form — one proxy handles both <code>http</code> and <code>https</code> targets, no extra packages required.</p>
+    <pre>import requests
+
+proxy = "http://1.2.3.4:8080"   # a line from the HTTP list
+r = requests.get(
+    "https://httpbin.org/ip",
+    proxies={"http": proxy, "https": proxy},
+    timeout=10,
+)
+print(r.json())</pre>
+
+    <h2>SOCKS5 proxy</h2>
+    <p>Install SOCKS support once, then use the <code>socks5h://</code> scheme so DNS resolves through the proxy.</p>
+    <pre>pip install "requests[socks]"</pre>
+    <pre>proxy = "socks5h://1.2.3.4:1080"   # a line from the SOCKS5 list
+r = requests.get("https://httpbin.org/ip",
+                 proxies={"http": proxy, "https": proxy}, timeout=10)</pre>
+
+    <h2>Proxy for a whole session</h2>
+    <pre>s = requests.Session()
+s.proxies = {"http": "http://1.2.3.4:8080", "https": "http://1.2.3.4:8080"}
+s.get("https://example.com")   # every request in this session uses the proxy</pre>
+
+    <h2>Environment variables</h2>
+    <p>requests also honours the standard proxy environment variables, so you can set a proxy without touching code:</p>
+    <pre>export HTTP_PROXY="http://1.2.3.4:8080"
+export HTTPS_PROXY="http://1.2.3.4:8080"
+python your_script.py</pre>
+
+    <h2>Auto-pick a working proxy from the list</h2>
+    <pre>import requests
+
+txt = requests.get(
+    "https://cdn.jsdelivr.net/gh/xyzs996/free-proxy-health-list@main/proxies/protocols/http/data.txt",
+    timeout=15).text
+for line in txt.splitlines():
+    proxy = f"http://{line.strip()}"
+    try:
+        r = requests.get("https://httpbin.org/ip",
+                         proxies={"http": proxy, "https": proxy}, timeout=6)
+        if r.ok:
+            print("using", proxy, r.json()); break
+    except requests.RequestException:
+        continue</pre>
+
+    <h2>Frequently asked questions</h2>
+    <details><summary>Why does my proxy request time out?</summary><p>Free proxies are volatile — any one can die within minutes. Always set a short <code>timeout</code> and loop to the next proxy on failure. The list is re-verified hourly and sorted fastest-first.</p></details>
+    <details><summary>http:// or socks5h:// — which scheme?</summary><p>Use <code>http://</code> for HTTP proxies and <code>socks5h://</code> for SOCKS5. The <code>h</code> makes DNS resolve remotely, which avoids DNS leaks and works better behind restrictive networks.</p></details>
+    <details><summary>Can I use these with httpx or aiohttp?</summary><p>Yes — the same host:port entries work. httpx and aiohttp accept proxy URLs in the same <code>http://</code> / <code>socks5://</code> form.</p></details>
+
+    <div class="panel">
+      <h3>Related</h3>
+      <div class="related">
+        <a href="./proxy-for-web-scraping.html">Proxies for web scraping</a>
+        <a href="./rotating-proxy.html">Build a rotating proxy pool</a>
+        <a href="../protocols/http.html">Free HTTP proxy list</a>
+        <a href="../protocols/socks5.html">Free SOCKS5 proxy list</a>
+        <a href="../">All downloads &amp; API</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">Free public proxy snapshot, refreshed hourly. No signup required. <a href="https://github.com/xyzs996/free-proxy-health-list">Star on GitHub</a>.</div>
+  </footer>
+</body>
+</html>
