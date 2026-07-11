@@ -1,4 +1,16 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
+190.93.244.241:80,190.93.244.241,80,http,7,87,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.50:80,190.93.247.50,80,http,7,87,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.137:80,190.93.244.137,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.223:80,190.93.244.223,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.87:80,190.93.244.87,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.130:80,190.93.247.130,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.133:80,190.93.247.133,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.14:80,190.93.247.14,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.184:80,190.93.247.184,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.202:80,190.93.247.202,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.236:80,190.93.247.236,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.78:80,190.93.247.78,80,http,8,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.178:80,216.205.52.178,80,http,8,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.181:80,216.205.52.181,80,http,8,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.18:80,216.205.52.18,80,http,8,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -62,6 +74,14 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 45.80.111.14:80,45.80.111.14,80,http,8,86,http,2026-07-11T22:34:09Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.85.119.12:80,45.85.119.12,80,http,8,86,http,2026-07-11T22:34:10Z,GB,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.85.119.202:80,45.85.119.202,80,http,8,86,http,2026-07-11T22:34:10Z,GB,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.123:80,190.93.244.123,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.146:80,190.93.244.146,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.18:80,190.93.244.18,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.125:80,190.93.247.125,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.132:80,190.93.247.132,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.160:80,190.93.247.160,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.1:80,190.93.247.1,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.20:80,190.93.247.20,80,http,9,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.15:80,216.205.52.15,80,http,9,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.177:80,216.205.52.177,80,http,9,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.48:80,216.205.52.48,80,http,9,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -95,6 +115,8 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 45.85.119.195:80,45.85.119.195,80,http,9,86,http,2026-07-11T22:34:10Z,GB,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.85.119.219:80,45.85.119.219,80,http,9,86,http,2026-07-11T22:34:10Z,GB,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.85.119.74:80,45.85.119.74,80,http,9,86,http,2026-07-11T22:34:10Z,GB,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.224:80,190.93.244.224,80,http,10,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.117:80,190.93.247.117,80,http,10,86,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.184:80,216.205.52.184,80,http,10,86,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.67.215.132:80,45.67.215.132,80,http,10,86,http,2026-07-11T21:52:22Z,RU,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.67.215.237:80,45.67.215.237,80,http,10,86,http,2026-07-11T21:52:22Z,RU,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -114,6 +136,9 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 45.80.111.171:80,45.80.111.171,80,http,10,86,http,2026-07-11T22:34:09Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.80.111.45:80,45.80.111.45,80,http,10,86,http,2026-07-11T22:34:09Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.85.119.182:80,45.85.119.182,80,http,10,86,http,2026-07-11T22:34:10Z,GB,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.197:80,190.93.244.197,80,http,11,85,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.18:80,190.93.247.18,80,http,11,85,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.87:80,190.93.247.87,80,http,11,85,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.3:80,216.205.52.3,80,http,11,85,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.24.57.161:80,216.24.57.161,80,http,11,85,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.24.57.197:80,216.24.57.197,80,http,11,85,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -132,6 +157,9 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 45.80.110.173:80,45.80.110.173,80,http,11,85,http,2026-07-11T22:34:09Z,EE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.80.110.188:80,45.80.110.188,80,http,11,85,http,2026-07-11T22:34:09Z,EE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.80.110.223:80,45.80.110.223,80,http,11,85,http,2026-07-11T22:34:09Z,EE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.134:80,190.93.244.134,80,http,12,85,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.191:80,190.93.244.191,80,http,12,85,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.247.104:80,190.93.247.104,80,http,12,85,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.199:80,216.205.52.199,80,http,12,85,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.33:80,216.205.52.33,80,http,12,85,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 216.205.52.41:80,216.205.52.41,80,http,12,85,http,2026-07-11T22:36:38Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -171,6 +199,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 45.8.211.88:80,45.8.211.88,80,http,15,84,http,2026-07-11T22:34:04Z,SG,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.80.111.131:80,45.80.111.131,80,http,15,84,http,2026-07-11T22:34:09Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.80.111.64:80,45.80.111.64,80,http,15,84,http,2026-07-11T22:34:09Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+190.93.244.214:80,190.93.244.214,80,http,16,84,http,2026-07-11T23:11:12Z,CR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.8.211.135:80,45.8.211.135,80,http,16,84,http,2026-07-11T22:34:04Z,SG,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.8.211.154:80,45.8.211.154,80,http,16,84,http,2026-07-11T22:34:04Z,SG,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.8.211.156:80,45.8.211.156,80,http,16,84,http,2026-07-11T22:34:04Z,SG,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -192,6 +221,8 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 103.156.15.129:12,103.156.15.129,12,socks4,190,69,socks4,2026-07-11T21:53:40Z,ID,unknown,False,github_raw,2,1,dbip,unknown,0,unknown,,unknown
 203.95.196.82:8080,203.95.196.82,8080,http,264,67,http,2026-07-11T21:49:23Z,KH,unknown,False,github_raw,3,1,dbip,unknown,0,unknown,,unknown
 124.121.2.178:8080,124.121.2.178,8080,http,352,67,http,2026-07-11T21:49:23Z,TH,anonymous,False,github_raw,3,1,dbip,unknown,0,unknown,,unknown
+61.52.131.172:8443,61.52.131.172,8443,socks5,231,66,socks5,2026-07-11T23:17:06Z,CN,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+65.2.5.16:10268,65.2.5.16,10268,socks5,369,63,socks5,2026-07-11T23:14:49Z,IN,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 198.50.17.177:4145,198.50.17.177,4145,socks4,638,63,socks4,2026-07-11T21:53:40Z,AR,elite,False,github_raw,2,1,dbip,unknown,0,unknown,,unknown
 196.74.225.2:1814,196.74.225.2,1814,http,557,62,http,2026-07-11T21:49:23Z,MA,anonymous,False,github_raw,2,1,dbip,unknown,0,unknown,,unknown
 206.123.156.219:6823,206.123.156.219,6823,socks5,799,61,socks5,2026-07-11T21:55:34Z,DE,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown
