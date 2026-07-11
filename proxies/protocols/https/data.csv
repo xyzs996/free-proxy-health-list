@@ -30,14 +30,18 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 47.250.155.254:89,47.250.155.254,89,https,2151,51,https_connect,2026-07-11T12:19:05Z,MY,unknown,True,github_raw,1,1,dbip
 47.250.177.202:8000,47.250.177.202,8000,https,2151,51,https_connect,2026-07-11T12:19:05Z,MY,unknown,True,github_raw,1,1,dbip
 8.212.151.166:9050,8.212.151.166,9050,https,2158,51,https_connect,2026-07-11T11:30:27Z,PH,unknown,True,github_raw,1,1,dbip
+149.129.255.179:5000,149.129.255.179,5000,https,2164,51,https_connect,2026-07-11T12:46:30Z,ID,unknown,True,github_raw,1,1,dbip
 149.129.255.179:7890,149.129.255.179,7890,https,2167,51,https_connect,2026-07-11T12:19:03Z,ID,unknown,True,github_raw,1,1,dbip
 149.129.255.179:9080,149.129.255.179,9080,https,2177,51,https_connect,2026-07-11T12:19:03Z,ID,unknown,True,github_raw,1,1,dbip
+114.215.127.92:8888,114.215.127.92,8888,https,2178,51,https_connect,2026-07-11T12:46:22Z,CN,unknown,True,github_raw,1,1,dbip
 8.137.13.191:9080,8.137.13.191,9080,https,2206,51,https_connect,2026-07-11T11:30:26Z,CN,unknown,True,github_raw,1,1,dbip
 47.254.36.213:808,47.254.36.213,808,https,2207,51,https_connect,2026-07-11T12:19:06Z,US,unknown,True,github_raw,1,1,dbip
 8.137.13.191:1081,8.137.13.191,1081,https,2211,51,https_connect,2026-07-11T11:30:26Z,CN,unknown,True,github_raw,1,1,dbip
 8.213.222.247:8000,8.213.222.247,8000,https,2215,51,https_connect,2026-07-11T12:19:05Z,TH,unknown,True,github_raw,1,1,dbip
 8.213.195.191:106,8.213.195.191,106,https,2217,51,https_connect,2026-07-11T12:19:05Z,TH,unknown,True,github_raw,1,1,dbip
+106.15.137.41:8333,106.15.137.41,8333,https,2222,51,https_connect,2026-07-11T12:46:21Z,CN,unknown,True,github_raw,1,1,dbip
 119.93.198.210:8082,119.93.198.210,8082,https,2226,51,https_connect,2026-07-11T12:19:09Z,PH,unknown,True,github_raw,1,1,dbip
+106.14.104.220:8333,106.14.104.220,8333,https,2228,51,https_connect,2026-07-11T12:46:21Z,CN,unknown,True,github_raw,1,1,dbip
 47.121.183.107:8333,47.121.183.107,8333,https,2232,51,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
 47.108.159.113:9000,47.108.159.113,9000,https,2233,51,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
 47.120.0.231:1311,47.120.0.231,1311,https,2240,51,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
@@ -54,6 +58,8 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 8.138.133.207:4145,8.138.133.207,4145,https,2346,50,https_connect,2026-07-11T11:30:27Z,CN,unknown,True,github_raw,1,1,dbip
 47.116.181.146:9000,47.116.181.146,9000,https,2348,50,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
 8.138.125.130:8443,8.138.125.130,8443,https,2361,50,https_connect,2026-07-11T11:30:26Z,CN,unknown,True,github_raw,1,1,dbip
+120.26.52.35:8333,120.26.52.35,8333,https,2377,50,https_connect,2026-07-11T12:46:27Z,CN,unknown,True,github_raw,1,1,dbip
+139.224.186.221:8333,139.224.186.221,8333,https,2383,50,https_connect,2026-07-11T12:46:29Z,CN,unknown,True,github_raw,1,1,dbip
 8.211.200.183:1111,8.211.200.183,1111,https,2473,50,https_connect,2026-07-11T11:30:27Z,GB,unknown,True,github_raw,1,1,dbip
 8.211.195.173:8889,8.211.195.173,8889,https,2477,50,https_connect,2026-07-11T11:30:27Z,GB,unknown,True,github_raw,1,1,dbip
 8.211.195.173:1081,8.211.195.173,1081,https,2482,50,https_connect,2026-07-11T12:19:05Z,GB,unknown,True,github_raw,1,1,dbip
@@ -62,6 +68,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 8.211.51.115:8888,8.211.51.115,8888,https,2503,50,https_connect,2026-07-11T12:19:05Z,DE,unknown,True,github_raw,1,1,dbip
 8.211.42.167:8118,8.211.42.167,8118,https,2504,50,https_connect,2026-07-11T12:19:05Z,DE,unknown,True,github_raw,1,1,dbip
 47.106.198.144:8000,47.106.198.144,8000,https,2593,50,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
+131.221.43.221:8080,131.221.43.221,8080,https,4178,50,https_connect,2026-07-11T12:19:08Z,CO,elite,True,github_raw,1,1,dbip
 103.160.205.208:8097,103.160.205.208,8097,https,4267,50,https_connect,2026-07-11T12:19:06Z,ID,elite,True,github_raw,1,1,dbip
 39.102.208.189:9000,39.102.208.189,9000,https,2703,49,https_connect,2026-07-11T12:19:06Z,CN,unknown,True,github_raw,1,1,dbip
 47.111.179.99:19518,47.111.179.99,19518,https,3126,49,https_connect,2026-07-11T11:03:23Z,CN,unknown,True,github_raw,2,1,dbip
@@ -69,9 +76,9 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 120.25.189.254:8090,120.25.189.254,8090,https,3173,48,https_connect,2026-07-11T12:19:03Z,CN,unknown,True,github_raw,1,1,dbip
 47.121.183.107:9000,47.121.183.107,9000,https,3304,48,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
 47.121.182.88:2000,47.121.182.88,2000,https,3331,48,https_connect,2026-07-11T11:30:17Z,CN,unknown,True,github_raw,1,1,dbip
-131.221.43.221:8080,131.221.43.221,8080,https,4178,46,https_connect,2026-07-11T12:19:08Z,CO,unknown,True,github_raw,1,1,dbip
 39.104.69.76:2000,39.104.69.76,2000,https,4306,46,https_connect,2026-07-11T11:30:12Z,CN,unknown,True,github_raw,1,1,dbip
 8.130.36.163:8889,8.130.36.163,8889,https,4350,45,https_connect,2026-07-11T11:30:26Z,CN,unknown,True,github_raw,1,1,dbip
+149.104.4.88:10809,149.104.4.88,10809,https,4770,45,https_connect,2026-07-11T12:46:30Z,SG,unknown,True,github_raw,1,1,dbip
 103.87.169.204:32650,103.87.169.204,32650,https,4777,45,https_connect,2026-07-11T11:04:04Z,IN,unknown,True,github_raw,1,1,dbip
 185.238.238.21:58080,185.238.238.21,58080,https,5268,44,https_connect,2026-07-11T12:19:07Z,PL,unknown,True,github_raw,1,1,dbip
 181.225.75.98:4040,181.225.75.98,4040,https,6662,42,https_connect,2026-07-11T12:19:08Z,CO,unknown,True,github_raw,1,1,dbip
