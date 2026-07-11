@@ -68,6 +68,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 67.201.33.10:25283,67.201.33.10,25283,socks5,390,67,socks5_fallback,2026-07-11T04:05:24Z,US,unknown,False,github_raw,8
 192.252.220.89:4145,192.252.220.89,4145,socks5,413,67,socks5_fallback,2026-07-11T04:06:18Z,US,unknown,False,github_raw,10
 47.238.106.120:666,47.238.106.120,666,socks5,417,67,socks5_fallback,2026-07-11T04:05:26Z,HK,unknown,False,text_site,7
+103.118.255.136:5555,103.118.255.136,5555,socks5,489,67,socks5_probe,2026-07-11T04:03:59Z,HK,elite,True,html_or_api,1
 43.128.63.68:7890,43.128.63.68,7890,socks5,755,67,socks5_fallback,2026-07-11T04:05:23Z,HK,elite,False,text_site,9
 185.22.186.249:1080,185.22.186.249,1080,socks5,814,67,socks5_fallback,2026-07-11T04:05:23Z,TR,elite,False,text_site,9
 216.144.239.17:7890,216.144.239.17,7890,socks5,820,67,socks5_probe,2026-07-11T04:03:59Z,US,elite,True,html_or_api,9
@@ -260,7 +261,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 141.8.198.143:1080,141.8.198.143,1080,socks5,4230,58,socks5_probe,2026-07-11T04:05:25Z,RU,elite,True,text_site,8
 206.123.156.199:8445,206.123.156.199,8445,socks5,875,57,socks5_fallback,2026-07-11T04:07:10Z,GB,unknown,False,api,2
 34.84.162.206:38081,34.84.162.206,38081,socks5,1235,57,socks5_fallback,2026-07-11T04:05:27Z,JP,unknown,False,github_raw,5
-206.123.156.199:6625,206.123.156.199,6625,socks5,1992,57,socks5_probe,2026-07-11T03:41:01Z,US,elite,True,api,2
 47.237.100.95:1011,47.237.100.95,1011,socks5,2319,57,socks5_probe,2026-07-11T04:06:40Z,CN,elite,True,github_raw,4
 206.123.156.229:5992,206.123.156.229,5992,socks5,2396,57,socks5_probe,2026-07-11T04:06:50Z,FR,elite,True,text_site,3
 178.216.152.110:1754,178.216.152.110,1754,socks5,2413,57,socks5_probe,2026-07-11T04:05:29Z,NL,elite,True,github_raw,4
@@ -284,7 +284,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 147.15.17.132:1083,147.15.17.132,1083,socks5,6582,57,socks5_probe,2026-07-11T04:05:22Z,BR,elite,True,github_raw,10
 72.205.0.93:4145,72.205.0.93,4145,socks5,1747,56,socks5_fallback,2026-07-11T04:06:22Z,US,unknown,False,github_raw,7
 206.123.156.219:7831,206.123.156.219,7831,socks5,2256,56,socks5_probe,2026-07-11T04:05:38Z,JP,elite,True,github_raw,2
-206.123.156.212:7852,206.123.156.212,7852,socks5,2272,56,socks5_probe,2026-07-11T03:40:59Z,GB,elite,True,api,2
 206.123.156.229:10718,206.123.156.229,10718,socks5,2291,56,socks5_probe,2026-07-11T04:05:38Z,GB,elite,True,github_raw,2
 206.123.156.230:6666,206.123.156.230,6666,socks5,2302,56,socks5_probe,2026-07-11T03:56:19Z,US,elite,True,github_raw,3
 206.123.156.199:8094,206.123.156.199,8094,socks5,2347,56,socks5_probe,2026-07-11T03:56:19Z,HK,elite,True,github_raw,3
@@ -314,16 +313,12 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.217:4836,206.123.156.217,4836,socks5,4784,56,socks5_probe,2026-07-11T04:05:34Z,HK,elite,True,github_raw,3
 206.123.156.215:5001,206.123.156.215,5001,socks5,4998,56,socks5_probe,2026-07-11T04:06:21Z,DE,elite,True,text_site,8
 206.123.156.229:9444,206.123.156.229,9444,socks5,2286,55,socks5_probe,2026-07-11T03:56:20Z,US,elite,True,github_raw,1
-206.123.156.212:7870,206.123.156.212,7870,socks5,2301,55,socks5_probe,2026-07-11T03:40:58Z,VN,elite,True,api,2
-206.123.156.212:7522,206.123.156.212,7522,socks5,2318,55,socks5_probe,2026-07-11T03:40:57Z,VN,elite,True,api,2
 206.123.156.233:8322,206.123.156.233,8322,socks5,2362,55,socks5_probe,2026-07-11T03:56:19Z,US,elite,True,api,2
 206.123.156.219:9526,206.123.156.219,9526,socks5,2369,55,socks5_probe,2026-07-11T04:07:34Z,SG,elite,True,github_raw,1
 206.123.156.228:7814,206.123.156.228,7814,socks5,2371,55,socks5_probe,2026-07-11T04:07:26Z,FR,elite,True,github_raw,2
 206.123.156.219:5282,206.123.156.219,5282,socks5,2372,55,socks5_probe,2026-07-11T04:07:30Z,VN,elite,True,github_raw,1
 206.123.156.243:20679,206.123.156.243,20679,socks5,2394,55,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,github_raw,2
 206.123.156.246:8013,206.123.156.246,8013,socks5,2415,55,socks5_probe,2026-07-11T03:56:19Z,US,elite,True,github_raw,2
-206.123.156.229:8334,206.123.156.229,8334,socks5,2439,55,socks5_probe,2026-07-11T03:41:03Z,CA,elite,True,api,2
-206.123.156.229:8563,206.123.156.229,8563,socks5,2465,55,socks5_probe,2026-07-11T03:41:03Z,FR,elite,True,api,2
 206.123.156.230:5202,206.123.156.230,5202,socks5,2466,55,socks5_probe,2026-07-11T04:07:30Z,VN,elite,True,github_raw,1
 206.123.156.219:10097,206.123.156.219,10097,socks5,2563,55,socks5_probe,2026-07-11T03:56:19Z,VN,elite,True,api,2
 206.123.156.236:5800,206.123.156.236,5800,socks5,2641,55,socks5_probe,2026-07-11T04:07:08Z,VN,elite,True,github_raw,2
@@ -366,10 +361,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.219:8013,206.123.156.219,8013,socks5,2447,54,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,github_raw,1
 206.123.156.239:28044,206.123.156.239,28044,socks5,2489,54,socks5_probe,2026-07-11T04:07:30Z,IN,elite,True,github_raw,1
 206.123.156.212:8715,206.123.156.212,8715,socks5,2541,54,socks5_probe,2026-07-11T03:56:19Z,VN,elite,True,api,1
-206.123.156.229:7432,206.123.156.229,7432,socks5,2687,54,socks5_probe,2026-07-11T03:41:04Z,US,elite,True,api,2
-206.123.156.236:4683,206.123.156.236,4683,socks5,2706,54,socks5_probe,2026-07-11T03:41:05Z,US,elite,True,api,2
 206.123.156.199:6601,206.123.156.199,6601,socks5,2830,54,socks5_probe,2026-07-11T04:07:09Z,ES,elite,True,github_raw,2
-206.123.156.236:4705,206.123.156.236,4705,socks5,2895,54,socks5_probe,2026-07-11T03:41:05Z,US,elite,True,api,2
 206.123.156.212:7717,206.123.156.212,7717,socks5,3017,54,socks5_probe,2026-07-11T04:07:09Z,SG,elite,True,github_raw,2
 206.123.156.228:7120,206.123.156.228,7120,socks5,3099,54,socks5_fallback,2026-07-11T04:06:41Z,GB,elite,False,github_raw,4
 206.123.156.229:9301,206.123.156.229,9301,socks5,3352,54,socks5_probe,2026-07-11T03:56:19Z,GB,elite,True,github_raw,3
@@ -457,11 +449,8 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.199:43660,206.123.156.199,43660,socks5,3615,52,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,api,2
 206.123.156.229:8380,206.123.156.229,8380,socks5,3622,52,socks5_probe,2026-07-11T04:07:30Z,SG,elite,True,github_raw,1
 206.123.156.199:6482,206.123.156.199,6482,socks5,3623,52,socks5_probe,2026-07-11T04:07:09Z,ES,elite,True,github_raw,2
-206.123.156.228:7278,206.123.156.228,7278,socks5,3666,52,socks5_probe,2026-07-11T03:40:58Z,US,elite,True,api,2
 206.123.156.229:7725,206.123.156.229,7725,socks5,3672,52,socks5_probe,2026-07-11T04:07:34Z,US,elite,True,github_raw,1
 206.123.156.228:6658,206.123.156.228,6658,socks5,3682,52,socks5_probe,2026-07-11T04:07:34Z,US,elite,True,github_raw,1
-206.123.156.212:8001,206.123.156.212,8001,socks5,3722,52,socks5_probe,2026-07-11T03:41:02Z,CA,elite,True,api,2
-5.231.80.96:5555,5.231.80.96,5555,socks5,3729,52,socks5_probe,2026-07-11T03:40:57Z,IR,elite,True,api,2
 206.123.156.199:8151,206.123.156.199,8151,socks5,3875,52,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,github_raw,3
 206.123.156.230:5914,206.123.156.230,5914,socks5,3948,52,socks5_probe,2026-07-11T04:06:53Z,US,elite,True,github_raw,3
 206.123.156.229:6161,206.123.156.229,6161,socks5,4135,52,socks5_probe,2026-07-11T04:05:32Z,JP,elite,True,github_raw,3
@@ -509,10 +498,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.236:6205,206.123.156.236,6205,socks5,3457,51,socks5_probe,2026-07-11T04:07:32Z,SG,elite,True,github_raw,1
 206.123.156.235:12119,206.123.156.235,12119,socks5,3948,51,socks5_probe,2026-07-11T04:07:30Z,NL,elite,True,github_raw,1
 206.123.156.236:5306,206.123.156.236,5306,socks5,4021,51,socks5_probe,2026-07-11T04:07:11Z,NL,elite,True,api,2
-206.123.156.212:7222,206.123.156.212,7222,socks5,4164,51,socks5_probe,2026-07-11T03:41:00Z,SG,elite,True,api,2
-206.123.156.228:7193,206.123.156.228,7193,socks5,4177,51,socks5_probe,2026-07-11T03:41:05Z,SG,elite,True,api,2
 163.53.204.178:9813,163.53.204.178,9813,socks5,4286,51,socks5_probe,2026-07-11T04:07:14Z,IN,elite,True,github_raw,2
-206.123.156.212:7748,206.123.156.212,7748,socks5,4334,51,socks5_probe,2026-07-11T03:40:59Z,SG,elite,True,api,2
 206.123.156.199:7540,206.123.156.199,7540,socks5,4404,51,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,github_raw,3
 206.123.156.199:7015,206.123.156.199,7015,socks5,4471,51,socks5_probe,2026-07-11T04:07:24Z,NL,elite,True,github_raw,2
 223.25.109.163:8199,223.25.109.163,8199,socks5,4591,51,socks5_probe,2026-07-11T04:05:36Z,ID,elite,True,github_raw,3
@@ -548,7 +534,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.228:6962,206.123.156.228,6962,socks5,3667,50,socks5_fallback,2026-07-11T04:06:26Z,GB,unknown,False,text_site,6
 98.191.0.37:4145,98.191.0.37,4145,socks5,3779,50,socks5_fallback,2026-07-11T04:06:21Z,US,unknown,False,github_raw,8
 206.123.156.236:22297,206.123.156.236,22297,socks5,3871,50,socks5_probe,2026-07-11T03:56:19Z,ES,elite,True,api,1
-206.123.156.233:6467,206.123.156.233,6467,socks5,4071,50,socks5_probe,2026-07-11T03:41:06Z,SG,elite,True,github_raw,1
 206.123.156.233:7075,206.123.156.233,7075,socks5,4264,50,socks5_probe,2026-07-11T04:07:29Z,IN,elite,True,github_raw,1
 79.111.14.142:1080,79.111.14.142,1080,socks5,4488,50,socks5_probe,2026-07-11T04:05:39Z,RU,elite,True,github_raw,2
 206.123.156.236:5752,206.123.156.236,5752,socks5,4561,50,socks5_probe,2026-07-11T03:56:19Z,PL,elite,True,api,2
@@ -556,7 +541,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.233:8319,206.123.156.233,8319,socks5,4704,50,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,api,2
 206.123.156.235:4731,206.123.156.235,4731,socks5,4729,50,socks5_probe,2026-07-11T04:07:13Z,CA,elite,True,github_raw,2
 206.123.156.209:9169,206.123.156.209,9169,socks5,4809,50,socks5_probe,2026-07-11T04:07:14Z,JP,elite,True,github_raw,2
-206.123.156.236:4795,206.123.156.236,4795,socks5,4878,50,socks5_probe,2026-07-11T03:41:04Z,SG,elite,True,api,2
 206.123.156.199:6443,206.123.156.199,6443,socks5,4958,50,socks5_fallback,2026-07-11T04:06:40Z,GB,elite,False,github_raw,4
 141.8.198.125:1080,141.8.198.125,1080,socks5,4989,50,socks5_fallback,2026-07-11T04:05:30Z,RU,elite,False,api,4
 206.123.156.199:6294,206.123.156.199,6294,socks5,5094,50,socks5_probe,2026-07-11T04:06:52Z,SG,elite,True,github_raw,3
@@ -627,8 +611,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.240:5621,206.123.156.240,5621,socks5,5707,48,socks5_probe,2026-07-11T04:07:07Z,DE,elite,True,github_raw,2
 206.123.156.217:4078,206.123.156.217,4078,socks5,5846,48,socks5_fallback,2026-07-11T04:06:51Z,GB,elite,False,github_raw,3
 206.123.156.199:5959,206.123.156.199,5959,socks5,5944,48,socks5_probe,2026-07-11T04:07:09Z,SG,elite,True,github_raw,2
-206.123.156.199:7523,206.123.156.199,7523,socks5,6002,48,socks5_probe,2026-07-11T03:40:59Z,SG,elite,True,api,2
-206.123.156.212:7752,206.123.156.212,7752,socks5,6157,48,socks5_probe,2026-07-11T03:41:00Z,US,elite,True,api,2
 206.123.156.236:5001,206.123.156.236,5001,socks5,6269,48,socks5_probe,2026-07-11T04:07:11Z,US,elite,True,api,2
 206.123.156.236:5655,206.123.156.236,5655,socks5,6582,48,socks5_probe,2026-07-11T04:06:54Z,US,elite,True,github_raw,3
 206.123.156.235:7891,206.123.156.235,7891,socks5,6611,48,socks5_probe,2026-07-11T04:07:26Z,NL,elite,True,github_raw,2
@@ -660,16 +642,10 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.215:5503,206.123.156.215,5503,socks5,5328,47,socks5_fallback,2026-07-11T04:06:23Z,GB,unknown,False,text_site,7
 206.123.156.235:5216,206.123.156.235,5216,socks5,5697,47,socks5_probe,2026-07-11T04:07:30Z,IN,elite,True,github_raw,1
 206.123.156.245:5751,206.123.156.245,5751,socks5,6045,47,socks5_probe,2026-07-11T03:56:20Z,PL,elite,True,github_raw,1
-206.123.156.199:7549,206.123.156.199,7549,socks5,6121,47,socks5_probe,2026-07-11T03:41:08Z,SG,elite,True,api,1
 206.123.156.217:9809,206.123.156.217,9809,socks5,6456,47,socks5_probe,2026-07-11T04:07:08Z,VN,elite,True,github_raw,2
 206.123.156.215:4103,206.123.156.215,4103,socks5,6476,47,socks5_probe,2026-07-11T04:07:08Z,NL,elite,True,github_raw,2
 206.123.156.236:6080,206.123.156.236,6080,socks5,6500,47,socks5_probe,2026-07-11T03:56:19Z,IN,elite,True,github_raw,2
 206.123.156.199:6626,206.123.156.199,6626,socks5,6523,47,socks5_probe,2026-07-11T04:07:11Z,VN,elite,True,api,2
-206.123.156.209:6479,206.123.156.209,6479,socks5,6673,47,socks5_probe,2026-07-11T03:41:01Z,SG,elite,True,api,2
-206.123.156.219:7682,206.123.156.219,7682,socks5,6738,47,socks5_probe,2026-07-11T03:41:00Z,IN,elite,True,api,2
-206.123.156.212:8015,206.123.156.212,8015,socks5,7056,47,socks5_probe,2026-07-11T03:40:57Z,RU,elite,True,api,2
-206.123.156.199:6463,206.123.156.199,6463,socks5,7101,47,socks5_probe,2026-07-11T03:41:02Z,JP,elite,True,api,2
-206.123.156.199:7595,206.123.156.199,7595,socks5,7215,47,socks5_probe,2026-07-11T03:40:57Z,US,elite,True,api,2
 206.123.156.236:5240,206.123.156.236,5240,socks5,7277,47,socks5_probe,2026-07-11T04:06:56Z,NL,elite,True,api,3
 206.123.156.233:6655,206.123.156.233,6655,socks5,7408,47,socks5_probe,2026-07-11T03:56:19Z,SG,elite,True,github_raw,3
 206.123.156.215:4756,206.123.156.215,4756,socks5,7919,47,socks5_probe,2026-07-11T04:06:57Z,DE,elite,True,api,3
@@ -690,11 +666,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.230:5671,206.123.156.230,5671,socks5,5783,46,socks5_fallback,2026-07-11T04:06:28Z,GB,unknown,False,github_raw,6
 206.123.156.212:5680,206.123.156.212,5680,socks5,6621,46,socks5_probe,2026-07-11T04:07:29Z,SG,elite,True,github_raw,1
 206.123.156.233:7434,206.123.156.233,7434,socks5,6757,46,socks5_probe,2026-07-11T04:07:35Z,IN,elite,True,github_raw,1
-206.123.156.236:6327,206.123.156.236,6327,socks5,6867,46,socks5_probe,2026-07-11T03:41:09Z,BR,elite,True,api,1
 206.123.156.236:5577,206.123.156.236,5577,socks5,7330,46,socks5_probe,2026-07-11T04:05:37Z,US,elite,True,github_raw,2
-206.123.156.212:8095,206.123.156.212,8095,socks5,7374,46,socks5_probe,2026-07-11T03:40:57Z,US,elite,True,api,2
-206.123.156.212:7848,206.123.156.212,7848,socks5,7589,46,socks5_probe,2026-07-11T03:41:01Z,DE,elite,True,api,2
-206.123.156.199:7613,206.123.156.199,7613,socks5,7599,46,socks5_probe,2026-07-11T03:40:59Z,SG,elite,True,api,2
 206.123.156.228:4959,206.123.156.228,4959,socks5,7631,46,socks5_probe,2026-07-11T04:07:08Z,US,elite,True,github_raw,2
 206.123.156.236:5784,206.123.156.236,5784,socks5,7784,46,socks5_fallback,2026-07-11T04:06:56Z,GB,elite,False,api,3
 206.123.156.236:5401,206.123.156.236,5401,socks5,8219,46,socks5_fallback,2026-07-11T04:06:51Z,GB,elite,False,github_raw,3
@@ -714,7 +686,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.209:5138,206.123.156.209,5138,socks5,7251,45,socks5_fallback,2026-07-11T04:05:27Z,GB,unknown,False,github_raw,7
 120.133.82.62:44110,120.133.82.62,44110,socks5,7352,45,socks5_probe,2026-07-11T04:07:33Z,CN,elite,True,github_raw,1
 206.123.156.228:6736,206.123.156.228,6736,socks5,7888,45,socks5_probe,2026-07-11T04:07:27Z,NL,elite,True,github_raw,1
-206.123.156.219:7619,206.123.156.219,7619,socks5,8315,45,socks5_probe,2026-07-11T03:40:59Z,IN,elite,True,api,2
 206.123.156.199:6938,206.123.156.199,6938,socks5,8591,45,socks5_probe,2026-07-11T04:07:12Z,DE,elite,True,api,2
 206.123.156.236:4929,206.123.156.236,4929,socks5,8644,45,socks5_probe,2026-07-11T04:05:36Z,JP,elite,True,github_raw,2
 206.123.156.233:7003,206.123.156.233,7003,socks5,9295,45,socks5_probe,2026-07-11T04:07:12Z,NL,elite,True,api,2
@@ -732,8 +703,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.212:6236,206.123.156.212,6236,socks5,8116,44,socks5_fallback,2026-07-11T04:06:28Z,GB,unknown,False,github_raw,6
 206.123.156.236:5583,206.123.156.236,5583,socks5,8199,44,socks5_fallback,2026-07-11T04:05:26Z,GB,unknown,False,text_site,7
 45.142.195.110:995,45.142.195.110,995,socks5,8600,44,socks5_probe,2026-07-11T04:07:31Z,FR,elite,True,github_raw,1
-206.123.156.229:8120,206.123.156.229,8120,socks5,9691,44,socks5_probe,2026-07-11T03:41:03Z,SG,elite,True,api,2
-206.123.156.209:7052,206.123.156.209,7052,socks5,10053,44,socks5_probe,2026-07-11T03:41:00Z,SG,elite,True,api,2
 206.123.156.228:6287,206.123.156.228,6287,socks5,10171,44,socks5_probe,2026-07-11T04:07:10Z,IN,elite,True,api,2
 206.123.156.236:4165,206.123.156.236,4165,socks5,10236,44,socks5_probe,2026-07-11T04:07:09Z,FR,elite,True,github_raw,2
 121.43.109.88:8008,121.43.109.88,8008,socks5,5087,43,socks5_fallback,2026-07-11T04:07:14Z,CN,unknown,False,github_raw,2
@@ -749,10 +718,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.236:12243,206.123.156.236,12243,socks5,7786,43,socks5_fallback,2026-07-11T04:06:32Z,GB,unknown,False,text_site,5
 206.123.156.215:4677,206.123.156.215,4677,socks5,8461,43,socks5_fallback,2026-07-11T04:06:21Z,GB,unknown,False,text_site,8
 206.123.156.199:46743,206.123.156.199,46743,socks5,9739,43,socks5_probe,2026-07-11T04:07:28Z,BD,elite,True,github_raw,1
-206.123.156.236:4531,206.123.156.236,4531,socks5,9768,43,socks5_probe,2026-07-11T03:41:09Z,RU,elite,True,api,1
-206.123.156.212:7544,206.123.156.212,7544,socks5,10472,43,socks5_probe,2026-07-11T03:41:06Z,US,elite,True,github_raw,1
-206.123.156.229:8437,206.123.156.229,8437,socks5,11079,43,socks5_probe,2026-07-11T03:41:05Z,SG,elite,True,api,2
-206.123.156.217:19241,206.123.156.217,19241,socks5,11403,43,socks5_probe,2026-07-11T03:40:57Z,ES,elite,True,api,2
 206.123.156.199:7154,206.123.156.199,7154,socks5,12539,43,socks5_probe,2026-07-11T04:06:52Z,VN,elite,True,github_raw,3
 47.74.46.81:50,47.74.46.81,50,socks5,5006,42,socks5_fallback,2026-07-11T04:07:38Z,JP,unknown,False,github_raw,1
 47.245.34.161:5566,47.245.34.161,5566,socks5,5008,42,socks5_fallback,2026-07-11T04:07:42Z,JP,unknown,False,github_raw,1
@@ -857,7 +822,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 206.123.156.219:8302,206.123.156.219,8302,socks5,7547,41,socks5_fallback,2026-07-11T04:06:57Z,GB,unknown,False,api,3
 206.123.156.229:6697,206.123.156.229,6697,socks5,8580,41,socks5_fallback,2026-07-11T04:06:43Z,GB,unknown,False,github_raw,4
 206.123.156.217:5521,206.123.156.217,5521,socks5,9642,41,socks5_fallback,2026-07-11T04:06:35Z,GB,unknown,False,github_raw,5
-206.123.156.233:7397,206.123.156.233,7397,socks5,13454,41,socks5_probe,2026-07-11T03:41:09Z,SG,elite,True,api,1
 8.211.194.78:443,8.211.194.78,443,socks5,6535,40,socks5_fallback,2026-07-11T04:07:37Z,GB,unknown,False,github_raw,1
 206.123.156.240:4954,206.123.156.240,4954,socks5,7431,40,socks5_fallback,2026-07-11T04:07:12Z,GB,unknown,False,github_raw,2
 206.123.156.217:13498,206.123.156.217,13498,socks5,8720,40,socks5_fallback,2026-07-11T04:05:32Z,GB,unknown,False,github_raw,3
