@@ -12,8 +12,9 @@
 > 公开快照永久免费，不需要注册，也不需要 Star 才能使用。Star 只是可选支持。
 
 [Website](https://xyzs996.github.io/free-proxy-health-list/) |
-[Pro API Early Access](https://xyzs996.github.io/free-proxy-health-list/api.html) |
-[English](./README.md)
+[Pro API Early Access](https://xyzs996.github.io/free-proxy-health-list/api.html)
+
+**语言:** [English](./README.md) · 中文 · [日本語](./README_JA.md) · [한국어](./README_KO.md)
 
 ## 为什么做这个项目？
 

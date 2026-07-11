@@ -13,8 +13,9 @@ Verified free proxy snapshots for developers. Download **HTTP**, **SOCKS4** and
 > Public snapshot, no signup, no credit card. Stars are optional and never required.
 
 [Open Website](https://xyzs996.github.io/free-proxy-health-list/) |
-[Pro API Early Access](https://xyzs996.github.io/free-proxy-health-list/api.html) |
-[中文](./README_CN.md)
+[Pro API Early Access](https://xyzs996.github.io/free-proxy-health-list/api.html)
+
+**Languages:** English · [中文](./README_CN.md) · [日本語](./README_JA.md) · [한국어](./README_KO.md)
 
 ## Why This Project?
 
