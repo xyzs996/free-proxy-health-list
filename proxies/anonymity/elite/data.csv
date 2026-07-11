@@ -1,7 +1,6 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
 171.233.29.34:5000,171.233.29.34,5000,socks4,160,78,socks4,2026-07-11T16:20:20Z,VN,elite,False,api,8,1,dbip,unknown,0,unknown,,unknown
 171.233.29.34:5000,171.233.29.34,5000,socks5,234,75,socks5,2026-07-11T16:21:57Z,VN,elite,False,github_raw,10,1,dbip,unknown,0,unknown,,unknown
-93.170.118.112:8989,93.170.118.112,8989,https,550,66,https_connect,2026-07-11T14:42:30Z,UA,elite,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 45.81.254.174:9116,45.81.254.174,9116,socks5,978,63,socks5,2026-07-11T16:21:58Z,GB,elite,False,github_raw,5,1,dbip,unknown,0,unknown,,unknown
 206.123.156.233:10789,206.123.156.233,10789,socks5,1186,62,socks5,2026-07-11T16:21:59Z,US,elite,False,github_raw,5,1,dbip,unknown,0,unknown,,unknown
 206.123.156.199:7366,206.123.156.199,7366,socks5,726,61,socks5,2026-07-11T16:22:08Z,DE,elite,False,github_raw,1,1,dbip,unknown,0,unknown,,unknown

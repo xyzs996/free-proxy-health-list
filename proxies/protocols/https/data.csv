@@ -1,6 +1,5 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
-93.170.118.112:8989,93.170.118.112,8989,https,550,66,https_connect,2026-07-11T14:42:30Z,UA,elite,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
-93.89.225.119:2082,93.89.225.119,2082,https,605,61,https_connect,2026-07-11T14:43:22Z,TR,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+91.107.155.33:80,91.107.155.33,80,https,597,61,https_connect,2026-07-11T16:34:48Z,DE,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 37.235.23.162:3129,37.235.23.162,3129,https,741,60,https_connect,2026-07-11T16:19:50Z,IR,unknown,True,github_raw,2,1,dbip,unknown,0,unknown,,unknown
 104.129.192.156:10729,104.129.192.156,10729,https,1102,56,https_connect,2026-07-11T16:19:53Z,US,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 8.221.141.88:1234,8.221.141.88,1234,https,2006,52,https_connect,2026-07-11T16:19:56Z,JP,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
@@ -28,5 +27,6 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 47.90.167.27:8888,47.90.167.27,8888,https,2329,50,https_connect,2026-07-11T16:19:58Z,US,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 47.90.149.238:1111,47.90.149.238,1111,https,2333,50,https_connect,2026-07-11T16:19:58Z,US,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 8.211.195.173:999,8.211.195.173,999,https,2473,50,https_connect,2026-07-11T16:19:56Z,GB,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
+8.211.194.85:9090,8.211.194.85,9090,https,2474,50,https_connect,2026-07-11T16:34:45Z,GB,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 47.91.89.3:1111,47.91.89.3,1111,https,2504,50,https_connect,2026-07-11T16:19:58Z,DE,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 8.211.200.183:81,8.211.200.183,81,https,3912,46,https_connect,2026-07-11T16:19:56Z,GB,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
