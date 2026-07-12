@@ -7,8 +7,9 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 38.246.114.120:20914,38.246.114.120,20914,https,551,67,https_connect,2026-07-12T03:37:22Z,US,elite,True,github_raw,2,1,dbip,non_residential,0,proxycheck,2026-07-12T03:51:48Z,exit
 105.154.69.146:8080,105.154.69.146,8080,https,554,67,https_connect,2026-07-12T03:37:19Z,MA,elite,True,html_table,3,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 23.137.251.64:8080,23.137.251.64,8080,https,596,67,https_connect,2026-07-12T03:37:19Z,BG,elite,True,html_table,3,1,dbip,non_residential,0,proxycheck,2026-07-12T03:51:48Z,exit
+140.82.62.31:50000,140.82.62.31,50000,https,663,66,https_connect,2026-07-12T03:37:19Z,CL,elite,True,html_table,3,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
+87.236.197.18:80,87.236.197.18,80,https,497,62,https_connect,2026-07-12T04:41:24Z,CZ,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 46.231.72.42:3128,46.231.72.42,3128,https,635,62,https_connect,2026-07-12T03:37:19Z,CZ,unknown,True,html_table,3,1,dbip,non_residential,0,proxycheck,2026-07-12T03:51:34Z,listener
-140.82.62.31:50000,140.82.62.31,50000,https,663,62,https_connect,2026-07-12T03:37:19Z,US,unknown,True,html_table,3,1,dbip,non_residential,0,proxycheck,2026-07-12T03:51:48Z,listener
 15.228.83.209:3128,15.228.83.209,3128,https,572,61,https_connect,2026-07-12T03:52:50Z,BR,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T04:13:17Z,unknown
 103.162.106.57:8080,103.162.106.57,8080,https,1196,56,https_connect,2026-07-12T04:10:17Z,ID,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,,unknown
 8.221.139.222:4443,8.221.139.222,4443,https,2005,52,https_connect,2026-07-12T04:10:17Z,JP,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown

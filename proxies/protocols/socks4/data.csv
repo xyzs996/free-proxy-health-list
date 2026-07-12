@@ -1,6 +1,9 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
+56.155.73.215:50994,56.155.73.215,50994,socks4,22,82,socks4,2026-07-12T04:43:04Z,JP,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 38.246.114.120:20914,38.246.114.120,20914,socks4,259,74,socks4,2026-07-12T03:37:38Z,US,elite,False,api,6,1,dbip,unknown,0,unknown,2026-07-12T04:13:17Z,unknown
 147.45.60.241:1082,147.45.60.241,1082,socks4,342,69,socks4,2026-07-12T03:37:38Z,US,elite,False,api,3,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
+54.79.125.20:4443,54.79.125.20,4443,socks4,207,67,socks4,2026-07-12T04:43:01Z,AU,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
+54.67.110.244:439,54.67.110.244,439,socks4,228,66,socks4,2026-07-12T04:43:00Z,US,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 81.12.54.13:9080,81.12.54.13,9080,socks4,1358,62,socks4,2026-07-12T03:37:38Z,US,elite,False,api,6,1,dbip,non_residential,0,proxycheck,2026-07-12T03:51:34Z,exit
 8.221.141.88:646,8.221.141.88,646,socks4,2007,51,socks4,2026-07-12T03:37:43Z,JP,unknown,False,github_raw,2,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 8.221.139.222:9992,8.221.139.222,9992,socks4,2005,50,socks4,2026-07-12T03:37:56Z,JP,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
