@@ -1,2 +1,10 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
-157.10.192.4:8080,157.10.192.4,8080,https,3177,48,https_connect,2026-07-12T01:10:27Z,ID,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
+49.0.26.151:8080,49.0.26.151,8080,https,193,75,https_connect,2026-07-12T03:37:19Z,ID,elite,True,html_table,3,1,dbip,unknown,0,unknown,,unknown
+49.0.26.151:80,49.0.26.151,80,https,207,70,https_connect,2026-07-12T03:37:21Z,ID,unknown,True,github_raw,2,1,dbip,unknown,0,unknown,,unknown
+38.246.114.120:20914,38.246.114.120,20914,https,551,67,https_connect,2026-07-12T03:37:22Z,US,elite,True,github_raw,2,1,dbip,unknown,0,unknown,,unknown
+23.137.251.64:8080,23.137.251.64,8080,https,596,67,https_connect,2026-07-12T03:37:19Z,BG,elite,True,html_table,3,1,dbip,unknown,0,unknown,,unknown
+123.139.36.223:8118,123.139.36.223,8118,https,541,63,https_connect,2026-07-12T03:37:21Z,CN,unknown,True,github_raw,2,1,dbip,unknown,0,unknown,,unknown
+105.154.69.146:8080,105.154.69.146,8080,https,554,63,https_connect,2026-07-12T03:37:19Z,MA,unknown,True,html_table,3,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
+46.231.72.42:3128,46.231.72.42,3128,https,635,62,https_connect,2026-07-12T03:37:19Z,CZ,unknown,True,html_table,3,1,dbip,unknown,0,unknown,,unknown
+140.82.62.31:50000,140.82.62.31,50000,https,663,62,https_connect,2026-07-12T03:37:19Z,US,unknown,True,html_table,3,1,dbip,unknown,0,unknown,,unknown
+8.210.17.35:31281,8.210.17.35,31281,https,3640,47,https_connect,2026-07-12T03:37:26Z,HK,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
