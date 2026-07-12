@@ -1,5 +1,6 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope,freshnessTier
 171.233.29.34:5000,171.233.29.34,5000,socks4,167,79,socks4,2026-07-12T05:27:07Z,VN,elite,False,api,12,2,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
+171.233.29.34:5000,171.233.29.34,5000,socks5,293,74,socks5,2026-07-12T06:03:49Z,VN,elite,False,api,13,2,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
 206.123.156.233:9610,206.123.156.233,9610,socks5,1737,57,socks5,2026-07-12T05:31:47Z,IN,elite,False,api,3,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
 206.123.156.219:8468,206.123.156.219,8468,socks5,3644,55,socks5,2026-07-12T05:27:36Z,IN,elite,False,api,10,2,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
 206.123.156.233:9533,206.123.156.233,9533,socks5,2530,54,socks5,2026-07-12T05:31:47Z,IN,elite,False,api,3,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
