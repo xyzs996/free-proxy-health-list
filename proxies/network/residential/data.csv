@@ -1,8 +1,7 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope,freshnessTier
-171.233.29.34:5000,171.233.29.34,5000,socks5,249,75,socks5,2026-07-12T07:13:07Z,VN,elite,False,api,13,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
-171.233.29.34:5000,171.233.29.34,5000,socks4,466,73,socks4,2026-07-12T07:12:58Z,VN,elite,False,api,12,4,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
-206.123.156.202:4485,206.123.156.202,4485,socks5,923,60,socks5,2026-07-12T06:58:07Z,PT,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit,fresh
-206.123.156.209:11138,206.123.156.209,11138,socks5,1604,59,socks5,2026-07-12T06:43:41Z,GB,elite,False,api,4,2,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
-206.123.156.228:5840,206.123.156.228,5840,socks5,2265,55,socks5,2026-07-12T06:35:44Z,GB,elite,False,api,3,0,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit,fresh
-206.123.156.215:21534,206.123.156.215,21534,socks5,4740,48,socks5,2026-07-12T06:35:55Z,GB,elite,False,api,2,0,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit,fresh
-206.123.156.219:5998,206.123.156.219,5998,socks5,6311,47,socks5,2026-07-12T06:43:35Z,GB,elite,False,github_raw,2,2,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit,fresh
+171.233.29.34:5000,171.233.29.34,5000,socks4,166,82,socks4,2026-07-12T07:49:14Z,VN,elite,False,github_raw,12,5,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
+206.123.156.199:5156,206.123.156.199,5156,socks5,2766,51,socks5,2026-07-12T07:41:49Z,GB,elite,False,api,1,0,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
+206.123.156.228:5840,206.123.156.228,5840,socks5,5588,51,socks5,2026-07-12T07:41:23Z,GB,elite,False,api,8,0,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit,fresh
+171.233.29.34:5000,171.233.29.34,5000,socks5,6534,50,socks5,2026-07-12T07:41:40Z,VN,elite,False,github_raw,13,2,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
+206.123.156.199:5564,206.123.156.199,5564,socks5,4732,48,socks5,2026-07-12T08:04:02Z,GB,elite,False,api,1,2,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit,fresh
+206.123.156.202:4485,206.123.156.202,4485,socks5,5568,48,socks5,2026-07-12T07:41:37Z,GB,elite,False,github_raw,2,2,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit,fresh
