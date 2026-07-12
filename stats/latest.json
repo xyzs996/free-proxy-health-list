@@ -1,52 +1,47 @@
 {
   "anonymity": {
-    "anonymous": 1,
     "elite": 13,
-    "unknown": 433
+    "unknown": 271
   },
   "countries": {
     "AU": 4,
     "BR": 1,
-    "CA": 142,
+    "CA": 3,
     "CH": 1,
     "CN": 234,
-    "CZ": 1,
-    "DE": 4,
+    "DE": 3,
     "ES": 2,
     "FR": 3,
-    "GB": 4,
-    "HK": 2,
+    "GB": 3,
+    "HK": 1,
     "ID": 1,
     "IE": 1,
     "IL": 1,
     "IN": 6,
     "JP": 4,
     "KR": 1,
-    "NL": 1,
     "SG": 2,
-    "TH": 1,
     "TW": 2,
-    "UA": 6,
-    "US": 21,
+    "US": 9,
     "VN": 1,
     "ZA": 1
   },
   "elite": 13,
-  "fast": 197,
-  "knownCountries": 447,
+  "fast": 36,
+  "knownCountries": 284,
   "likelyResidential": 0,
   "protocols": {
-    "http": 168,
-    "https": 4,
+    "http": 6,
+    "https": 3,
     "socks4": 51,
     "socks5": 224
   },
   "residential": 3,
   "sourceCategories": {
-    "github_raw": 447
+    "github_raw": 284
   },
   "stable": 0,
   "topLimit": 1000,
-  "total": 447,
-  "updatedAt": "2026-07-12T02:24:32Z"
+  "total": 284,
+  "updatedAt": "2026-07-12T02:30:32Z"
 }

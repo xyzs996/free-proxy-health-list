@@ -1,5 +1,4 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
 143.198.196.163:8080,143.198.196.163,8080,https,190,70,https_connect,2026-07-12T00:30:38Z,SG,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 142.93.194.252:80,142.93.194.252,80,https,317,66,https_connect,2026-07-12T00:30:33Z,US,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-8.213.197.208:8085,8.213.197.208,8085,https,2222,51,https_connect,2026-07-12T00:30:01Z,TH,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 157.10.192.4:8080,157.10.192.4,8080,https,3177,48,https_connect,2026-07-12T01:10:27Z,ID,unknown,True,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown

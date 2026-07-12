@@ -18,7 +18,7 @@ proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,an
 51.44.97.6:3129,51.44.97.6,3129,socks5,664,58,socks5,2026-07-12T00:34:33Z,FR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 52.47.115.41:24331,52.47.115.41,24331,socks5,671,58,socks5,2026-07-12T00:33:20Z,FR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 35.180.75.159:50292,35.180.75.159,50292,socks5,677,58,socks5,2026-07-12T01:13:05Z,FR,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-51.34.28.236:3128,51.34.28.236,3128,socks5,679,58,socks5,2026-07-12T00:34:27Z,CH,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
+51.34.28.236:3128,51.34.28.236,3128,socks5,679,58,socks5,2026-07-12T00:34:27Z,CH,unknown,False,github_raw,1,1,dbip,non_residential,0,proxycheck,2026-07-12T02:25:17Z,listener
 63.179.134.206:26552,63.179.134.206,26552,socks5,683,58,socks5,2026-07-12T00:32:44Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 63.181.83.210:38707,63.181.83.210,38707,socks5,687,58,socks5,2026-07-12T00:32:44Z,DE,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 54.206.129.120:25923,54.206.129.120,25923,socks5,690,58,socks5,2026-07-12T00:33:39Z,AU,unknown,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown

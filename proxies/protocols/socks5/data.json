@@ -420,7 +420,7 @@
   {
     "anonymity": "unknown",
     "checkType": "socks5",
-    "classificationScope": "unknown",
+    "classificationScope": "listener",
     "consecutiveSuccesses": 1,
     "country": "CH",
     "countrySource": "dbip",
@@ -431,10 +431,10 @@
     "protocol": "socks5",
     "proxy": "51.34.28.236:3128",
     "qualityScore": 58,
-    "residentialCheckedAt": "2026-07-12T02:11:49Z",
+    "residentialCheckedAt": "2026-07-12T02:25:17Z",
     "residentialConfidence": 0,
-    "residentialSource": "unknown",
-    "residentialStatus": "unknown",
+    "residentialSource": "proxycheck",
+    "residentialStatus": "non_residential",
     "sourceCategory": "github_raw",
     "sourceCount": 1,
     "supportsHttps": false
