@@ -8,5 +8,10 @@
     "name": "proxycheck.io derived network classification",
     "terms": "Authorized derived-data enhancement; raw provider responses are not republished.",
     "url": "https://proxycheck.io/"
+  },
+  {
+    "license": "Free use with attribution",
+    "name": "IP2Proxy LITE",
+    "url": "https://lite.ip2location.com/ip2proxy-lite"
   }
 ]
