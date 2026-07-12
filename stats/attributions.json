@@ -3,5 +3,10 @@
     "license": "CC BY 4.0",
     "name": "DB-IP IP to Country Lite",
     "url": "https://db-ip.com/db/download/ip-to-country-lite"
+  },
+  {
+    "name": "proxycheck.io derived network classification",
+    "terms": "Authorized derived-data enhancement; raw provider responses are not republished.",
+    "url": "https://proxycheck.io/"
   }
 ]

@@ -1,1 +1,4 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
+206.123.156.230:6905,206.123.156.230,6905,socks5,936,59,socks5,2026-07-12T00:32:30Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
+206.123.156.217:6910,206.123.156.217,6910,socks5,1483,56,socks5,2026-07-12T00:32:30Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
+206.123.156.217:6807,206.123.156.217,6807,socks5,1638,55,socks5,2026-07-12T00:32:30Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit

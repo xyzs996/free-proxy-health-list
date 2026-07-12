@@ -41,12 +41,12 @@
     "socks4": 51,
     "socks5": 224
   },
-  "residential": 0,
+  "residential": 3,
   "sourceCategories": {
     "github_raw": 447
   },
   "stable": 0,
   "topLimit": 1000,
   "total": 447,
-  "updatedAt": "2026-07-12T01:52:00Z"
+  "updatedAt": "2026-07-12T02:24:32Z"
 }
