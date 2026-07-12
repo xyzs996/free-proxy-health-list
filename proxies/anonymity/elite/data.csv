@@ -1,14 +1,5 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
-206.123.156.202:7844,206.123.156.202,7844,socks5,736,61,socks5,2026-07-12T00:32:31Z,GB,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-206.123.156.217:6882,206.123.156.217,6882,socks5,738,61,socks5,2026-07-12T00:32:30Z,DE,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-206.123.156.230:7037,206.123.156.230,7037,socks5,925,60,socks5,2026-07-12T00:32:30Z,ZA,elite,False,github_raw,1,1,dbip,non_residential,0,proxycheck,2026-07-12T02:19:03Z,exit
-206.123.156.230:6905,206.123.156.230,6905,socks5,936,59,socks5,2026-07-12T00:32:30Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
 206.123.156.215:43009,206.123.156.215,43009,socks5,1018,59,socks5,2026-07-12T01:13:03Z,SG,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-206.123.156.217:4131,206.123.156.217,4131,socks5,1379,56,socks5,2026-07-12T00:32:32Z,GB,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-206.123.156.217:6910,206.123.156.217,6910,socks5,1483,56,socks5,2026-07-12T00:32:30Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
-206.123.156.217:6807,206.123.156.217,6807,socks5,1638,55,socks5,2026-07-12T00:32:30Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
 206.123.156.228:5859,206.123.156.228,5859,socks5,2550,52,socks5,2026-07-12T01:13:03Z,BR,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
-206.123.156.228:6160,206.123.156.228,6160,socks5,3242,50,socks5,2026-07-12T00:32:30Z,VN,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 206.123.156.217:6515,206.123.156.217,6515,socks5,3576,49,socks5,2026-07-12T01:13:03Z,IN,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
 206.123.156.233:5943,206.123.156.233,5943,socks5,3782,49,socks5,2026-07-12T01:13:03Z,TW,elite,False,github_raw,1,1,dbip,non_residential,0,proxycheck,2026-07-12T02:21:11Z,exit
-206.123.156.212:37311,206.123.156.212,37311,socks5,6804,44,socks5,2026-07-12T00:32:31Z,TW,elite,False,github_raw,1,1,dbip,unknown,0,unknown,2026-07-12T02:11:49Z,unknown
