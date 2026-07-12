@@ -1,7 +1,9 @@
 proxy,host,port,protocol,latencyMs,qualityScore,checkType,lastChecked,country,anonymity,supportsHttps,sourceCategory,sourceCount,consecutiveSuccesses,countrySource,residentialStatus,residentialConfidence,residentialSource,residentialCheckedAt,classificationScope
 206.123.156.217:7567,206.123.156.217,7567,socks5,1880,59,socks5,2026-07-12T03:39:26Z,IN,elite,False,api,6,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
+206.123.156.236:9638,206.123.156.236,9638,socks5,3340,51,socks5,2026-07-12T03:39:41Z,IN,elite,False,api,2,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
 206.123.156.217:8083,206.123.156.217,8083,socks5,3227,50,socks5,2026-07-12T03:39:43Z,IN,elite,False,api,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
 206.123.156.233:9288,206.123.156.233,9288,socks5,3367,50,socks5,2026-07-12T03:39:42Z,IN,elite,False,api,2,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
+206.123.156.228:5840,206.123.156.228,5840,socks5,3670,50,socks5,2026-07-12T03:39:41Z,PT,elite,False,api,2,1,dbip,residential,90,proxycheck,2026-07-12T03:51:48Z,exit
 206.123.156.229:8479,206.123.156.229,8479,socks5,3460,49,socks5,2026-07-12T03:39:43Z,IN,elite,False,github_raw,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
 206.123.156.229:8482,206.123.156.229,8482,socks5,5165,46,socks5,2026-07-12T03:39:43Z,IN,elite,False,api,1,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
 206.123.156.215:36159,206.123.156.215,36159,socks5,9253,46,socks5,2026-07-12T03:39:31Z,IN,elite,False,api,5,1,dbip,residential,90,proxycheck,2026-07-12T02:19:03Z,exit
