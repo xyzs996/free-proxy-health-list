@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Free Proxy Health List — verified HTTP, SOCKS4 and SOCKS5 proxies, updated hourly">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#0f2a2e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="globe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#134e4a"/>
+      <stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+
+  <!-- network globe motif, right side -->
+  <g transform="translate(985,150)" stroke="#2dd4bf" fill="none" opacity="0.55">
+    <circle r="104" fill="url(#globe)" stroke-width="2" opacity="0.9"/>
+    <ellipse rx="104" ry="42" stroke-width="1.5"/>
+    <ellipse rx="42" ry="104" stroke-width="1.5"/>
+    <line x1="-104" y1="0" x2="104" y2="0" stroke-width="1.5"/>
+  </g>
+  <g fill="#5eead4">
+    <circle cx="905" cy="105" r="7"/>
+    <circle cx="1063" cy="118" r="7"/>
+    <circle cx="948" cy="212" r="7"/>
+    <circle cx="1090" cy="192" r="5"/>
+    <circle cx="985" cy="46" r="5"/>
+  </g>
+  <g stroke="#38bdf8" stroke-width="1.6" opacity="0.7">
+    <line x1="905" y1="105" x2="1063" y2="118"/>
+    <line x1="1063" y1="118" x2="948" y2="212"/>
+    <line x1="905" y1="105" x2="948" y2="212"/>
+    <line x1="985" y1="46" x2="1063" y2="118"/>
+    <line x1="1090" y1="192" x2="1063" y2="118"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="64" y="86" fill="#2dd4bf" font-size="19" font-weight="700" letter-spacing="3">FREE · VERIFIED · UPDATED HOURLY</text>
+
+  <!-- title -->
+  <text x="62" y="152" fill="#f8fafc" font-size="56" font-weight="800">Free Proxy Health List</text>
+
+  <!-- subtitle -->
+  <text x="64" y="196" fill="#94a3b8" font-size="24">HTTP · SOCKS4 · SOCKS5 — TXT / JSON / CSV, no signup</text>
+
+  <!-- pills -->
+  <g font-size="17" font-weight="700">
+    <rect x="64" y="222" width="156" height="42" rx="21" fill="#134e4a"/>
+    <text x="142" y="249" fill="#5eead4" text-anchor="middle">Verified hourly</text>
+    <rect x="234" y="222" width="132" height="42" rx="21" fill="#0c4a6e"/>
+    <text x="300" y="249" fill="#7dd3fc" text-anchor="middle">Stable CDN</text>
+    <rect x="380" y="222" width="126" height="42" rx="21" fill="#3b0764"/>
+    <text x="443" y="249" fill="#d8b4fe" text-anchor="middle">No signup</text>
+  </g>
+
+  <!-- accent underline -->
+  <rect x="64" y="280" width="700" height="5" rx="2.5" fill="url(#bar)"/>
+</svg>
