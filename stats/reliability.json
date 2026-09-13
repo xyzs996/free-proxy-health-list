@@ -1,0 +1,132 @@
+{
+  "blocked": 13,
+  "byProtocol": {
+    "http": {
+      "blocked": 10,
+      "failed": 55,
+      "intercepted": 2,
+      "medianLatencyMs": 1770,
+      "relayRate": 0.43,
+      "sampled": 100,
+      "successRate": 0.33,
+      "working": 33
+    },
+    "https": {
+      "blocked": 0,
+      "failed": 70,
+      "intercepted": 0,
+      "medianLatencyMs": 6765,
+      "relayRate": 0.3,
+      "sampled": 100,
+      "successRate": 0.3,
+      "working": 30
+    },
+    "socks4": {
+      "blocked": 3,
+      "failed": 44,
+      "intercepted": 0,
+      "medianLatencyMs": 1620,
+      "relayRate": 0.56,
+      "sampled": 100,
+      "successRate": 0.53,
+      "working": 53
+    },
+    "socks5": {
+      "blocked": 0,
+      "failed": 35,
+      "intercepted": 1,
+      "medianLatencyMs": 1194,
+      "relayRate": 0.64,
+      "sampled": 100,
+      "successRate": 0.64,
+      "working": 64
+    }
+  },
+  "byTarget": {
+    "http://api.ipify.org/": {
+      "blocked": 9,
+      "failed": 58,
+      "intercepted": 0,
+      "medianLatencyMs": 1222,
+      "relayRate": 0.6133,
+      "sampled": 150,
+      "successRate": 0.5533,
+      "working": 83
+    },
+    "http://icanhazip.com/": {
+      "blocked": 4,
+      "failed": 76,
+      "intercepted": 3,
+      "medianLatencyMs": 1187,
+      "relayRate": 0.4733,
+      "sampled": 150,
+      "successRate": 0.4467,
+      "working": 67
+    },
+    "https://api.ipify.org/": {
+      "blocked": 0,
+      "failed": 36,
+      "intercepted": 0,
+      "medianLatencyMs": 6086,
+      "relayRate": 0.28,
+      "sampled": 50,
+      "successRate": 0.28,
+      "working": 14
+    },
+    "https://icanhazip.com/": {
+      "blocked": 0,
+      "failed": 34,
+      "intercepted": 0,
+      "medianLatencyMs": 8290,
+      "relayRate": 0.32,
+      "sampled": 50,
+      "successRate": 0.32,
+      "working": 16
+    }
+  },
+  "datasetSize": 4791,
+  "failed": 204,
+  "intercepted": 3,
+  "listSuccessRate": 0.385466,
+  "listSuccessRateBasis": {
+    "http": 1382,
+    "https": 2039,
+    "socks4": 889,
+    "socks5": 481
+  },
+  "listSuccessRateInterval": [
+    0.2775222851322632,
+    0.5068619726877744
+  ],
+  "method": "Sample of the published list stratified by protocol, drawn evenly so each protocol is measured with the same precision, and fetched end-to-end through each proxy against a protocol-appropriate third-party URL. successRate is the rate within that sample, which is an average over protocols and not the rate of the list: listSuccessRate re-weights it by how many of each protocol were actually published. relayRate also counts fetches the target itself refused, which the proxy still had to carry both ways.",
+  "relayRate": 0.4825,
+  "sampled": 400,
+  "successRate": 0.45,
+  "targets": [
+    "http://api.ipify.org/",
+    "http://icanhazip.com/",
+    "https://api.ipify.org/",
+    "https://icanhazip.com/"
+  ],
+  "targetsByProtocol": {
+    "http": [
+      "http://api.ipify.org/",
+      "http://icanhazip.com/"
+    ],
+    "https": [
+      "https://api.ipify.org/",
+      "https://icanhazip.com/"
+    ],
+    "socks4": [
+      "http://api.ipify.org/",
+      "http://icanhazip.com/"
+    ],
+    "socks5": [
+      "http://api.ipify.org/",
+      "http://icanhazip.com/"
+    ]
+  },
+  "timeoutSeconds": 8.0,
+  "updatedAt": "2026-09-13T06:42:43Z",
+  "working": 180
+}

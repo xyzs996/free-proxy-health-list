@@ -1,0 +1,37 @@
+# proxyhealthlist:generated — rebuilt by `proxyhealthlist build-site`. Do not edit by hand.
+name: Validate snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'proxies/**'
+      - 'stats/**'
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-snapshot
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The history is large and irrelevant here; only the current
+          # snapshot and the validator are needed.
+          fetch-depth: 1
+          sparse-checkout: |
+            proxies
+            stats
+            scripts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_snapshot.py
