@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proxy Test Command Builder - ProxyHealthList</title>
+  <meta name="description" content="Generate local curl commands to test HTTP, SOCKS4 and SOCKS5 proxies from the free proxy health list.">
+  <link rel="canonical" href="https://xyzs996.github.io/free-proxy-health-list/checker.html">
+  <meta property="og:image" content="https://xyzs996.github.io/free-proxy-health-list/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://xyzs996.github.io/free-proxy-health-list/assets/og-image.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ccircle cx=%2750%27 cy=%2750%27 r=%2745%27 fill=%27%230f766e%27/%3E%3Cellipse cx=%2750%27 cy=%2750%27 rx=%2745%27 ry=%2718%27 fill=%27none%27 stroke=%27%235eead4%27 stroke-width=%276%27/%3E%3Cline x1=%2750%27 y1=%275%27 x2=%2750%27 y2=%2795%27 stroke=%27%235eead4%27 stroke-width=%276%27/%3E%3C/svg%3E">
+  <style>
+    :root { --bg:#f6f7f9; --panel:#fff; --ink:#17202a; --muted:#5d6b7c; --line:#d8dee8; --brand:#0f766e; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { width:min(900px, calc(100% - 32px)); margin:0 auto; }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    nav { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:#1d4ed8; font-weight:700; text-decoration:none; }
+    h1 { margin:32px 0 8px; font-size:clamp(30px, 5vw, 48px); letter-spacing:0; }
+    p { color:var(--muted); line-height:1.6; }
+    .panel { margin-top:20px; padding:18px; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+    label { display:block; margin-bottom:8px; font-weight:700; }
+    input, select { width:100%; min-height:42px; border:1px solid var(--line); border-radius:6px; padding:0 12px; font:inherit; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    button { min-height:42px; border:0; border-radius:6px; padding:0 16px; background:var(--brand); color:#fff; font-weight:800; cursor:pointer; }
+    pre { overflow:auto; padding:14px; border-radius:6px; background:#111827; color:#e5e7eb; font-size:13px; }
+    @media (max-width:720px) { .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <strong>ProxyHealthList</strong>
+      <a href="./">Back to downloads</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <h1>Proxy Test Command Builder</h1>
+    <p>Browsers cannot open raw TCP or SOCKS connections directly, so this page generates local curl commands you can run in a terminal.</p>
+
+    <section class="panel">
+      <div class="grid">
+        <div>
+          <label for="proxy">Proxy</label>
+          <input id="proxy" value="127.0.0.1:8080" autocomplete="off">
+        </div>
+        <div>
+          <label for="protocol">Protocol</label>
+          <select id="protocol">
+            <option value="http">HTTP</option>
+            <option value="socks4">SOCKS4</option>
+            <option value="socks5">SOCKS5</option>
+          </select>
+        </div>
+      </div>
+      <p><button id="generate" type="button">Generate command</button></p>
+      <pre id="output">curl -x "http://127.0.0.1:8080" -I "http://example.com/" --max-time 10</pre>
+    </section>
+
+    <section class="panel">
+      <h2>Download current list</h2>
+      <p><a href="https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/proxies/all/data.txt">All proxies TXT</a></p>
+      <p><a href="https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/proxies/all/data.json">All proxies JSON</a></p>
+    </section>
+  </main>
+  <script>
+    const proxy = document.getElementById("proxy");
+    const protocol = document.getElementById("protocol");
+    const output = document.getElementById("output");
+    document.getElementById("generate").addEventListener("click", () => {
+      const scheme = protocol.value === "http" ? "http" : protocol.value;
+      output.textContent = `curl -x "${scheme}://${proxy.value.trim()}" -I "http://example.com/" --max-time 10`;
+    });
+  </script>
+</body>
+</html>
