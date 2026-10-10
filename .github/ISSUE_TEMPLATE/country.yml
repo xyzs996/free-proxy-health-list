@@ -1,0 +1,31 @@
+# proxyhealthlist:generated — rebuilt by `proxyhealthlist build-site`.
+# Do not edit by hand; change proxyhealthlist/site/issueform.py instead.
+name: Ask for a country
+description: The list has no proxies where you need them, or too few.
+title: "[country] "
+labels: [country]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Answer in any language. One word is a complete answer.
+  - type: input
+    id: want
+    attributes:
+      label: Which country do you need?
+      placeholder: Serbia / Сербия / セルビア
+    validations:
+      required: true
+  - type: input
+    id: came_from
+    attributes:
+      label: Where you clicked from
+      description: Filled in for you. Leave it as it is.
+  - type: textarea
+    id: what_for
+    attributes:
+      label: What are you using it for? (optional)
+      description: >
+        Only if you feel like it. It decides which sources get checked next.
+    validations:
+      required: false

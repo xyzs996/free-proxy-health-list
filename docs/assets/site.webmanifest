@@ -1,0 +1,20 @@
+{
+  "name": "Free Proxy Health List",
+  "short_name": "Proxy List",
+  "start_url": "https://xyzs996.github.io/free-proxy-health-list/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "https://xyzs996.github.io/free-proxy-health-list/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://xyzs996.github.io/free-proxy-health-list/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
