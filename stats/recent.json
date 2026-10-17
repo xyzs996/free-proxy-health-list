@@ -1,0 +1,11 @@
+{
+  "freshnessMinutes": 1440,
+  "protocols": {
+    "http": 2032,
+    "https": 2949,
+    "socks4": 929,
+    "socks5": 498
+  },
+  "total": 6408,
+  "updatedAt": "2026-10-17T18:55:21Z"
+}
