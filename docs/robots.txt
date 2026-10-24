@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xyzs996.github.io/free-proxy-health-list/sitemap.xml
