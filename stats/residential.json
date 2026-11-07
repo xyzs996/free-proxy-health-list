@@ -1,0 +1,19 @@
+{
+  "bySource": {
+    "ip2proxy_lite": {
+      "lastCheckedAt": "2026-11-07T11:40:56Z",
+      "records": 2124
+    },
+    "unknown": {
+      "lastCheckedAt": "2026-11-07T12:01:01Z",
+      "records": 5274
+    }
+  },
+  "classifier": "disabled",
+  "lastClassifiedAt": "2026-11-07T12:01:01Z",
+  "likelyResidential": 2124,
+  "nonResidential": 0,
+  "residential": 0,
+  "unknown": 5282,
+  "updatedAt": "2026-11-07T12:20:10Z"
+}
