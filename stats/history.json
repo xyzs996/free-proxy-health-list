@@ -1,0 +1,4034 @@
+[
+  {
+    "countriesCount": 121,
+    "fast": 536,
+    "protocols": {
+      "http": 1959,
+      "https": 2929,
+      "socks4": 908,
+      "socks5": 456
+    },
+    "total": 6252,
+    "updatedAt": "2026-11-12T01:31:53Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 506,
+    "protocols": {
+      "http": 1498,
+      "https": 3004,
+      "socks4": 929,
+      "socks5": 456
+    },
+    "total": 5887,
+    "updatedAt": "2026-11-12T02:04:52Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 494,
+    "protocols": {
+      "http": 2554,
+      "https": 2709,
+      "socks4": 905,
+      "socks5": 462
+    },
+    "total": 6630,
+    "updatedAt": "2026-11-12T02:36:02Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 539,
+    "protocols": {
+      "http": 1979,
+      "https": 2837,
+      "socks4": 928,
+      "socks5": 431
+    },
+    "total": 6175,
+    "updatedAt": "2026-11-12T03:07:44Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 784,
+    "protocols": {
+      "http": 3316,
+      "https": 3062,
+      "socks4": 961,
+      "socks5": 460
+    },
+    "total": 7799,
+    "updatedAt": "2026-11-12T03:38:12Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 710,
+    "protocols": {
+      "http": 3080,
+      "https": 2527,
+      "socks4": 802,
+      "socks5": 396
+    },
+    "total": 6805,
+    "updatedAt": "2026-11-12T04:08:41Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 742,
+    "protocols": {
+      "http": 3459,
+      "https": 2459,
+      "socks4": 861,
+      "socks5": 388
+    },
+    "total": 7167,
+    "updatedAt": "2026-11-12T04:41:34Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 532,
+    "protocols": {
+      "http": 2583,
+      "https": 2573,
+      "socks4": 854,
+      "socks5": 397
+    },
+    "total": 6407,
+    "updatedAt": "2026-11-12T05:14:13Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 562,
+    "protocols": {
+      "http": 2598,
+      "https": 2482,
+      "socks4": 821,
+      "socks5": 435
+    },
+    "total": 6336,
+    "updatedAt": "2026-11-12T05:46:57Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 562,
+    "protocols": {
+      "http": 2600,
+      "https": 2484,
+      "socks4": 822,
+      "socks5": 435
+    },
+    "total": 6341,
+    "updatedAt": "2026-11-12T06:19:02Z"
+  },
+  {
+    "countriesCount": 117,
+    "fast": 563,
+    "protocols": {
+      "http": 2902,
+      "https": 2482,
+      "socks4": 759,
+      "socks5": 507
+    },
+    "total": 6650,
+    "updatedAt": "2026-11-12T06:50:11Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 606,
+    "protocols": {
+      "http": 3365,
+      "https": 2800,
+      "socks4": 782,
+      "socks5": 525
+    },
+    "total": 7472,
+    "updatedAt": "2026-11-12T07:20:35Z"
+  },
+  {
+    "countriesCount": 117,
+    "fast": 513,
+    "protocols": {
+      "http": 2187,
+      "https": 3204,
+      "socks4": 890,
+      "socks5": 534
+    },
+    "total": 6815,
+    "updatedAt": "2026-11-12T08:23:16Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 628,
+    "protocols": {
+      "http": 2313,
+      "https": 3164,
+      "socks4": 906,
+      "socks5": 561
+    },
+    "total": 6944,
+    "updatedAt": "2026-11-12T08:53:59Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 790,
+    "protocols": {
+      "http": 2223,
+      "https": 2707,
+      "socks4": 929,
+      "socks5": 585
+    },
+    "total": 6444,
+    "updatedAt": "2026-11-12T09:24:37Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 613,
+    "protocols": {
+      "http": 1829,
+      "https": 2109,
+      "socks4": 827,
+      "socks5": 452
+    },
+    "total": 5217,
+    "updatedAt": "2026-11-12T11:00:01Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 628,
+    "protocols": {
+      "http": 2916,
+      "https": 2471,
+      "socks4": 670,
+      "socks5": 398
+    },
+    "total": 6455,
+    "updatedAt": "2026-11-12T11:32:25Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 848,
+    "protocols": {
+      "http": 3808,
+      "https": 2721,
+      "socks4": 829,
+      "socks5": 508
+    },
+    "total": 7866,
+    "updatedAt": "2026-11-12T12:04:35Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 850,
+    "protocols": {
+      "http": 3810,
+      "https": 2726,
+      "socks4": 829,
+      "socks5": 508
+    },
+    "total": 7873,
+    "updatedAt": "2026-11-12T12:35:53Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 792,
+    "protocols": {
+      "http": 3534,
+      "https": 2399,
+      "socks4": 763,
+      "socks5": 485
+    },
+    "total": 7181,
+    "updatedAt": "2026-11-12T13:06:57Z"
+  },
+  {
+    "countriesCount": 113,
+    "fast": 518,
+    "protocols": {
+      "http": 1899,
+      "https": 1370,
+      "socks4": 589,
+      "socks5": 393
+    },
+    "total": 4251,
+    "updatedAt": "2026-11-12T14:11:01Z"
+  },
+  {
+    "countriesCount": 115,
+    "fast": 639,
+    "protocols": {
+      "http": 3006,
+      "https": 2312,
+      "socks4": 763,
+      "socks5": 484
+    },
+    "total": 6565,
+    "updatedAt": "2026-11-12T14:41:46Z"
+  },
+  {
+    "countriesCount": 107,
+    "fast": 499,
+    "protocols": {
+      "http": 1974,
+      "https": 1655,
+      "socks4": 552,
+      "socks5": 366
+    },
+    "total": 4547,
+    "updatedAt": "2026-11-12T15:14:06Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 498,
+    "protocols": {
+      "http": 3431,
+      "https": 2638,
+      "socks4": 764,
+      "socks5": 471
+    },
+    "total": 7304,
+    "updatedAt": "2026-11-12T15:45:05Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 498,
+    "protocols": {
+      "http": 3435,
+      "https": 2638,
+      "socks4": 765,
+      "socks5": 472
+    },
+    "total": 7310,
+    "updatedAt": "2026-11-12T16:16:17Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 514,
+    "protocols": {
+      "http": 2794,
+      "https": 3071,
+      "socks4": 889,
+      "socks5": 508
+    },
+    "total": 7262,
+    "updatedAt": "2026-11-12T16:47:09Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 877,
+    "protocols": {
+      "http": 3149,
+      "https": 3342,
+      "socks4": 1189,
+      "socks5": 620
+    },
+    "total": 8300,
+    "updatedAt": "2026-11-12T17:17:45Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 884,
+    "protocols": {
+      "http": 3110,
+      "https": 2821,
+      "socks4": 1161,
+      "socks5": 550
+    },
+    "total": 7642,
+    "updatedAt": "2026-11-12T17:48:13Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 861,
+    "protocols": {
+      "http": 3220,
+      "https": 2769,
+      "socks4": 1130,
+      "socks5": 562
+    },
+    "total": 7681,
+    "updatedAt": "2026-11-12T18:19:14Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 861,
+    "protocols": {
+      "http": 2334,
+      "https": 2670,
+      "socks4": 1026,
+      "socks5": 761
+    },
+    "total": 6791,
+    "updatedAt": "2026-11-12T18:50:31Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 850,
+    "protocols": {
+      "http": 3363,
+      "https": 2445,
+      "socks4": 870,
+      "socks5": 726
+    },
+    "total": 7404,
+    "updatedAt": "2026-11-12T19:21:25Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 834,
+    "protocols": {
+      "http": 3648,
+      "https": 2892,
+      "socks4": 848,
+      "socks5": 571
+    },
+    "total": 7959,
+    "updatedAt": "2026-11-12T20:25:47Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 721,
+    "protocols": {
+      "http": 2769,
+      "https": 3139,
+      "socks4": 920,
+      "socks5": 538
+    },
+    "total": 7366,
+    "updatedAt": "2026-11-12T20:56:39Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 841,
+    "protocols": {
+      "http": 3241,
+      "https": 3341,
+      "socks4": 971,
+      "socks5": 561
+    },
+    "total": 8114,
+    "updatedAt": "2026-11-12T21:26:52Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 767,
+    "protocols": {
+      "http": 3269,
+      "https": 3344,
+      "socks4": 956,
+      "socks5": 554
+    },
+    "total": 8123,
+    "updatedAt": "2026-11-12T21:57:13Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 907,
+    "protocols": {
+      "http": 4010,
+      "https": 3343,
+      "socks4": 953,
+      "socks5": 500
+    },
+    "total": 8806,
+    "updatedAt": "2026-11-12T22:29:56Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 683,
+    "protocols": {
+      "http": 3007,
+      "https": 3164,
+      "socks4": 887,
+      "socks5": 585
+    },
+    "total": 7643,
+    "updatedAt": "2026-11-12T23:01:34Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 646,
+    "protocols": {
+      "http": 3020,
+      "https": 3110,
+      "socks4": 910,
+      "socks5": 668
+    },
+    "total": 7708,
+    "updatedAt": "2026-11-12T23:33:01Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 512,
+    "protocols": {
+      "http": 2366,
+      "https": 2153,
+      "socks4": 771,
+      "socks5": 525
+    },
+    "total": 5815,
+    "updatedAt": "2026-11-13T00:36:09Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 597,
+    "protocols": {
+      "http": 2170,
+      "https": 2069,
+      "socks4": 812,
+      "socks5": 518
+    },
+    "total": 5569,
+    "updatedAt": "2026-11-13T01:09:23Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 779,
+    "protocols": {
+      "http": 3348,
+      "https": 2421,
+      "socks4": 871,
+      "socks5": 532
+    },
+    "total": 7172,
+    "updatedAt": "2026-11-13T01:41:01Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 779,
+    "protocols": {
+      "http": 3348,
+      "https": 2421,
+      "socks4": 871,
+      "socks5": 532
+    },
+    "total": 7172,
+    "updatedAt": "2026-11-13T02:12:52Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 652,
+    "protocols": {
+      "http": 3230,
+      "https": 2361,
+      "socks4": 827,
+      "socks5": 547
+    },
+    "total": 6965,
+    "updatedAt": "2026-11-13T02:43:59Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 652,
+    "protocols": {
+      "http": 3067,
+      "https": 2920,
+      "socks4": 860,
+      "socks5": 558
+    },
+    "total": 7405,
+    "updatedAt": "2026-11-13T03:16:26Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 724,
+    "protocols": {
+      "http": 2738,
+      "https": 3045,
+      "socks4": 925,
+      "socks5": 576
+    },
+    "total": 7284,
+    "updatedAt": "2026-11-13T03:48:05Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 725,
+    "protocols": {
+      "http": 2739,
+      "https": 3047,
+      "socks4": 926,
+      "socks5": 576
+    },
+    "total": 7288,
+    "updatedAt": "2026-11-13T04:18:44Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 635,
+    "protocols": {
+      "http": 2677,
+      "https": 3031,
+      "socks4": 912,
+      "socks5": 574
+    },
+    "total": 7194,
+    "updatedAt": "2026-11-13T04:50:01Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 822,
+    "protocols": {
+      "http": 3439,
+      "https": 3357,
+      "socks4": 944,
+      "socks5": 625
+    },
+    "total": 8365,
+    "updatedAt": "2026-11-13T05:22:02Z"
+  },
+  {
+    "countriesCount": 129,
+    "fast": 689,
+    "protocols": {
+      "http": 2981,
+      "https": 3295,
+      "socks4": 934,
+      "socks5": 596
+    },
+    "total": 7806,
+    "updatedAt": "2026-11-13T05:54:05Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 691,
+    "protocols": {
+      "http": 2772,
+      "https": 2703,
+      "socks4": 802,
+      "socks5": 586
+    },
+    "total": 6863,
+    "updatedAt": "2026-11-13T06:54:47Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 546,
+    "protocols": {
+      "http": 2783,
+      "https": 2236,
+      "socks4": 883,
+      "socks5": 527
+    },
+    "total": 6429,
+    "updatedAt": "2026-11-13T07:25:30Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 607,
+    "protocols": {
+      "http": 3386,
+      "https": 2004,
+      "socks4": 858,
+      "socks5": 516
+    },
+    "total": 6764,
+    "updatedAt": "2026-11-13T07:55:57Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 607,
+    "protocols": {
+      "http": 3389,
+      "https": 2005,
+      "socks4": 858,
+      "socks5": 519
+    },
+    "total": 6771,
+    "updatedAt": "2026-11-13T08:28:05Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 509,
+    "protocols": {
+      "http": 2844,
+      "https": 2002,
+      "socks4": 822,
+      "socks5": 449
+    },
+    "total": 6117,
+    "updatedAt": "2026-11-13T08:58:03Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 576,
+    "protocols": {
+      "http": 2170,
+      "https": 1862,
+      "socks4": 820,
+      "socks5": 457
+    },
+    "total": 5309,
+    "updatedAt": "2026-11-13T09:30:28Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 648,
+    "protocols": {
+      "http": 2331,
+      "https": 2308,
+      "socks4": 896,
+      "socks5": 525
+    },
+    "total": 6060,
+    "updatedAt": "2026-11-13T10:02:37Z"
+  },
+  {
+    "countriesCount": 129,
+    "fast": 671,
+    "protocols": {
+      "http": 2819,
+      "https": 2757,
+      "socks4": 962,
+      "socks5": 546
+    },
+    "total": 7084,
+    "updatedAt": "2026-11-13T10:34:59Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 532,
+    "protocols": {
+      "http": 2120,
+      "https": 2508,
+      "socks4": 922,
+      "socks5": 503
+    },
+    "total": 6053,
+    "updatedAt": "2026-11-13T11:05:10Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 694,
+    "protocols": {
+      "http": 2325,
+      "https": 2595,
+      "socks4": 949,
+      "socks5": 485
+    },
+    "total": 6354,
+    "updatedAt": "2026-11-13T11:37:27Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 753,
+    "protocols": {
+      "http": 2655,
+      "https": 2821,
+      "socks4": 938,
+      "socks5": 464
+    },
+    "total": 6878,
+    "updatedAt": "2026-11-13T12:38:30Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 697,
+    "protocols": {
+      "http": 2446,
+      "https": 2854,
+      "socks4": 937,
+      "socks5": 513
+    },
+    "total": 6750,
+    "updatedAt": "2026-11-13T13:10:18Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 761,
+    "protocols": {
+      "http": 2786,
+      "https": 2518,
+      "socks4": 893,
+      "socks5": 502
+    },
+    "total": 6699,
+    "updatedAt": "2026-11-13T13:40:36Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 738,
+    "protocols": {
+      "http": 2786,
+      "https": 2134,
+      "socks4": 822,
+      "socks5": 507
+    },
+    "total": 6249,
+    "updatedAt": "2026-11-13T14:11:44Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 638,
+    "protocols": {
+      "http": 2482,
+      "https": 2012,
+      "socks4": 833,
+      "socks5": 427
+    },
+    "total": 5754,
+    "updatedAt": "2026-11-13T14:43:39Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 857,
+    "protocols": {
+      "http": 3249,
+      "https": 2407,
+      "socks4": 918,
+      "socks5": 483
+    },
+    "total": 7057,
+    "updatedAt": "2026-11-13T15:16:03Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 758,
+    "protocols": {
+      "http": 2827,
+      "https": 2327,
+      "socks4": 914,
+      "socks5": 485
+    },
+    "total": 6553,
+    "updatedAt": "2026-11-13T15:48:19Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 796,
+    "protocols": {
+      "http": 3168,
+      "https": 2597,
+      "socks4": 929,
+      "socks5": 462
+    },
+    "total": 7156,
+    "updatedAt": "2026-11-13T16:18:33Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 772,
+    "protocols": {
+      "http": 2907,
+      "https": 2065,
+      "socks4": 880,
+      "socks5": 515
+    },
+    "total": 6367,
+    "updatedAt": "2026-11-13T16:50:42Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 674,
+    "protocols": {
+      "http": 3058,
+      "https": 2429,
+      "socks4": 920,
+      "socks5": 551
+    },
+    "total": 6958,
+    "updatedAt": "2026-11-13T17:20:58Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 672,
+    "protocols": {
+      "http": 3250,
+      "https": 2733,
+      "socks4": 869,
+      "socks5": 543
+    },
+    "total": 7395,
+    "updatedAt": "2026-11-13T17:52:14Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 639,
+    "protocols": {
+      "http": 3251,
+      "https": 2427,
+      "socks4": 742,
+      "socks5": 451
+    },
+    "total": 6871,
+    "updatedAt": "2026-11-13T18:25:04Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 737,
+    "protocols": {
+      "http": 3818,
+      "https": 3200,
+      "socks4": 897,
+      "socks5": 449
+    },
+    "total": 8364,
+    "updatedAt": "2026-11-13T18:56:37Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 782,
+    "protocols": {
+      "http": 3575,
+      "https": 3603,
+      "socks4": 952,
+      "socks5": 451
+    },
+    "total": 8581,
+    "updatedAt": "2026-11-13T19:28:13Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 773,
+    "protocols": {
+      "http": 3599,
+      "https": 3442,
+      "socks4": 935,
+      "socks5": 440
+    },
+    "total": 8416,
+    "updatedAt": "2026-11-13T20:00:00Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 736,
+    "protocols": {
+      "http": 3578,
+      "https": 2778,
+      "socks4": 800,
+      "socks5": 406
+    },
+    "total": 7562,
+    "updatedAt": "2026-11-13T20:31:12Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 917,
+    "protocols": {
+      "http": 4102,
+      "https": 2941,
+      "socks4": 870,
+      "socks5": 413
+    },
+    "total": 8326,
+    "updatedAt": "2026-11-13T21:02:09Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 820,
+    "protocols": {
+      "http": 3315,
+      "https": 2661,
+      "socks4": 859,
+      "socks5": 433
+    },
+    "total": 7268,
+    "updatedAt": "2026-11-13T21:33:32Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 853,
+    "protocols": {
+      "http": 3765,
+      "https": 2601,
+      "socks4": 852,
+      "socks5": 430
+    },
+    "total": 7648,
+    "updatedAt": "2026-11-13T22:03:33Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 853,
+    "protocols": {
+      "http": 3767,
+      "https": 2602,
+      "socks4": 852,
+      "socks5": 430
+    },
+    "total": 7651,
+    "updatedAt": "2026-11-13T22:36:19Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 699,
+    "protocols": {
+      "http": 2925,
+      "https": 1918,
+      "socks4": 818,
+      "socks5": 485
+    },
+    "total": 6146,
+    "updatedAt": "2026-11-13T23:06:45Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 727,
+    "protocols": {
+      "http": 2616,
+      "https": 1817,
+      "socks4": 855,
+      "socks5": 490
+    },
+    "total": 5778,
+    "updatedAt": "2026-11-13T23:37:56Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 692,
+    "protocols": {
+      "http": 2268,
+      "https": 2110,
+      "socks4": 903,
+      "socks5": 423
+    },
+    "total": 5704,
+    "updatedAt": "2026-11-14T00:40:01Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 731,
+    "protocols": {
+      "http": 2945,
+      "https": 2309,
+      "socks4": 771,
+      "socks5": 433
+    },
+    "total": 6458,
+    "updatedAt": "2026-11-14T01:11:23Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 608,
+    "protocols": {
+      "http": 2375,
+      "https": 2010,
+      "socks4": 770,
+      "socks5": 476
+    },
+    "total": 5631,
+    "updatedAt": "2026-11-14T01:44:33Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 633,
+    "protocols": {
+      "http": 2042,
+      "https": 2319,
+      "socks4": 894,
+      "socks5": 521
+    },
+    "total": 5776,
+    "updatedAt": "2026-11-14T02:14:47Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 577,
+    "protocols": {
+      "http": 1954,
+      "https": 2356,
+      "socks4": 947,
+      "socks5": 513
+    },
+    "total": 5770,
+    "updatedAt": "2026-11-14T02:47:19Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 526,
+    "protocols": {
+      "http": 1683,
+      "https": 2138,
+      "socks4": 964,
+      "socks5": 536
+    },
+    "total": 5321,
+    "updatedAt": "2026-11-14T03:17:27Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 784,
+    "protocols": {
+      "http": 2103,
+      "https": 2293,
+      "socks4": 978,
+      "socks5": 520
+    },
+    "total": 5894,
+    "updatedAt": "2026-11-14T03:48:45Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 745,
+    "protocols": {
+      "http": 2104,
+      "https": 1959,
+      "socks4": 930,
+      "socks5": 478
+    },
+    "total": 5471,
+    "updatedAt": "2026-11-14T04:19:09Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 612,
+    "protocols": {
+      "http": 2447,
+      "https": 2543,
+      "socks4": 962,
+      "socks5": 489
+    },
+    "total": 6441,
+    "updatedAt": "2026-11-14T04:51:04Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 627,
+    "protocols": {
+      "http": 2652,
+      "https": 2633,
+      "socks4": 997,
+      "socks5": 515
+    },
+    "total": 6797,
+    "updatedAt": "2026-11-14T05:21:28Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 653,
+    "protocols": {
+      "http": 2918,
+      "https": 2650,
+      "socks4": 998,
+      "socks5": 536
+    },
+    "total": 7102,
+    "updatedAt": "2026-11-14T05:54:01Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 630,
+    "protocols": {
+      "http": 2918,
+      "https": 2288,
+      "socks4": 931,
+      "socks5": 531
+    },
+    "total": 6668,
+    "updatedAt": "2026-11-14T06:25:10Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 693,
+    "protocols": {
+      "http": 2555,
+      "https": 2084,
+      "socks4": 940,
+      "socks5": 575
+    },
+    "total": 6154,
+    "updatedAt": "2026-11-14T06:55:59Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 613,
+    "protocols": {
+      "http": 2064,
+      "https": 1911,
+      "socks4": 929,
+      "socks5": 550
+    },
+    "total": 5454,
+    "updatedAt": "2026-11-14T07:27:23Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 572,
+    "protocols": {
+      "http": 2082,
+      "https": 1398,
+      "socks4": 838,
+      "socks5": 539
+    },
+    "total": 4857,
+    "updatedAt": "2026-11-14T07:58:01Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 572,
+    "protocols": {
+      "http": 1597,
+      "https": 1132,
+      "socks4": 784,
+      "socks5": 424
+    },
+    "total": 3937,
+    "updatedAt": "2026-11-14T09:00:43Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 661,
+    "protocols": {
+      "http": 1613,
+      "https": 1126,
+      "socks4": 774,
+      "socks5": 402
+    },
+    "total": 3915,
+    "updatedAt": "2026-11-14T09:33:22Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 594,
+    "protocols": {
+      "http": 1348,
+      "https": 1100,
+      "socks4": 780,
+      "socks5": 448
+    },
+    "total": 3676,
+    "updatedAt": "2026-11-14T10:36:13Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 661,
+    "protocols": {
+      "http": 1747,
+      "https": 1542,
+      "socks4": 935,
+      "socks5": 493
+    },
+    "total": 4717,
+    "updatedAt": "2026-11-14T11:06:46Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 601,
+    "protocols": {
+      "http": 2096,
+      "https": 1295,
+      "socks4": 920,
+      "socks5": 482
+    },
+    "total": 4793,
+    "updatedAt": "2026-11-14T11:38:20Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 587,
+    "protocols": {
+      "http": 1550,
+      "https": 1411,
+      "socks4": 931,
+      "socks5": 478
+    },
+    "total": 4370,
+    "updatedAt": "2026-11-14T12:38:54Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 838,
+    "protocols": {
+      "http": 2728,
+      "https": 1517,
+      "socks4": 945,
+      "socks5": 533
+    },
+    "total": 5723,
+    "updatedAt": "2026-11-14T13:11:49Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 753,
+    "protocols": {
+      "http": 2420,
+      "https": 1336,
+      "socks4": 874,
+      "socks5": 469
+    },
+    "total": 5099,
+    "updatedAt": "2026-11-14T13:43:22Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 722,
+    "protocols": {
+      "http": 2420,
+      "https": 1229,
+      "socks4": 859,
+      "socks5": 445
+    },
+    "total": 4953,
+    "updatedAt": "2026-11-14T14:14:14Z"
+  },
+  {
+    "countriesCount": 112,
+    "fast": 572,
+    "protocols": {
+      "http": 2037,
+      "https": 1133,
+      "socks4": 621,
+      "socks5": 446
+    },
+    "total": 4237,
+    "updatedAt": "2026-11-14T14:44:37Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 643,
+    "protocols": {
+      "http": 2430,
+      "https": 1308,
+      "socks4": 755,
+      "socks5": 429
+    },
+    "total": 4922,
+    "updatedAt": "2026-11-14T15:17:37Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 715,
+    "protocols": {
+      "http": 3177,
+      "https": 1549,
+      "socks4": 820,
+      "socks5": 456
+    },
+    "total": 6002,
+    "updatedAt": "2026-11-14T15:50:09Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 715,
+    "protocols": {
+      "http": 3178,
+      "https": 1579,
+      "socks4": 820,
+      "socks5": 456
+    },
+    "total": 6033,
+    "updatedAt": "2026-11-14T16:22:29Z"
+  },
+  {
+    "countriesCount": 105,
+    "fast": 467,
+    "protocols": {
+      "http": 2178,
+      "https": 1170,
+      "socks4": 444,
+      "socks5": 279
+    },
+    "total": 4071,
+    "updatedAt": "2026-11-14T16:52:34Z"
+  },
+  {
+    "countriesCount": 112,
+    "fast": 715,
+    "protocols": {
+      "http": 2710,
+      "https": 1597,
+      "socks4": 690,
+      "socks5": 432
+    },
+    "total": 5429,
+    "updatedAt": "2026-11-14T17:24:02Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 810,
+    "protocols": {
+      "http": 2362,
+      "https": 1989,
+      "socks4": 1059,
+      "socks5": 496
+    },
+    "total": 5906,
+    "updatedAt": "2026-11-14T17:55:03Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 958,
+    "protocols": {
+      "http": 2276,
+      "https": 2018,
+      "socks4": 949,
+      "socks5": 568
+    },
+    "total": 5811,
+    "updatedAt": "2026-11-14T18:56:19Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 823,
+    "protocols": {
+      "http": 1565,
+      "https": 2109,
+      "socks4": 1005,
+      "socks5": 561
+    },
+    "total": 5240,
+    "updatedAt": "2026-11-14T19:27:51Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 717,
+    "protocols": {
+      "http": 2043,
+      "https": 2133,
+      "socks4": 856,
+      "socks5": 563
+    },
+    "total": 5595,
+    "updatedAt": "2026-11-14T19:59:58Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 717,
+    "protocols": {
+      "http": 2043,
+      "https": 2133,
+      "socks4": 856,
+      "socks5": 563
+    },
+    "total": 5595,
+    "updatedAt": "2026-11-14T20:31:24Z"
+  },
+  {
+    "countriesCount": 108,
+    "fast": 572,
+    "protocols": {
+      "http": 1899,
+      "https": 1350,
+      "socks4": 634,
+      "socks5": 374
+    },
+    "total": 4257,
+    "updatedAt": "2026-11-14T21:02:22Z"
+  },
+  {
+    "countriesCount": 99,
+    "fast": 472,
+    "protocols": {
+      "http": 1513,
+      "https": 766,
+      "socks4": 368,
+      "socks5": 235
+    },
+    "total": 2882,
+    "updatedAt": "2026-11-14T21:32:42Z"
+  },
+  {
+    "countriesCount": 108,
+    "fast": 507,
+    "protocols": {
+      "http": 1733,
+      "https": 1596,
+      "socks4": 493,
+      "socks5": 326
+    },
+    "total": 4148,
+    "updatedAt": "2026-11-14T22:05:02Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 724,
+    "protocols": {
+      "http": 3361,
+      "https": 2632,
+      "socks4": 758,
+      "socks5": 474
+    },
+    "total": 7225,
+    "updatedAt": "2026-11-14T22:35:42Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 773,
+    "protocols": {
+      "http": 3361,
+      "https": 2632,
+      "socks4": 759,
+      "socks5": 541
+    },
+    "total": 7293,
+    "updatedAt": "2026-11-14T23:07:15Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 681,
+    "protocols": {
+      "http": 3360,
+      "https": 2894,
+      "socks4": 810,
+      "socks5": 515
+    },
+    "total": 7579,
+    "updatedAt": "2026-11-14T23:40:10Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 609,
+    "protocols": {
+      "http": 2773,
+      "https": 3074,
+      "socks4": 877,
+      "socks5": 521
+    },
+    "total": 7245,
+    "updatedAt": "2026-11-15T00:12:37Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 667,
+    "protocols": {
+      "http": 3432,
+      "https": 2732,
+      "socks4": 796,
+      "socks5": 427
+    },
+    "total": 7387,
+    "updatedAt": "2026-11-15T01:15:35Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 748,
+    "protocols": {
+      "http": 3158,
+      "https": 2647,
+      "socks4": 855,
+      "socks5": 456
+    },
+    "total": 7116,
+    "updatedAt": "2026-11-15T01:48:10Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 733,
+    "protocols": {
+      "http": 2370,
+      "https": 1863,
+      "socks4": 741,
+      "socks5": 404
+    },
+    "total": 5378,
+    "updatedAt": "2026-11-15T02:18:38Z"
+  },
+  {
+    "countriesCount": 115,
+    "fast": 604,
+    "protocols": {
+      "http": 2195,
+      "https": 1528,
+      "socks4": 662,
+      "socks5": 353
+    },
+    "total": 4738,
+    "updatedAt": "2026-11-15T02:49:33Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 744,
+    "protocols": {
+      "http": 3290,
+      "https": 2665,
+      "socks4": 863,
+      "socks5": 438
+    },
+    "total": 7256,
+    "updatedAt": "2026-11-15T03:21:37Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 721,
+    "protocols": {
+      "http": 3070,
+      "https": 2431,
+      "socks4": 672,
+      "socks5": 396
+    },
+    "total": 6569,
+    "updatedAt": "2026-11-15T03:53:24Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 699,
+    "protocols": {
+      "http": 3048,
+      "https": 2691,
+      "socks4": 786,
+      "socks5": 444
+    },
+    "total": 6969,
+    "updatedAt": "2026-11-15T04:24:09Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 711,
+    "protocols": {
+      "http": 3188,
+      "https": 3199,
+      "socks4": 907,
+      "socks5": 548
+    },
+    "total": 7842,
+    "updatedAt": "2026-11-15T04:56:59Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 494,
+    "protocols": {
+      "http": 2211,
+      "https": 2686,
+      "socks4": 904,
+      "socks5": 504
+    },
+    "total": 6305,
+    "updatedAt": "2026-11-15T05:26:51Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 415,
+    "protocols": {
+      "http": 2014,
+      "https": 2601,
+      "socks4": 913,
+      "socks5": 526
+    },
+    "total": 6054,
+    "updatedAt": "2026-11-15T05:59:18Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 528,
+    "protocols": {
+      "http": 2483,
+      "https": 2164,
+      "socks4": 810,
+      "socks5": 458
+    },
+    "total": 5915,
+    "updatedAt": "2026-11-15T07:02:10Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 632,
+    "protocols": {
+      "http": 2707,
+      "https": 2021,
+      "socks4": 793,
+      "socks5": 487
+    },
+    "total": 6008,
+    "updatedAt": "2026-11-15T07:35:09Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 604,
+    "protocols": {
+      "http": 2759,
+      "https": 2662,
+      "socks4": 938,
+      "socks5": 511
+    },
+    "total": 6870,
+    "updatedAt": "2026-11-15T09:07:41Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 608,
+    "protocols": {
+      "http": 2474,
+      "https": 2538,
+      "socks4": 947,
+      "socks5": 480
+    },
+    "total": 6439,
+    "updatedAt": "2026-11-15T09:38:14Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 618,
+    "protocols": {
+      "http": 2360,
+      "https": 2653,
+      "socks4": 968,
+      "socks5": 504
+    },
+    "total": 6485,
+    "updatedAt": "2026-11-15T10:42:28Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 840,
+    "protocols": {
+      "http": 3082,
+      "https": 2563,
+      "socks4": 909,
+      "socks5": 493
+    },
+    "total": 7047,
+    "updatedAt": "2026-11-15T11:14:47Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 846,
+    "protocols": {
+      "http": 3057,
+      "https": 2473,
+      "socks4": 924,
+      "socks5": 482
+    },
+    "total": 6936,
+    "updatedAt": "2026-11-15T11:46:31Z"
+  },
+  {
+    "countriesCount": 117,
+    "fast": 646,
+    "protocols": {
+      "http": 2284,
+      "https": 2296,
+      "socks4": 914,
+      "socks5": 508
+    },
+    "total": 6002,
+    "updatedAt": "2026-11-15T12:18:14Z"
+  },
+  {
+    "countriesCount": 117,
+    "fast": 646,
+    "protocols": {
+      "http": 2284,
+      "https": 2297,
+      "socks4": 914,
+      "socks5": 509
+    },
+    "total": 6004,
+    "updatedAt": "2026-11-15T12:50:47Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 602,
+    "protocols": {
+      "http": 1745,
+      "https": 2130,
+      "socks4": 907,
+      "socks5": 514
+    },
+    "total": 5296,
+    "updatedAt": "2026-11-15T13:22:43Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 526,
+    "protocols": {
+      "http": 1994,
+      "https": 2105,
+      "socks4": 919,
+      "socks5": 550
+    },
+    "total": 5568,
+    "updatedAt": "2026-11-15T13:54:41Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 451,
+    "protocols": {
+      "http": 1976,
+      "https": 1604,
+      "socks4": 783,
+      "socks5": 483
+    },
+    "total": 4846,
+    "updatedAt": "2026-11-15T14:58:00Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 572,
+    "protocols": {
+      "http": 2612,
+      "https": 1995,
+      "socks4": 856,
+      "socks5": 501
+    },
+    "total": 5964,
+    "updatedAt": "2026-11-15T15:28:19Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 645,
+    "protocols": {
+      "http": 2755,
+      "https": 1995,
+      "socks4": 847,
+      "socks5": 469
+    },
+    "total": 6066,
+    "updatedAt": "2026-11-15T16:01:08Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 646,
+    "protocols": {
+      "http": 2757,
+      "https": 1995,
+      "socks4": 847,
+      "socks5": 471
+    },
+    "total": 6070,
+    "updatedAt": "2026-11-15T17:03:42Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 609,
+    "protocols": {
+      "http": 2716,
+      "https": 1983,
+      "socks4": 793,
+      "socks5": 437
+    },
+    "total": 5929,
+    "updatedAt": "2026-11-15T17:34:59Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 533,
+    "protocols": {
+      "http": 2666,
+      "https": 1922,
+      "socks4": 817,
+      "socks5": 419
+    },
+    "total": 5824,
+    "updatedAt": "2026-11-15T18:07:16Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 544,
+    "protocols": {
+      "http": 2823,
+      "https": 1961,
+      "socks4": 817,
+      "socks5": 416
+    },
+    "total": 6017,
+    "updatedAt": "2026-11-15T18:38:32Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 592,
+    "protocols": {
+      "http": 2812,
+      "https": 1793,
+      "socks4": 773,
+      "socks5": 480
+    },
+    "total": 5858,
+    "updatedAt": "2026-11-15T19:09:55Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 542,
+    "protocols": {
+      "http": 2113,
+      "https": 2219,
+      "socks4": 893,
+      "socks5": 500
+    },
+    "total": 5725,
+    "updatedAt": "2026-11-15T19:41:08Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 502,
+    "protocols": {
+      "http": 1905,
+      "https": 2144,
+      "socks4": 853,
+      "socks5": 513
+    },
+    "total": 5415,
+    "updatedAt": "2026-11-15T20:12:55Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 734,
+    "protocols": {
+      "http": 2905,
+      "https": 2614,
+      "socks4": 1001,
+      "socks5": 569
+    },
+    "total": 7089,
+    "updatedAt": "2026-11-15T21:15:23Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 545,
+    "protocols": {
+      "http": 2077,
+      "https": 2455,
+      "socks4": 995,
+      "socks5": 518
+    },
+    "total": 6045,
+    "updatedAt": "2026-11-15T21:47:44Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 490,
+    "protocols": {
+      "http": 2139,
+      "https": 2314,
+      "socks4": 924,
+      "socks5": 532
+    },
+    "total": 5909,
+    "updatedAt": "2026-11-15T22:52:57Z"
+  },
+  {
+    "countriesCount": 117,
+    "fast": 298,
+    "protocols": {
+      "http": 1728,
+      "https": 1611,
+      "socks4": 607,
+      "socks5": 353
+    },
+    "total": 4299,
+    "updatedAt": "2026-11-15T23:24:32Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 452,
+    "protocols": {
+      "http": 1838,
+      "https": 1927,
+      "socks4": 888,
+      "socks5": 487
+    },
+    "total": 5140,
+    "updatedAt": "2026-11-15T23:56:40Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 556,
+    "protocols": {
+      "http": 2432,
+      "https": 1816,
+      "socks4": 873,
+      "socks5": 505
+    },
+    "total": 5626,
+    "updatedAt": "2026-11-16T00:26:46Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 556,
+    "protocols": {
+      "http": 2432,
+      "https": 1816,
+      "socks4": 873,
+      "socks5": 505
+    },
+    "total": 5626,
+    "updatedAt": "2026-11-16T00:58:05Z"
+  },
+  {
+    "countriesCount": 110,
+    "fast": 400,
+    "protocols": {
+      "http": 2336,
+      "https": 1257,
+      "socks4": 561,
+      "socks5": 311
+    },
+    "total": 4465,
+    "updatedAt": "2026-11-16T03:35:25Z"
+  },
+  {
+    "countriesCount": 111,
+    "fast": 431,
+    "protocols": {
+      "http": 2336,
+      "https": 1605,
+      "socks4": 605,
+      "socks5": 333
+    },
+    "total": 4879,
+    "updatedAt": "2026-11-16T04:07:50Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 443,
+    "protocols": {
+      "http": 1865,
+      "https": 2352,
+      "socks4": 916,
+      "socks5": 474
+    },
+    "total": 5607,
+    "updatedAt": "2026-11-16T05:12:05Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 435,
+    "protocols": {
+      "http": 1618,
+      "https": 2178,
+      "socks4": 908,
+      "socks5": 503
+    },
+    "total": 5207,
+    "updatedAt": "2026-11-16T05:42:30Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 567,
+    "protocols": {
+      "http": 1907,
+      "https": 2434,
+      "socks4": 936,
+      "socks5": 500
+    },
+    "total": 5777,
+    "updatedAt": "2026-11-16T06:12:47Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 463,
+    "protocols": {
+      "http": 1813,
+      "https": 1462,
+      "socks4": 779,
+      "socks5": 433
+    },
+    "total": 4487,
+    "updatedAt": "2026-11-16T07:14:08Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 546,
+    "protocols": {
+      "http": 2567,
+      "https": 1848,
+      "socks4": 854,
+      "socks5": 494
+    },
+    "total": 5763,
+    "updatedAt": "2026-11-16T07:45:47Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 476,
+    "protocols": {
+      "http": 2256,
+      "https": 1738,
+      "socks4": 797,
+      "socks5": 408
+    },
+    "total": 5199,
+    "updatedAt": "2026-11-16T08:17:29Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 477,
+    "protocols": {
+      "http": 2257,
+      "https": 1739,
+      "socks4": 797,
+      "socks5": 408
+    },
+    "total": 5201,
+    "updatedAt": "2026-11-16T09:19:30Z"
+  },
+  {
+    "countriesCount": 115,
+    "fast": 469,
+    "protocols": {
+      "http": 1403,
+      "https": 1000,
+      "socks4": 677,
+      "socks5": 356
+    },
+    "total": 3436,
+    "updatedAt": "2026-11-16T11:24:35Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 542,
+    "protocols": {
+      "http": 1738,
+      "https": 1456,
+      "socks4": 644,
+      "socks5": 299
+    },
+    "total": 4137,
+    "updatedAt": "2026-11-16T11:55:06Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 528,
+    "protocols": {
+      "http": 1817,
+      "https": 1393,
+      "socks4": 611,
+      "socks5": 268
+    },
+    "total": 4089,
+    "updatedAt": "2026-11-16T12:58:34Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 507,
+    "protocols": {
+      "http": 2203,
+      "https": 2443,
+      "socks4": 942,
+      "socks5": 389
+    },
+    "total": 5977,
+    "updatedAt": "2026-11-16T13:28:52Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 501,
+    "protocols": {
+      "http": 2345,
+      "https": 2101,
+      "socks4": 875,
+      "socks5": 428
+    },
+    "total": 5749,
+    "updatedAt": "2026-11-16T14:01:43Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 567,
+    "protocols": {
+      "http": 2675,
+      "https": 2272,
+      "socks4": 929,
+      "socks5": 444
+    },
+    "total": 6320,
+    "updatedAt": "2026-11-16T14:32:56Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 698,
+    "protocols": {
+      "http": 2979,
+      "https": 2423,
+      "socks4": 936,
+      "socks5": 459
+    },
+    "total": 6797,
+    "updatedAt": "2026-11-16T15:04:31Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 667,
+    "protocols": {
+      "http": 3000,
+      "https": 2165,
+      "socks4": 854,
+      "socks5": 422
+    },
+    "total": 6441,
+    "updatedAt": "2026-11-16T15:35:17Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 742,
+    "protocols": {
+      "http": 3459,
+      "https": 2593,
+      "socks4": 925,
+      "socks5": 430
+    },
+    "total": 7407,
+    "updatedAt": "2026-11-16T16:06:00Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 648,
+    "protocols": {
+      "http": 2982,
+      "https": 2684,
+      "socks4": 910,
+      "socks5": 435
+    },
+    "total": 7011,
+    "updatedAt": "2026-11-16T16:37:11Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 585,
+    "protocols": {
+      "http": 2976,
+      "https": 2299,
+      "socks4": 788,
+      "socks5": 364
+    },
+    "total": 6427,
+    "updatedAt": "2026-11-16T17:09:35Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 582,
+    "protocols": {
+      "http": 3246,
+      "https": 3021,
+      "socks4": 883,
+      "socks5": 412
+    },
+    "total": 7562,
+    "updatedAt": "2026-11-16T17:41:34Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 382,
+    "protocols": {
+      "http": 2473,
+      "https": 2675,
+      "socks4": 803,
+      "socks5": 357
+    },
+    "total": 6308,
+    "updatedAt": "2026-11-16T18:12:53Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 364,
+    "protocols": {
+      "http": 2473,
+      "https": 2385,
+      "socks4": 703,
+      "socks5": 337
+    },
+    "total": 5898,
+    "updatedAt": "2026-11-16T19:16:41Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 638,
+    "protocols": {
+      "http": 2654,
+      "https": 2488,
+      "socks4": 938,
+      "socks5": 372
+    },
+    "total": 6452,
+    "updatedAt": "2026-11-16T19:47:52Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 749,
+    "protocols": {
+      "http": 3056,
+      "https": 2825,
+      "socks4": 1055,
+      "socks5": 418
+    },
+    "total": 7354,
+    "updatedAt": "2026-11-16T20:20:05Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 719,
+    "protocols": {
+      "http": 3448,
+      "https": 3219,
+      "socks4": 1133,
+      "socks5": 482
+    },
+    "total": 8282,
+    "updatedAt": "2026-11-16T21:24:09Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 687,
+    "protocols": {
+      "http": 2515,
+      "https": 2706,
+      "socks4": 947,
+      "socks5": 706
+    },
+    "total": 6874,
+    "updatedAt": "2026-11-16T21:55:59Z"
+  },
+  {
+    "countriesCount": 111,
+    "fast": 749,
+    "protocols": {
+      "http": 1830,
+      "https": 1381,
+      "socks4": 722,
+      "socks5": 346
+    },
+    "total": 4279,
+    "updatedAt": "2026-11-17T00:03:19Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 764,
+    "protocols": {
+      "http": 2075,
+      "https": 2122,
+      "socks4": 911,
+      "socks5": 504
+    },
+    "total": 5612,
+    "updatedAt": "2026-11-17T00:34:50Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 764,
+    "protocols": {
+      "http": 2075,
+      "https": 2122,
+      "socks4": 911,
+      "socks5": 504
+    },
+    "total": 5612,
+    "updatedAt": "2026-11-17T01:05:07Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 748,
+    "protocols": {
+      "http": 2329,
+      "https": 2620,
+      "socks4": 1062,
+      "socks5": 591
+    },
+    "total": 6602,
+    "updatedAt": "2026-11-17T01:36:52Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 808,
+    "protocols": {
+      "http": 2856,
+      "https": 2526,
+      "socks4": 983,
+      "socks5": 631
+    },
+    "total": 6996,
+    "updatedAt": "2026-11-17T02:09:25Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 630,
+    "protocols": {
+      "http": 2271,
+      "https": 2512,
+      "socks4": 1059,
+      "socks5": 536
+    },
+    "total": 6378,
+    "updatedAt": "2026-11-17T03:11:21Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 645,
+    "protocols": {
+      "http": 2677,
+      "https": 2728,
+      "socks4": 1033,
+      "socks5": 540
+    },
+    "total": 6978,
+    "updatedAt": "2026-11-17T03:41:57Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 722,
+    "protocols": {
+      "http": 3524,
+      "https": 2932,
+      "socks4": 1003,
+      "socks5": 620
+    },
+    "total": 8079,
+    "updatedAt": "2026-11-17T04:14:08Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 609,
+    "protocols": {
+      "http": 2814,
+      "https": 2782,
+      "socks4": 987,
+      "socks5": 605
+    },
+    "total": 7188,
+    "updatedAt": "2026-11-17T04:46:36Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 684,
+    "protocols": {
+      "http": 2580,
+      "https": 3154,
+      "socks4": 1078,
+      "socks5": 653
+    },
+    "total": 7465,
+    "updatedAt": "2026-11-17T05:18:04Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 719,
+    "protocols": {
+      "http": 2414,
+      "https": 2843,
+      "socks4": 1087,
+      "socks5": 638
+    },
+    "total": 6982,
+    "updatedAt": "2026-11-17T05:49:33Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 635,
+    "protocols": {
+      "http": 2955,
+      "https": 2556,
+      "socks4": 1026,
+      "socks5": 537
+    },
+    "total": 7074,
+    "updatedAt": "2026-11-17T06:21:31Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 473,
+    "protocols": {
+      "http": 2330,
+      "https": 1791,
+      "socks4": 916,
+      "socks5": 472
+    },
+    "total": 5509,
+    "updatedAt": "2026-11-17T07:23:25Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 513,
+    "protocols": {
+      "http": 2611,
+      "https": 2016,
+      "socks4": 887,
+      "socks5": 459
+    },
+    "total": 5973,
+    "updatedAt": "2026-11-17T07:54:30Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 727,
+    "protocols": {
+      "http": 3145,
+      "https": 2951,
+      "socks4": 1021,
+      "socks5": 594
+    },
+    "total": 7711,
+    "updatedAt": "2026-11-17T08:26:15Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 727,
+    "protocols": {
+      "http": 3145,
+      "https": 2951,
+      "socks4": 1021,
+      "socks5": 594
+    },
+    "total": 7711,
+    "updatedAt": "2026-11-17T08:57:50Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 786,
+    "protocols": {
+      "http": 3708,
+      "https": 3186,
+      "socks4": 1094,
+      "socks5": 617
+    },
+    "total": 8605,
+    "updatedAt": "2026-11-17T09:30:51Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 591,
+    "protocols": {
+      "http": 2820,
+      "https": 3160,
+      "socks4": 1076,
+      "socks5": 609
+    },
+    "total": 7665,
+    "updatedAt": "2026-11-17T10:02:37Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 694,
+    "protocols": {
+      "http": 3559,
+      "https": 2881,
+      "socks4": 1003,
+      "socks5": 586
+    },
+    "total": 8029,
+    "updatedAt": "2026-11-17T10:35:16Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 694,
+    "protocols": {
+      "http": 3559,
+      "https": 2881,
+      "socks4": 1003,
+      "socks5": 586
+    },
+    "total": 8029,
+    "updatedAt": "2026-11-17T11:06:53Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 707,
+    "protocols": {
+      "http": 3356,
+      "https": 2389,
+      "socks4": 913,
+      "socks5": 429
+    },
+    "total": 7087,
+    "updatedAt": "2026-11-17T11:39:32Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 642,
+    "protocols": {
+      "http": 2626,
+      "https": 1927,
+      "socks4": 908,
+      "socks5": 505
+    },
+    "total": 5966,
+    "updatedAt": "2026-11-17T12:10:53Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 562,
+    "protocols": {
+      "http": 2184,
+      "https": 1758,
+      "socks4": 736,
+      "socks5": 492
+    },
+    "total": 5170,
+    "updatedAt": "2026-11-17T13:43:27Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 604,
+    "protocols": {
+      "http": 2446,
+      "https": 2060,
+      "socks4": 835,
+      "socks5": 543
+    },
+    "total": 5884,
+    "updatedAt": "2026-11-17T14:15:21Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 555,
+    "protocols": {
+      "http": 2195,
+      "https": 2001,
+      "socks4": 909,
+      "socks5": 498
+    },
+    "total": 5603,
+    "updatedAt": "2026-11-17T14:45:49Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 555,
+    "protocols": {
+      "http": 2196,
+      "https": 2001,
+      "socks4": 909,
+      "socks5": 500
+    },
+    "total": 5606,
+    "updatedAt": "2026-11-17T15:15:55Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 671,
+    "protocols": {
+      "http": 2714,
+      "https": 2418,
+      "socks4": 1018,
+      "socks5": 619
+    },
+    "total": 6769,
+    "updatedAt": "2026-11-17T15:46:06Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 560,
+    "protocols": {
+      "http": 2308,
+      "https": 2061,
+      "socks4": 922,
+      "socks5": 553
+    },
+    "total": 5844,
+    "updatedAt": "2026-11-17T16:18:29Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 515,
+    "protocols": {
+      "http": 2308,
+      "https": 2266,
+      "socks4": 927,
+      "socks5": 552
+    },
+    "total": 6053,
+    "updatedAt": "2026-11-17T16:48:29Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 606,
+    "protocols": {
+      "http": 2714,
+      "https": 2524,
+      "socks4": 1008,
+      "socks5": 556
+    },
+    "total": 6802,
+    "updatedAt": "2026-11-17T17:21:20Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 640,
+    "protocols": {
+      "http": 2477,
+      "https": 2893,
+      "socks4": 1037,
+      "socks5": 505
+    },
+    "total": 6912,
+    "updatedAt": "2026-11-17T17:53:08Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 630,
+    "protocols": {
+      "http": 2848,
+      "https": 2829,
+      "socks4": 973,
+      "socks5": 515
+    },
+    "total": 7165,
+    "updatedAt": "2026-11-17T18:23:54Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 609,
+    "protocols": {
+      "http": 2695,
+      "https": 2874,
+      "socks4": 983,
+      "socks5": 489
+    },
+    "total": 7041,
+    "updatedAt": "2026-11-17T18:54:11Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 677,
+    "protocols": {
+      "http": 3202,
+      "https": 2912,
+      "socks4": 937,
+      "socks5": 547
+    },
+    "total": 7598,
+    "updatedAt": "2026-11-17T19:24:23Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 676,
+    "protocols": {
+      "http": 2764,
+      "https": 2740,
+      "socks4": 936,
+      "socks5": 549
+    },
+    "total": 6989,
+    "updatedAt": "2026-11-17T19:57:04Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 638,
+    "protocols": {
+      "http": 3623,
+      "https": 2114,
+      "socks4": 812,
+      "socks5": 474
+    },
+    "total": 7023,
+    "updatedAt": "2026-11-17T20:27:46Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 770,
+    "protocols": {
+      "http": 3225,
+      "https": 1938,
+      "socks4": 839,
+      "socks5": 425
+    },
+    "total": 6427,
+    "updatedAt": "2026-11-17T23:40:58Z"
+  },
+  {
+    "countriesCount": 128,
+    "fast": 786,
+    "protocols": {
+      "http": 3191,
+      "https": 2338,
+      "socks4": 948,
+      "socks5": 515
+    },
+    "total": 6992,
+    "updatedAt": "2026-11-18T00:11:57Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 669,
+    "protocols": {
+      "http": 2439,
+      "https": 1645,
+      "socks4": 794,
+      "socks5": 432
+    },
+    "total": 5310,
+    "updatedAt": "2026-11-18T00:44:01Z"
+  },
+  {
+    "countriesCount": 112,
+    "fast": 582,
+    "protocols": {
+      "http": 2877,
+      "https": 1997,
+      "socks4": 611,
+      "socks5": 349
+    },
+    "total": 5834,
+    "updatedAt": "2026-11-18T02:53:19Z"
+  },
+  {
+    "countriesCount": 112,
+    "fast": 583,
+    "protocols": {
+      "http": 2880,
+      "https": 2002,
+      "socks4": 611,
+      "socks5": 350
+    },
+    "total": 5843,
+    "updatedAt": "2026-11-18T03:24:16Z"
+  },
+  {
+    "countriesCount": 112,
+    "fast": 591,
+    "protocols": {
+      "http": 2881,
+      "https": 2003,
+      "socks4": 619,
+      "socks5": 350
+    },
+    "total": 5853,
+    "updatedAt": "2026-11-18T03:56:56Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 622,
+    "protocols": {
+      "http": 3838,
+      "https": 2801,
+      "socks4": 775,
+      "socks5": 431
+    },
+    "total": 7845,
+    "updatedAt": "2026-11-18T04:27:40Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 365,
+    "protocols": {
+      "http": 2852,
+      "https": 2119,
+      "socks4": 708,
+      "socks5": 365
+    },
+    "total": 6044,
+    "updatedAt": "2026-11-18T05:31:35Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 552,
+    "protocols": {
+      "http": 2964,
+      "https": 2042,
+      "socks4": 770,
+      "socks5": 456
+    },
+    "total": 6232,
+    "updatedAt": "2026-11-18T06:03:27Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 529,
+    "protocols": {
+      "http": 3103,
+      "https": 2968,
+      "socks4": 1023,
+      "socks5": 560
+    },
+    "total": 7654,
+    "updatedAt": "2026-11-18T07:07:03Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 638,
+    "protocols": {
+      "http": 3133,
+      "https": 3112,
+      "socks4": 1079,
+      "socks5": 607
+    },
+    "total": 7931,
+    "updatedAt": "2026-11-18T07:37:01Z"
+  },
+  {
+    "countriesCount": 129,
+    "fast": 539,
+    "protocols": {
+      "http": 3044,
+      "https": 2896,
+      "socks4": 1026,
+      "socks5": 527
+    },
+    "total": 7493,
+    "updatedAt": "2026-11-18T08:07:09Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 770,
+    "protocols": {
+      "http": 3175,
+      "https": 2355,
+      "socks4": 943,
+      "socks5": 466
+    },
+    "total": 6939,
+    "updatedAt": "2026-11-18T09:40:44Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 683,
+    "protocols": {
+      "http": 2556,
+      "https": 2128,
+      "socks4": 946,
+      "socks5": 459
+    },
+    "total": 6089,
+    "updatedAt": "2026-11-18T10:10:41Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 823,
+    "protocols": {
+      "http": 3173,
+      "https": 2414,
+      "socks4": 994,
+      "socks5": 435
+    },
+    "total": 7016,
+    "updatedAt": "2026-11-18T11:46:53Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 748,
+    "protocols": {
+      "http": 2273,
+      "https": 1784,
+      "socks4": 897,
+      "socks5": 371
+    },
+    "total": 5325,
+    "updatedAt": "2026-11-18T12:18:54Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 807,
+    "protocols": {
+      "http": 3056,
+      "https": 1832,
+      "socks4": 969,
+      "socks5": 434
+    },
+    "total": 6291,
+    "updatedAt": "2026-11-18T13:22:03Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 677,
+    "protocols": {
+      "http": 3192,
+      "https": 2115,
+      "socks4": 941,
+      "socks5": 429
+    },
+    "total": 6677,
+    "updatedAt": "2026-11-18T13:54:03Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 658,
+    "protocols": {
+      "http": 2516,
+      "https": 2026,
+      "socks4": 941,
+      "socks5": 457
+    },
+    "total": 5940,
+    "updatedAt": "2026-11-18T14:26:07Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 833,
+    "protocols": {
+      "http": 3197,
+      "https": 1753,
+      "socks4": 891,
+      "socks5": 400
+    },
+    "total": 6241,
+    "updatedAt": "2026-11-18T15:28:19Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 747,
+    "protocols": {
+      "http": 2566,
+      "https": 1867,
+      "socks4": 884,
+      "socks5": 438
+    },
+    "total": 5755,
+    "updatedAt": "2026-11-18T16:01:05Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 908,
+    "protocols": {
+      "http": 3558,
+      "https": 1995,
+      "socks4": 905,
+      "socks5": 399
+    },
+    "total": 6857,
+    "updatedAt": "2026-11-18T16:34:00Z"
+  },
+  {
+    "countriesCount": 112,
+    "fast": 528,
+    "protocols": {
+      "http": 2222,
+      "https": 1212,
+      "socks4": 634,
+      "socks5": 372
+    },
+    "total": 4440,
+    "updatedAt": "2026-11-18T18:09:40Z"
+  },
+  {
+    "countriesCount": 115,
+    "fast": 321,
+    "protocols": {
+      "http": 1293,
+      "https": 1210,
+      "socks4": 626,
+      "socks5": 348
+    },
+    "total": 3477,
+    "updatedAt": "2026-11-19T02:01:20Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 544,
+    "protocols": {
+      "http": 2541,
+      "https": 1802,
+      "socks4": 631,
+      "socks5": 424
+    },
+    "total": 5398,
+    "updatedAt": "2026-11-19T02:33:46Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 642,
+    "protocols": {
+      "http": 2552,
+      "https": 2705,
+      "socks4": 968,
+      "socks5": 460
+    },
+    "total": 6685,
+    "updatedAt": "2026-11-19T03:37:25Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 638,
+    "protocols": {
+      "http": 3150,
+      "https": 2361,
+      "socks4": 844,
+      "socks5": 390
+    },
+    "total": 6745,
+    "updatedAt": "2026-11-19T04:09:57Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 786,
+    "protocols": {
+      "http": 2476,
+      "https": 2211,
+      "socks4": 1184,
+      "socks5": 436
+    },
+    "total": 6307,
+    "updatedAt": "2026-11-19T04:41:26Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 756,
+    "protocols": {
+      "http": 1648,
+      "https": 1933,
+      "socks4": 1209,
+      "socks5": 423
+    },
+    "total": 5213,
+    "updatedAt": "2026-11-19T05:14:02Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 958,
+    "protocols": {
+      "http": 2496,
+      "https": 1515,
+      "socks4": 1288,
+      "socks5": 399
+    },
+    "total": 5698,
+    "updatedAt": "2026-11-19T05:45:37Z"
+  },
+  {
+    "countriesCount": 117,
+    "fast": 863,
+    "protocols": {
+      "http": 2147,
+      "https": 1406,
+      "socks4": 1274,
+      "socks5": 415
+    },
+    "total": 5242,
+    "updatedAt": "2026-11-19T06:17:35Z"
+  },
+  {
+    "countriesCount": 115,
+    "fast": 740,
+    "protocols": {
+      "http": 2679,
+      "https": 1786,
+      "socks4": 1017,
+      "socks5": 404
+    },
+    "total": 5886,
+    "updatedAt": "2026-11-19T07:21:02Z"
+  },
+  {
+    "countriesCount": 113,
+    "fast": 581,
+    "protocols": {
+      "http": 2493,
+      "https": 1149,
+      "socks4": 700,
+      "socks5": 410
+    },
+    "total": 4752,
+    "updatedAt": "2026-11-19T07:53:55Z"
+  },
+  {
+    "countriesCount": 110,
+    "fast": 427,
+    "protocols": {
+      "http": 1631,
+      "https": 938,
+      "socks4": 615,
+      "socks5": 280
+    },
+    "total": 3464,
+    "updatedAt": "2026-11-19T08:24:42Z"
+  },
+  {
+    "countriesCount": 115,
+    "fast": 609,
+    "protocols": {
+      "http": 2268,
+      "https": 1052,
+      "socks4": 697,
+      "socks5": 429
+    },
+    "total": 4446,
+    "updatedAt": "2026-11-19T09:27:24Z"
+  },
+  {
+    "countriesCount": 105,
+    "fast": 431,
+    "protocols": {
+      "http": 1672,
+      "https": 833,
+      "socks4": 575,
+      "socks5": 348
+    },
+    "total": 3428,
+    "updatedAt": "2026-11-19T10:30:29Z"
+  },
+  {
+    "countriesCount": 106,
+    "fast": 416,
+    "protocols": {
+      "http": 1672,
+      "https": 815,
+      "socks4": 575,
+      "socks5": 300
+    },
+    "total": 3362,
+    "updatedAt": "2026-11-19T11:02:12Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 598,
+    "protocols": {
+      "http": 2704,
+      "https": 1055,
+      "socks4": 817,
+      "socks5": 375
+    },
+    "total": 4951,
+    "updatedAt": "2026-11-19T11:34:30Z"
+  },
+  {
+    "countriesCount": 113,
+    "fast": 642,
+    "protocols": {
+      "http": 1972,
+      "https": 1109,
+      "socks4": 943,
+      "socks5": 427
+    },
+    "total": 4451,
+    "updatedAt": "2026-11-19T12:06:12Z"
+  },
+  {
+    "countriesCount": 116,
+    "fast": 545,
+    "protocols": {
+      "http": 2392,
+      "https": 966,
+      "socks4": 864,
+      "socks5": 483
+    },
+    "total": 4705,
+    "updatedAt": "2026-11-19T12:39:01Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 574,
+    "protocols": {
+      "http": 3031,
+      "https": 984,
+      "socks4": 830,
+      "socks5": 449
+    },
+    "total": 5294,
+    "updatedAt": "2026-11-19T13:41:18Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 644,
+    "protocols": {
+      "http": 2182,
+      "https": 1136,
+      "socks4": 903,
+      "socks5": 653
+    },
+    "total": 4874,
+    "updatedAt": "2026-11-19T14:13:44Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 736,
+    "protocols": {
+      "http": 1912,
+      "https": 1288,
+      "socks4": 951,
+      "socks5": 734
+    },
+    "total": 4885,
+    "updatedAt": "2026-11-19T14:46:25Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 724,
+    "protocols": {
+      "http": 1932,
+      "https": 1307,
+      "socks4": 935,
+      "socks5": 736
+    },
+    "total": 4910,
+    "updatedAt": "2026-11-19T15:16:52Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 836,
+    "protocols": {
+      "http": 2310,
+      "https": 1239,
+      "socks4": 980,
+      "socks5": 677
+    },
+    "total": 5206,
+    "updatedAt": "2026-11-19T15:48:39Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 788,
+    "protocols": {
+      "http": 1925,
+      "https": 1479,
+      "socks4": 1061,
+      "socks5": 488
+    },
+    "total": 4953,
+    "updatedAt": "2026-11-19T16:19:24Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 853,
+    "protocols": {
+      "http": 2123,
+      "https": 1764,
+      "socks4": 1108,
+      "socks5": 658
+    },
+    "total": 5653,
+    "updatedAt": "2026-11-19T16:50:13Z"
+  },
+  {
+    "countriesCount": 119,
+    "fast": 853,
+    "protocols": {
+      "http": 2123,
+      "https": 1764,
+      "socks4": 1108,
+      "socks5": 658
+    },
+    "total": 5653,
+    "updatedAt": "2026-11-19T17:22:06Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 817,
+    "protocols": {
+      "http": 3138,
+      "https": 2521,
+      "socks4": 1035,
+      "socks5": 692
+    },
+    "total": 7386,
+    "updatedAt": "2026-11-19T17:52:11Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 715,
+    "protocols": {
+      "http": 2799,
+      "https": 2718,
+      "socks4": 1019,
+      "socks5": 718
+    },
+    "total": 7254,
+    "updatedAt": "2026-11-19T18:24:13Z"
+  },
+  {
+    "countriesCount": 128,
+    "fast": 761,
+    "protocols": {
+      "http": 3093,
+      "https": 3277,
+      "socks4": 972,
+      "socks5": 617
+    },
+    "total": 7959,
+    "updatedAt": "2026-11-19T18:55:24Z"
+  },
+  {
+    "countriesCount": 128,
+    "fast": 762,
+    "protocols": {
+      "http": 3093,
+      "https": 3279,
+      "socks4": 972,
+      "socks5": 617
+    },
+    "total": 7961,
+    "updatedAt": "2026-11-19T19:27:07Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 782,
+    "protocols": {
+      "http": 3757,
+      "https": 3177,
+      "socks4": 1108,
+      "socks5": 536
+    },
+    "total": 8578,
+    "updatedAt": "2026-11-19T19:57:23Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 644,
+    "protocols": {
+      "http": 2834,
+      "https": 2893,
+      "socks4": 1091,
+      "socks5": 564
+    },
+    "total": 7382,
+    "updatedAt": "2026-11-19T20:29:40Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 674,
+    "protocols": {
+      "http": 3424,
+      "https": 2962,
+      "socks4": 1067,
+      "socks5": 590
+    },
+    "total": 8043,
+    "updatedAt": "2026-11-19T21:00:05Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 674,
+    "protocols": {
+      "http": 3424,
+      "https": 2962,
+      "socks4": 1067,
+      "socks5": 590
+    },
+    "total": 8043,
+    "updatedAt": "2026-11-19T21:30:59Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 640,
+    "protocols": {
+      "http": 3313,
+      "https": 2661,
+      "socks4": 909,
+      "socks5": 495
+    },
+    "total": 7378,
+    "updatedAt": "2026-11-19T22:03:17Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 654,
+    "protocols": {
+      "http": 2993,
+      "https": 2964,
+      "socks4": 872,
+      "socks5": 506
+    },
+    "total": 7335,
+    "updatedAt": "2026-11-19T22:35:01Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 689,
+    "protocols": {
+      "http": 3552,
+      "https": 3031,
+      "socks4": 889,
+      "socks5": 508
+    },
+    "total": 7980,
+    "updatedAt": "2026-11-19T23:06:34Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 793,
+    "protocols": {
+      "http": 3815,
+      "https": 3548,
+      "socks4": 1038,
+      "socks5": 559
+    },
+    "total": 8960,
+    "updatedAt": "2026-11-19T23:38:39Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 637,
+    "protocols": {
+      "http": 3011,
+      "https": 3296,
+      "socks4": 1009,
+      "socks5": 529
+    },
+    "total": 7845,
+    "updatedAt": "2026-11-20T00:11:33Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 587,
+    "protocols": {
+      "http": 3012,
+      "https": 2861,
+      "socks4": 905,
+      "socks5": 522
+    },
+    "total": 7300,
+    "updatedAt": "2026-11-20T00:43:45Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 508,
+    "protocols": {
+      "http": 2432,
+      "https": 1990,
+      "socks4": 749,
+      "socks5": 347
+    },
+    "total": 5518,
+    "updatedAt": "2026-11-20T04:56:14Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 556,
+    "protocols": {
+      "http": 2818,
+      "https": 2312,
+      "socks4": 895,
+      "socks5": 433
+    },
+    "total": 6458,
+    "updatedAt": "2026-11-20T05:27:50Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 720,
+    "protocols": {
+      "http": 3222,
+      "https": 2561,
+      "socks4": 999,
+      "socks5": 469
+    },
+    "total": 7251,
+    "updatedAt": "2026-11-20T05:59:43Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 576,
+    "protocols": {
+      "http": 1703,
+      "https": 2766,
+      "socks4": 1079,
+      "socks5": 531
+    },
+    "total": 6079,
+    "updatedAt": "2026-11-20T06:31:41Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 607,
+    "protocols": {
+      "http": 2314,
+      "https": 2470,
+      "socks4": 1029,
+      "socks5": 560
+    },
+    "total": 6373,
+    "updatedAt": "2026-11-20T07:04:28Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 684,
+    "protocols": {
+      "http": 2301,
+      "https": 2864,
+      "socks4": 1107,
+      "socks5": 610
+    },
+    "total": 6882,
+    "updatedAt": "2026-11-20T07:35:47Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 563,
+    "protocols": {
+      "http": 2067,
+      "https": 2715,
+      "socks4": 1069,
+      "socks5": 559
+    },
+    "total": 6410,
+    "updatedAt": "2026-11-20T08:08:15Z"
+  },
+  {
+    "countriesCount": 128,
+    "fast": 667,
+    "protocols": {
+      "http": 2809,
+      "https": 3157,
+      "socks4": 1070,
+      "socks5": 553
+    },
+    "total": 7589,
+    "updatedAt": "2026-11-20T08:40:16Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 647,
+    "protocols": {
+      "http": 2809,
+      "https": 2892,
+      "socks4": 1020,
+      "socks5": 559
+    },
+    "total": 7280,
+    "updatedAt": "2026-11-20T09:11:27Z"
+  },
+  {
+    "countriesCount": 111,
+    "fast": 431,
+    "protocols": {
+      "http": 2275,
+      "https": 1752,
+      "socks4": 642,
+      "socks5": 375
+    },
+    "total": 5044,
+    "updatedAt": "2026-11-20T20:45:11Z"
+  },
+  {
+    "countriesCount": 111,
+    "fast": 431,
+    "protocols": {
+      "http": 2275,
+      "https": 1810,
+      "socks4": 643,
+      "socks5": 378
+    },
+    "total": 5106,
+    "updatedAt": "2026-11-20T21:17:28Z"
+  },
+  {
+    "countriesCount": 111,
+    "fast": 431,
+    "protocols": {
+      "http": 2275,
+      "https": 1810,
+      "socks4": 643,
+      "socks5": 378
+    },
+    "total": 5106,
+    "updatedAt": "2026-11-20T21:48:23Z"
+  },
+  {
+    "countriesCount": 118,
+    "fast": 644,
+    "protocols": {
+      "http": 3058,
+      "https": 2254,
+      "socks4": 646,
+      "socks5": 437
+    },
+    "total": 6395,
+    "updatedAt": "2026-11-20T22:18:37Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 757,
+    "protocols": {
+      "http": 3735,
+      "https": 2766,
+      "socks4": 945,
+      "socks5": 599
+    },
+    "total": 8045,
+    "updatedAt": "2026-11-20T22:49:45Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 831,
+    "protocols": {
+      "http": 3965,
+      "https": 2912,
+      "socks4": 993,
+      "socks5": 605
+    },
+    "total": 8475,
+    "updatedAt": "2026-11-20T23:20:13Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 831,
+    "protocols": {
+      "http": 3965,
+      "https": 2913,
+      "socks4": 993,
+      "socks5": 605
+    },
+    "total": 8476,
+    "updatedAt": "2026-11-20T23:50:59Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 879,
+    "protocols": {
+      "http": 3149,
+      "https": 3469,
+      "socks4": 1129,
+      "socks5": 625
+    },
+    "total": 8372,
+    "updatedAt": "2026-11-21T00:21:47Z"
+  },
+  {
+    "countriesCount": 128,
+    "fast": 724,
+    "protocols": {
+      "http": 3782,
+      "https": 3503,
+      "socks4": 1055,
+      "socks5": 510
+    },
+    "total": 8850,
+    "updatedAt": "2026-11-21T00:53:07Z"
+  },
+  {
+    "countriesCount": 129,
+    "fast": 720,
+    "protocols": {
+      "http": 3782,
+      "https": 3433,
+      "socks4": 1038,
+      "socks5": 545
+    },
+    "total": 8798,
+    "updatedAt": "2026-11-21T01:23:13Z"
+  },
+  {
+    "countriesCount": 129,
+    "fast": 657,
+    "protocols": {
+      "http": 3676,
+      "https": 3140,
+      "socks4": 1052,
+      "socks5": 561
+    },
+    "total": 8429,
+    "updatedAt": "2026-11-21T01:54:39Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 634,
+    "protocols": {
+      "http": 2726,
+      "https": 2847,
+      "socks4": 1039,
+      "socks5": 549
+    },
+    "total": 7161,
+    "updatedAt": "2026-11-21T02:26:40Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 612,
+    "protocols": {
+      "http": 2425,
+      "https": 2883,
+      "socks4": 1023,
+      "socks5": 612
+    },
+    "total": 6943,
+    "updatedAt": "2026-11-21T02:58:54Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 666,
+    "protocols": {
+      "http": 2677,
+      "https": 2957,
+      "socks4": 1022,
+      "socks5": 608
+    },
+    "total": 7264,
+    "updatedAt": "2026-11-21T03:29:55Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 755,
+    "protocols": {
+      "http": 3394,
+      "https": 3150,
+      "socks4": 1033,
+      "socks5": 602
+    },
+    "total": 8179,
+    "updatedAt": "2026-11-21T04:00:11Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 843,
+    "protocols": {
+      "http": 3544,
+      "https": 3070,
+      "socks4": 975,
+      "socks5": 588
+    },
+    "total": 8177,
+    "updatedAt": "2026-11-21T04:32:20Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 932,
+    "protocols": {
+      "http": 3452,
+      "https": 2883,
+      "socks4": 1135,
+      "socks5": 594
+    },
+    "total": 8064,
+    "updatedAt": "2026-11-21T05:02:52Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 938,
+    "protocols": {
+      "http": 3692,
+      "https": 2284,
+      "socks4": 1053,
+      "socks5": 541
+    },
+    "total": 7570,
+    "updatedAt": "2026-11-21T06:07:03Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 888,
+    "protocols": {
+      "http": 3222,
+      "https": 2672,
+      "socks4": 1234,
+      "socks5": 547
+    },
+    "total": 7675,
+    "updatedAt": "2026-11-21T06:37:25Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 715,
+    "protocols": {
+      "http": 2548,
+      "https": 2108,
+      "socks4": 1063,
+      "socks5": 479
+    },
+    "total": 6198,
+    "updatedAt": "2026-11-21T07:08:44Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 701,
+    "protocols": {
+      "http": 2635,
+      "https": 1764,
+      "socks4": 1087,
+      "socks5": 510
+    },
+    "total": 5996,
+    "updatedAt": "2026-11-21T07:41:18Z"
+  },
+  {
+    "countriesCount": 129,
+    "fast": 754,
+    "protocols": {
+      "http": 2874,
+      "https": 2625,
+      "socks4": 1191,
+      "socks5": 587
+    },
+    "total": 7277,
+    "updatedAt": "2026-11-21T08:12:59Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 583,
+    "protocols": {
+      "http": 2425,
+      "https": 2441,
+      "socks4": 1030,
+      "socks5": 568
+    },
+    "total": 6464,
+    "updatedAt": "2026-11-21T08:44:22Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 645,
+    "protocols": {
+      "http": 3046,
+      "https": 2733,
+      "socks4": 1098,
+      "socks5": 627
+    },
+    "total": 7504,
+    "updatedAt": "2026-11-21T09:17:04Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 561,
+    "protocols": {
+      "http": 2755,
+      "https": 2740,
+      "socks4": 996,
+      "socks5": 586
+    },
+    "total": 7077,
+    "updatedAt": "2026-11-21T09:47:11Z"
+  },
+  {
+    "countriesCount": 120,
+    "fast": 593,
+    "protocols": {
+      "http": 2320,
+      "https": 2243,
+      "socks4": 882,
+      "socks5": 622
+    },
+    "total": 6067,
+    "updatedAt": "2026-11-21T10:18:04Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 678,
+    "protocols": {
+      "http": 2535,
+      "https": 2244,
+      "socks4": 905,
+      "socks5": 641
+    },
+    "total": 6325,
+    "updatedAt": "2026-11-21T10:48:28Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 581,
+    "protocols": {
+      "http": 2634,
+      "https": 2316,
+      "socks4": 984,
+      "socks5": 589
+    },
+    "total": 6523,
+    "updatedAt": "2026-11-21T11:52:09Z"
+  },
+  {
+    "countriesCount": 121,
+    "fast": 617,
+    "protocols": {
+      "http": 2548,
+      "https": 2840,
+      "socks4": 1101,
+      "socks5": 589
+    },
+    "total": 7078,
+    "updatedAt": "2026-11-21T12:24:00Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 666,
+    "protocols": {
+      "http": 3161,
+      "https": 2811,
+      "socks4": 1062,
+      "socks5": 592
+    },
+    "total": 7626,
+    "updatedAt": "2026-11-21T12:54:30Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 630,
+    "protocols": {
+      "http": 2736,
+      "https": 2718,
+      "socks4": 1077,
+      "socks5": 572
+    },
+    "total": 7103,
+    "updatedAt": "2026-11-21T13:26:03Z"
+  },
+  {
+    "countriesCount": 123,
+    "fast": 697,
+    "protocols": {
+      "http": 2731,
+      "https": 2943,
+      "socks4": 1050,
+      "socks5": 602
+    },
+    "total": 7326,
+    "updatedAt": "2026-11-21T13:56:20Z"
+  },
+  {
+    "countriesCount": 122,
+    "fast": 739,
+    "protocols": {
+      "http": 2493,
+      "https": 2866,
+      "socks4": 1052,
+      "socks5": 613
+    },
+    "total": 7024,
+    "updatedAt": "2026-11-21T14:26:21Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 799,
+    "protocols": {
+      "http": 3247,
+      "https": 3144,
+      "socks4": 1108,
+      "socks5": 665
+    },
+    "total": 8164,
+    "updatedAt": "2026-11-21T14:56:49Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 745,
+    "protocols": {
+      "http": 3102,
+      "https": 3549,
+      "socks4": 1100,
+      "socks5": 695
+    },
+    "total": 8446,
+    "updatedAt": "2026-11-21T15:28:09Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 720,
+    "protocols": {
+      "http": 3102,
+      "https": 3300,
+      "socks4": 1066,
+      "socks5": 661
+    },
+    "total": 8129,
+    "updatedAt": "2026-11-21T16:00:32Z"
+  },
+  {
+    "countriesCount": 124,
+    "fast": 731,
+    "protocols": {
+      "http": 3839,
+      "https": 3520,
+      "socks4": 1056,
+      "socks5": 617
+    },
+    "total": 9032,
+    "updatedAt": "2026-11-21T16:31:32Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 754,
+    "protocols": {
+      "http": 3977,
+      "https": 3730,
+      "socks4": 1083,
+      "socks5": 574
+    },
+    "total": 9364,
+    "updatedAt": "2026-11-21T17:01:46Z"
+  },
+  {
+    "countriesCount": 126,
+    "fast": 794,
+    "protocols": {
+      "http": 3695,
+      "https": 3843,
+      "socks4": 1090,
+      "socks5": 554
+    },
+    "total": 9182,
+    "updatedAt": "2026-11-21T17:33:43Z"
+  },
+  {
+    "countriesCount": 125,
+    "fast": 796,
+    "protocols": {
+      "http": 3763,
+      "https": 4018,
+      "socks4": 1147,
+      "socks5": 544
+    },
+    "total": 9472,
+    "updatedAt": "2026-11-21T18:04:25Z"
+  },
+  {
+    "countriesCount": 127,
+    "fast": 798,
+    "protocols": {
+      "http": 3236,
+      "https": 3933,
+      "socks4": 1104,
+      "socks5": 667
+    },
+    "total": 8940,
+    "updatedAt": "2026-11-21T18:34:56Z"
+  }
+]
